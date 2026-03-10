@@ -1,0 +1,2822 @@
+{
+  "createdAt": "2026-03-07T09:40:30.019Z",
+  "meta": {
+    "triggeredBy": "69abf0876719ef54b61f3614",
+    "source": "manual"
+  },
+  "data": {
+    "User": [
+      {
+        "_id": "69aa6e3a6321c28987d00583",
+        "fullName": "Admin User",
+        "email": "admin@smartcafe.com",
+        "role": "admin",
+        "status": "active",
+        "isOnline": false,
+        "avatar": null,
+        "canteenId": null,
+        "segment": "student",
+        "createdAt": "2026-03-06T06:03:38.793Z",
+        "updatedAt": "2026-03-06T06:03:38.793Z",
+        "__v": 0
+      },
+      {
+        "_id": "69aa6e3b6321c28987d00585",
+        "fullName": "Manager User",
+        "email": "manager@smartcafe.com",
+        "role": "manager",
+        "status": "active",
+        "isOnline": false,
+        "avatar": null,
+        "canteenId": null,
+        "segment": "student",
+        "createdAt": "2026-03-06T06:03:39.377Z",
+        "updatedAt": "2026-03-06T06:03:39.377Z",
+        "__v": 0
+      },
+      {
+        "_id": "69aa6e3b6321c28987d00587",
+        "fullName": "Canteen Staff",
+        "email": "canteen@smartcafe.com",
+        "role": "canteen_staff",
+        "status": "active",
+        "isOnline": false,
+        "avatar": null,
+        "canteenId": null,
+        "segment": "student",
+        "createdAt": "2026-03-06T06:03:39.803Z",
+        "updatedAt": "2026-03-06T06:03:39.803Z",
+        "__v": 0
+      },
+      {
+        "_id": "69aa6e3c6321c28987d00589",
+        "fullName": "Kitchen Staff",
+        "email": "kitchen@smartcafe.com",
+        "role": "canteen_staff",
+        "status": "active",
+        "isOnline": false,
+        "avatar": null,
+        "canteenId": null,
+        "segment": "student",
+        "createdAt": "2026-03-06T06:03:40.252Z",
+        "updatedAt": "2026-03-06T06:03:40.252Z",
+        "__v": 0
+      },
+      {
+        "_id": "69aa6e3c6321c28987d0058b",
+        "fullName": "Counter Staff",
+        "email": "counter@smartcafe.com",
+        "role": "canteen_staff",
+        "status": "active",
+        "isOnline": false,
+        "avatar": null,
+        "canteenId": null,
+        "segment": "student",
+        "createdAt": "2026-03-06T06:03:40.629Z",
+        "updatedAt": "2026-03-06T06:03:40.629Z",
+        "__v": 0
+      },
+      {
+        "_id": "69aa6e3c6321c28987d0058d",
+        "fullName": "John Student",
+        "email": "student@college.edu",
+        "role": "user",
+        "status": "active",
+        "isOnline": true,
+        "avatar": null,
+        "canteenId": null,
+        "segment": "student",
+        "createdAt": "2026-03-06T06:03:40.961Z",
+        "updatedAt": "2026-03-06T06:07:54.969Z",
+        "__v": 0,
+        "lastLogin": "2026-03-06T06:07:54.955Z"
+      },
+      {
+        "_id": "69abee052434cb4ce0495052",
+        "fullName": "shiva",
+        "email": "shivanesh@gmail.com",
+        "role": "user",
+        "status": "active",
+        "isOnline": true,
+        "avatar": null,
+        "canteenId": null,
+        "segment": "student",
+        "createdAt": "2026-03-07T09:21:09.714Z",
+        "updatedAt": "2026-03-07T09:30:18.764Z",
+        "__v": 0,
+        "lastLogin": "2026-03-07T09:30:18.761Z"
+      },
+      {
+        "_id": "69abf0876719ef54b61f3614",
+        "fullName": "shiva",
+        "email": "shivanesh1@gmail.com",
+        "role": "admin",
+        "status": "active",
+        "isOnline": true,
+        "avatar": null,
+        "canteenId": null,
+        "segment": "student",
+        "createdAt": "2026-03-07T09:31:51.643Z",
+        "updatedAt": "2026-03-07T09:35:04.319Z",
+        "__v": 0,
+        "lastLogin": "2026-03-07T09:35:04.318Z"
+      }
+    ],
+    "Menu": [
+      {
+        "_id": "69aa6e3d6321c28987d00599",
+        "menuDate": "2026-03-05T18:30:00.000Z",
+        "mealType": "LUNCH",
+        "isActive": true,
+        "items": [
+          "69aa6e3d6321c28987d0058f",
+          "69aa6e3d6321c28987d00590",
+          "69aa6e3d6321c28987d00591",
+          "69aa6e3d6321c28987d00592",
+          "69aa6e3d6321c28987d00593"
+        ],
+        "createdBy": "69aa6e3a6321c28987d00583",
+        "createdAt": "2026-03-06T06:03:41.379Z",
+        "updatedAt": "2026-03-06T06:03:41.379Z",
+        "__v": 0
+      }
+    ],
+    "MenuItem": [
+      {
+        "_id": "69aa6e3d6321c28987d0058f",
+        "itemName": "Butter Chicken",
+        "description": "Creamy tomato-based curry with tender chicken",
+        "price": 150,
+        "isVeg": false,
+        "category": "LUNCH",
+        "dietaryType": "Non-Veg",
+        "allergens": [
+          "dairy",
+          "nuts"
+        ],
+        "ecoScore": "C",
+        "portionSize": "Regular",
+        "nutritionalInfo": {
+          "calories": 450,
+          "protein": 25,
+          "carbs": 20,
+          "fat": 28
+        },
+        "isAvailable": true,
+        "imageUrl": null,
+        "canteens": [],
+        "createdAt": "2026-03-06T06:03:41.370Z",
+        "updatedAt": "2026-03-06T06:03:41.370Z",
+        "__v": 0
+      },
+      {
+        "_id": "69aa6e3d6321c28987d00591",
+        "itemName": "Dal Makhani",
+        "description": "Creamy black lentils slow-cooked overnight",
+        "price": 80,
+        "isVeg": true,
+        "category": "LUNCH",
+        "dietaryType": "Veg",
+        "allergens": [
+          "dairy"
+        ],
+        "ecoScore": "A",
+        "portionSize": "Regular",
+        "nutritionalInfo": {
+          "calories": 280,
+          "protein": 12,
+          "carbs": 35,
+          "fat": 10
+        },
+        "isAvailable": true,
+        "imageUrl": null,
+        "canteens": [],
+        "createdAt": "2026-03-06T06:03:41.370Z",
+        "updatedAt": "2026-03-06T06:03:41.370Z",
+        "__v": 0
+      },
+      {
+        "_id": "69aa6e3d6321c28987d00593",
+        "itemName": "Masala Dosa",
+        "description": "Crispy crepe with spiced potato filling",
+        "price": 60,
+        "isVeg": true,
+        "category": "BREAKFAST",
+        "dietaryType": "Veg",
+        "allergens": [],
+        "ecoScore": "A",
+        "portionSize": "Regular",
+        "nutritionalInfo": {
+          "calories": 350,
+          "protein": 8,
+          "carbs": 55,
+          "fat": 10
+        },
+        "isAvailable": true,
+        "imageUrl": null,
+        "canteens": [],
+        "createdAt": "2026-03-06T06:03:41.370Z",
+        "updatedAt": "2026-03-06T06:03:41.370Z",
+        "__v": 0
+      },
+      {
+        "_id": "69aa6e3d6321c28987d00592",
+        "itemName": "Biryani",
+        "description": "Fragrant rice with vegetables and spices",
+        "price": 100,
+        "isVeg": true,
+        "category": "LUNCH",
+        "dietaryType": "Veg",
+        "allergens": [
+          "nuts"
+        ],
+        "ecoScore": "B",
+        "portionSize": "Large",
+        "nutritionalInfo": {
+          "calories": 450,
+          "protein": 10,
+          "carbs": 65,
+          "fat": 15
+        },
+        "isAvailable": true,
+        "imageUrl": null,
+        "canteens": [],
+        "createdAt": "2026-03-06T06:03:41.370Z",
+        "updatedAt": "2026-03-06T06:03:41.370Z",
+        "__v": 0
+      },
+      {
+        "_id": "69aa6e3d6321c28987d00590",
+        "itemName": "Paneer Tikka",
+        "description": "Grilled cottage cheese with spices",
+        "price": 120,
+        "isVeg": true,
+        "category": "LUNCH",
+        "dietaryType": "Veg",
+        "allergens": [
+          "dairy"
+        ],
+        "ecoScore": "B",
+        "portionSize": "Regular",
+        "nutritionalInfo": {
+          "calories": 320,
+          "protein": 18,
+          "carbs": 12,
+          "fat": 22
+        },
+        "isAvailable": true,
+        "imageUrl": null,
+        "canteens": [],
+        "createdAt": "2026-03-06T06:03:41.370Z",
+        "updatedAt": "2026-03-06T06:03:41.370Z",
+        "__v": 0
+      }
+    ],
+    "Slot": [
+      {
+        "_id": "69aa6e3d6321c28987d0059b",
+        "date": "2026-03-05T18:30:00.000Z",
+        "time": "12:00 PM",
+        "capacity": 50,
+        "booked": 0,
+        "status": "Open",
+        "mealType": "LUNCH",
+        "canteenId": "default",
+        "createdAt": "2026-03-06T06:03:41.386Z",
+        "updatedAt": "2026-03-06T06:03:41.386Z",
+        "__v": 0
+      },
+      {
+        "_id": "69aa6e3d6321c28987d0059d",
+        "date": "2026-03-05T18:30:00.000Z",
+        "time": "12:30 PM",
+        "capacity": 50,
+        "booked": 0,
+        "status": "Open",
+        "mealType": "LUNCH",
+        "canteenId": "default",
+        "createdAt": "2026-03-06T06:03:41.388Z",
+        "updatedAt": "2026-03-06T06:03:41.388Z",
+        "__v": 0
+      },
+      {
+        "_id": "69aa6e3d6321c28987d0059f",
+        "date": "2026-03-05T18:30:00.000Z",
+        "time": "1:00 PM",
+        "capacity": 60,
+        "booked": 0,
+        "status": "Open",
+        "mealType": "LUNCH",
+        "canteenId": "default",
+        "createdAt": "2026-03-06T06:03:41.390Z",
+        "updatedAt": "2026-03-06T06:03:41.390Z",
+        "__v": 0
+      },
+      {
+        "_id": "69aa6e3d6321c28987d005a1",
+        "date": "2026-03-05T18:30:00.000Z",
+        "time": "1:30 PM",
+        "capacity": 60,
+        "booked": 0,
+        "status": "Open",
+        "mealType": "LUNCH",
+        "canteenId": "default",
+        "createdAt": "2026-03-06T06:03:41.391Z",
+        "updatedAt": "2026-03-06T06:03:41.391Z",
+        "__v": 0
+      },
+      {
+        "_id": "69aa6e3d6321c28987d005a3",
+        "date": "2026-03-05T18:30:00.000Z",
+        "time": "2:00 PM",
+        "capacity": 40,
+        "booked": 0,
+        "status": "Open",
+        "mealType": "LUNCH",
+        "canteenId": "default",
+        "createdAt": "2026-03-06T06:03:41.392Z",
+        "updatedAt": "2026-03-06T06:03:41.392Z",
+        "__v": 0
+      }
+    ],
+    "Booking": [
+      {
+        "_id": "698aeb1110be29e0eb6dbb20",
+        "user": "6989676f86d8b5f174ca68ed",
+        "slot": "698aeaf910be29e0eb6dbab7",
+        "items": [
+          {
+            "menuItem": "6988d4097d1b9ee692a057ff",
+            "quantity": 5,
+            "price": 150,
+            "portionSize": "Regular",
+            "_id": "698aeb1110be29e0eb6dbb21"
+          }
+        ],
+        "totalAmount": 750,
+        "status": "no_show",
+        "isWalkin": false,
+        "allocationReason": "First-come-first-served",
+        "createdAt": "2026-02-10T08:23:45.728Z",
+        "updatedAt": "2026-02-10T10:34:49.853Z",
+        "tokenNumber": "T-1027",
+        "__v": 0,
+        "cancellationReason": "Auto-released after grace period",
+        "cancelledAt": "2026-02-10T10:34:49.830Z"
+      }
+    ],
+    "SystemSetting": [
+      {
+        "_id": "6988d34a9f35395d967b2541",
+        "settingKey": "BOOKING_ENABLED",
+        "__v": 0,
+        "category": "BOOKING",
+        "createdAt": "2026-02-08T18:17:46.685Z",
+        "dataType": "BOOLEAN",
+        "description": "Master switch for booking system",
+        "isEditable": true,
+        "settingValue": "true",
+        "updatedAt": "2026-03-07T09:30:03.555Z"
+      },
+      {
+        "_id": "6988d34a9f35395d967b2542",
+        "settingKey": "DEFAULT_SLOT_CAPACITY",
+        "__v": 0,
+        "category": "CAPACITY",
+        "createdAt": "2026-02-08T18:17:46.797Z",
+        "dataType": "NUMBER",
+        "description": "Default capacity for new slots",
+        "isEditable": true,
+        "settingValue": "50",
+        "updatedAt": "2026-03-07T09:30:03.588Z"
+      },
+      {
+        "_id": "6988d34a9f35395d967b2543",
+        "settingKey": "MAX_BOOKINGS_PER_USER",
+        "__v": 0,
+        "category": "BOOKING",
+        "createdAt": "2026-02-08T18:17:46.800Z",
+        "dataType": "NUMBER",
+        "description": "Maximum bookings per user per day",
+        "isEditable": true,
+        "settingValue": "3",
+        "updatedAt": "2026-03-07T09:30:03.596Z"
+      },
+      {
+        "_id": "6988d34a9f35395d967b2544",
+        "settingKey": "CANCELLATION_DEADLINE_MINUTES",
+        "__v": 0,
+        "category": "BOOKING",
+        "createdAt": "2026-02-08T18:17:46.801Z",
+        "dataType": "NUMBER",
+        "description": "Minutes before slot time when cancellation is allowed",
+        "isEditable": true,
+        "settingValue": "30",
+        "updatedAt": "2026-03-07T09:30:03.600Z"
+      },
+      {
+        "_id": "698a33149d15b31073530c60",
+        "settingKey": "MAX_BOOKINGS_PER_STUDENT_PER_DAY",
+        "__v": 0,
+        "category": "CAPACITY",
+        "createdAt": "2026-02-09T19:18:44.352Z",
+        "dataType": "NUMBER",
+        "description": "Max bookings per student per day",
+        "isEditable": true,
+        "settingValue": "2",
+        "updatedAt": "2026-03-07T09:30:03.604Z"
+      },
+      {
+        "_id": "698a33149d15b31073530c61",
+        "settingKey": "PEAK_BOOKING_WINDOW_MINS",
+        "__v": 0,
+        "category": "CAPACITY",
+        "createdAt": "2026-02-09T19:18:44.366Z",
+        "dataType": "NUMBER",
+        "description": "Peak booking window in minutes",
+        "isEditable": true,
+        "settingValue": "30",
+        "updatedAt": "2026-03-07T09:30:03.607Z"
+      },
+      {
+        "_id": "698a33149d15b31073530c62",
+        "settingKey": "TOKEN_EXPIRY_DURATION_MINS",
+        "__v": 0,
+        "category": "CAPACITY",
+        "createdAt": "2026-02-09T19:18:44.369Z",
+        "dataType": "NUMBER",
+        "description": "Token expiry duration in minutes",
+        "isEditable": true,
+        "settingValue": "60",
+        "updatedAt": "2026-03-07T09:30:03.609Z"
+      },
+      {
+        "_id": "698a33149d15b31073530c63",
+        "settingKey": "NO_SHOW_GRACE_PERIOD_MINS",
+        "__v": 0,
+        "category": "CAPACITY",
+        "createdAt": "2026-02-09T19:18:44.373Z",
+        "dataType": "NUMBER",
+        "description": "No-show grace period in minutes",
+        "isEditable": true,
+        "settingValue": "15",
+        "updatedAt": "2026-03-07T09:30:03.610Z"
+      },
+      {
+        "_id": "698a33149d15b31073530c64",
+        "settingKey": "NO_SHOW_PENALTY_DAYS",
+        "__v": 0,
+        "category": "CAPACITY",
+        "createdAt": "2026-02-09T19:18:44.375Z",
+        "dataType": "NUMBER",
+        "description": "No-show penalty days",
+        "isEditable": true,
+        "settingValue": "7",
+        "updatedAt": "2026-03-07T09:30:03.611Z"
+      },
+      {
+        "_id": "698a33969d15b31073530c65",
+        "settingKey": "ONLINE_BOOKING_ENABLED",
+        "__v": 0,
+        "category": "BOOKING",
+        "createdAt": "2026-02-09T19:20:54.003Z",
+        "dataType": "BOOLEAN",
+        "description": "Enable or disable online booking",
+        "isEditable": true,
+        "settingValue": "false",
+        "updatedAt": "2026-03-07T09:32:38.053Z"
+      },
+      {
+        "_id": "698a33989d15b31073530c66",
+        "settingKey": "WALKIN_ENABLED",
+        "__v": 0,
+        "category": "BOOKING",
+        "createdAt": "2026-02-09T19:20:56.060Z",
+        "dataType": "BOOLEAN",
+        "description": "Enable or disable walk-in service",
+        "isEditable": true,
+        "settingValue": "true",
+        "updatedAt": "2026-02-11T08:34:47.885Z"
+      },
+      {
+        "_id": "698a33a39d15b31073530c67",
+        "settingKey": "AUTO_BACKUP_ENABLED",
+        "__v": 0,
+        "category": "GENERAL",
+        "createdAt": "2026-02-09T19:21:07.645Z",
+        "dataType": "BOOLEAN",
+        "description": "Enable or disable daily backups",
+        "isEditable": true,
+        "settingValue": "false",
+        "updatedAt": "2026-03-07T09:32:31.051Z"
+      },
+      {
+        "_id": "698acacd6d7391907ad8a4df",
+        "settingKey": "SLOT_DURATION",
+        "__v": 0,
+        "category": "BOOKING",
+        "createdAt": "2026-02-10T06:06:05.049Z",
+        "dataType": "NUMBER",
+        "description": "Slot duration in minutes",
+        "isEditable": true,
+        "settingValue": "15",
+        "updatedAt": "2026-02-10T06:06:05.049Z"
+      },
+      {
+        "_id": "698acacd6d7391907ad8a4e0",
+        "settingKey": "OPERATING_SCHEDULE",
+        "__v": 0,
+        "category": "BOOKING",
+        "createdAt": "2026-02-10T06:06:05.055Z",
+        "dataType": "JSON",
+        "description": "Operating schedule by day",
+        "isEditable": true,
+        "settingValue": "[{\"day\":\"Monday\",\"isOpen\":true,\"openTime\":\"08:00\",\"closeTime\":\"20:00\",\"isHoliday\":false},{\"day\":\"Tuesday\",\"isOpen\":true,\"openTime\":\"08:00\",\"closeTime\":\"20:00\",\"isHoliday\":false},{\"day\":\"Wednesday\",\"isOpen\":true,\"openTime\":\"08:00\",\"closeTime\":\"20:00\",\"isHoliday\":false},{\"day\":\"Thursday\",\"isOpen\":true,\"openTime\":\"08:00\",\"closeTime\":\"20:00\",\"isHoliday\":false},{\"day\":\"Friday\",\"isOpen\":true,\"openTime\":\"08:00\",\"closeTime\":\"20:00\",\"isHoliday\":false},{\"day\":\"Saturday\",\"isOpen\":true,\"openTime\":\"08:00\",\"closeTime\":\"20:00\",\"isHoliday\":false},{\"day\":\"Sunday\",\"isOpen\":false,\"openTime\":\"08:00\",\"closeTime\":\"20:00\",\"isHoliday\":false}]",
+        "updatedAt": "2026-02-10T06:35:55.723Z"
+      }
+    ],
+    "Notification": [
+      {
+        "_id": "698ab5dd1a9916d5c1cfc543",
+        "user": "6988d4097d1b9ee692a057fd",
+        "type": "announcement",
+        "title": "Announcement",
+        "message": "hello",
+        "isRead": false,
+        "isUrgent": false,
+        "broadcast": true,
+        "sentBy": "6989697b86d8b5f174ca68f2",
+        "sentByName": "shivanesh123",
+        "targetRoles": [
+          "user"
+        ],
+        "__v": 0,
+        "createdAt": "2026-02-10T04:36:45.248Z",
+        "updatedAt": "2026-02-10T04:36:45.248Z"
+      },
+      {
+        "_id": "698ab5dd1a9916d5c1cfc544",
+        "user": "6988d49413c558095c701ec2",
+        "type": "announcement",
+        "title": "Announcement",
+        "message": "hello",
+        "isRead": false,
+        "isUrgent": false,
+        "broadcast": true,
+        "sentBy": "6989697b86d8b5f174ca68f2",
+        "sentByName": "shivanesh123",
+        "targetRoles": [
+          "user"
+        ],
+        "__v": 0,
+        "createdAt": "2026-02-10T04:36:45.249Z",
+        "updatedAt": "2026-02-10T04:36:45.249Z"
+      },
+      {
+        "_id": "698ab5dd1a9916d5c1cfc545",
+        "user": "6988ddb9d556898135f57c79",
+        "type": "announcement",
+        "title": "Announcement",
+        "message": "hello",
+        "isRead": false,
+        "isUrgent": false,
+        "broadcast": true,
+        "sentBy": "6989697b86d8b5f174ca68f2",
+        "sentByName": "shivanesh123",
+        "targetRoles": [
+          "user"
+        ],
+        "__v": 0,
+        "createdAt": "2026-02-10T04:36:45.249Z",
+        "updatedAt": "2026-02-10T04:36:45.249Z"
+      },
+      {
+        "_id": "698ab5dd1a9916d5c1cfc546",
+        "user": "6989676f86d8b5f174ca68ed",
+        "type": "announcement",
+        "title": "Announcement",
+        "message": "hello",
+        "isRead": true,
+        "isUrgent": false,
+        "broadcast": true,
+        "sentBy": "6989697b86d8b5f174ca68f2",
+        "sentByName": "shivanesh123",
+        "targetRoles": [
+          "user"
+        ],
+        "__v": 0,
+        "createdAt": "2026-02-10T04:36:45.251Z",
+        "updatedAt": "2026-02-10T08:33:38.391Z"
+      },
+      {
+        "_id": "698acc6b93df345080f12c2f",
+        "user": "6988d4097d1b9ee692a057fd",
+        "type": "announcement",
+        "title": "food ready",
+        "message": "wsdcv ",
+        "isRead": false,
+        "isUrgent": false,
+        "broadcast": true,
+        "sentBy": "69896a4d86d8b5f174ca68f5",
+        "sentByName": "shiva",
+        "targetRoles": [
+          "user"
+        ],
+        "__v": 0,
+        "createdAt": "2026-02-10T06:12:59.002Z",
+        "updatedAt": "2026-02-10T06:12:59.002Z"
+      },
+      {
+        "_id": "698acc6b93df345080f12c30",
+        "user": "6988d49413c558095c701ec2",
+        "type": "announcement",
+        "title": "food ready",
+        "message": "wsdcv ",
+        "isRead": false,
+        "isUrgent": false,
+        "broadcast": true,
+        "sentBy": "69896a4d86d8b5f174ca68f5",
+        "sentByName": "shiva",
+        "targetRoles": [
+          "user"
+        ],
+        "__v": 0,
+        "createdAt": "2026-02-10T06:12:59.002Z",
+        "updatedAt": "2026-02-10T06:12:59.002Z"
+      },
+      {
+        "_id": "698acc6b93df345080f12c31",
+        "user": "6988ddb9d556898135f57c79",
+        "type": "announcement",
+        "title": "food ready",
+        "message": "wsdcv ",
+        "isRead": false,
+        "isUrgent": false,
+        "broadcast": true,
+        "sentBy": "69896a4d86d8b5f174ca68f5",
+        "sentByName": "shiva",
+        "targetRoles": [
+          "user"
+        ],
+        "__v": 0,
+        "createdAt": "2026-02-10T06:12:59.002Z",
+        "updatedAt": "2026-02-10T06:12:59.002Z"
+      },
+      {
+        "_id": "698acc6b93df345080f12c32",
+        "user": "6989676f86d8b5f174ca68ed",
+        "type": "announcement",
+        "title": "food ready",
+        "message": "wsdcv ",
+        "isRead": true,
+        "isUrgent": false,
+        "broadcast": true,
+        "sentBy": "69896a4d86d8b5f174ca68f5",
+        "sentByName": "shiva",
+        "targetRoles": [
+          "user"
+        ],
+        "__v": 0,
+        "createdAt": "2026-02-10T06:12:59.002Z",
+        "updatedAt": "2026-02-10T08:33:38.391Z"
+      },
+      {
+        "_id": "698aeb1110be29e0eb6dbb28",
+        "user": "6989676f86d8b5f174ca68ed",
+        "type": "order",
+        "title": "Booking Confirmed!",
+        "message": "Your booking (Token: T-1027) for 14:04 is confirmed.",
+        "isRead": true,
+        "isUrgent": false,
+        "data": {
+          "link": "/student/booking?id=698aeb1110be29e0eb6dbb20"
+        },
+        "broadcast": false,
+        "sentBy": null,
+        "sentByName": null,
+        "targetRoles": [],
+        "createdAt": "2026-02-10T08:23:45.753Z",
+        "updatedAt": "2026-02-10T08:33:38.391Z",
+        "__v": 0
+      },
+      {
+        "_id": "698c44cfd5d6d04f9c9c9b2f",
+        "user": "6988d4097d1b9ee692a057fd",
+        "type": "announcement",
+        "title": "imp",
+        "message": "eqfrg",
+        "isRead": false,
+        "isUrgent": false,
+        "broadcast": true,
+        "sentBy": "69896a4d86d8b5f174ca68f5",
+        "sentByName": "shiva",
+        "targetRoles": [
+          "user"
+        ],
+        "__v": 0,
+        "createdAt": "2026-02-11T08:58:55.387Z",
+        "updatedAt": "2026-02-11T08:58:55.387Z"
+      },
+      {
+        "_id": "698c44cfd5d6d04f9c9c9b30",
+        "user": "6988d49413c558095c701ec2",
+        "type": "announcement",
+        "title": "imp",
+        "message": "eqfrg",
+        "isRead": false,
+        "isUrgent": false,
+        "broadcast": true,
+        "sentBy": "69896a4d86d8b5f174ca68f5",
+        "sentByName": "shiva",
+        "targetRoles": [
+          "user"
+        ],
+        "__v": 0,
+        "createdAt": "2026-02-11T08:58:55.387Z",
+        "updatedAt": "2026-02-11T08:58:55.387Z"
+      },
+      {
+        "_id": "698c44cfd5d6d04f9c9c9b31",
+        "user": "6988ddb9d556898135f57c79",
+        "type": "announcement",
+        "title": "imp",
+        "message": "eqfrg",
+        "isRead": false,
+        "isUrgent": false,
+        "broadcast": true,
+        "sentBy": "69896a4d86d8b5f174ca68f5",
+        "sentByName": "shiva",
+        "targetRoles": [
+          "user"
+        ],
+        "__v": 0,
+        "createdAt": "2026-02-11T08:58:55.387Z",
+        "updatedAt": "2026-02-11T08:58:55.387Z"
+      },
+      {
+        "_id": "698c44cfd5d6d04f9c9c9b32",
+        "user": "6989676f86d8b5f174ca68ed",
+        "type": "announcement",
+        "title": "imp",
+        "message": "eqfrg",
+        "isRead": false,
+        "isUrgent": false,
+        "broadcast": true,
+        "sentBy": "69896a4d86d8b5f174ca68f5",
+        "sentByName": "shiva",
+        "targetRoles": [
+          "user"
+        ],
+        "__v": 0,
+        "createdAt": "2026-02-11T08:58:55.387Z",
+        "updatedAt": "2026-02-11T08:58:55.387Z"
+      },
+      {
+        "_id": "698c4533d5d6d04f9c9c9ce4",
+        "user": "6988d4077d1b9ee692a057f3",
+        "type": "announcement",
+        "title": "Announcement",
+        "message": "food ready",
+        "isRead": false,
+        "isUrgent": false,
+        "broadcast": true,
+        "sentBy": "6989697b86d8b5f174ca68f2",
+        "sentByName": "shivanesh123",
+        "targetRoles": [
+          "user",
+          "admin"
+        ],
+        "__v": 0,
+        "createdAt": "2026-02-11T09:00:35.398Z",
+        "updatedAt": "2026-02-11T09:00:35.398Z"
+      },
+      {
+        "_id": "698c4533d5d6d04f9c9c9ce5",
+        "user": "6989539dab97ef87becdb39f",
+        "type": "announcement",
+        "title": "Announcement",
+        "message": "food ready",
+        "isRead": false,
+        "isUrgent": false,
+        "broadcast": true,
+        "sentBy": "6989697b86d8b5f174ca68f2",
+        "sentByName": "shivanesh123",
+        "targetRoles": [
+          "user",
+          "admin"
+        ],
+        "__v": 0,
+        "createdAt": "2026-02-11T09:00:35.399Z",
+        "updatedAt": "2026-02-11T09:00:35.399Z"
+      },
+      {
+        "_id": "698c4533d5d6d04f9c9c9ce6",
+        "user": "698957ebab97ef87becdb3ae",
+        "type": "announcement",
+        "title": "Announcement",
+        "message": "food ready",
+        "isRead": false,
+        "isUrgent": false,
+        "broadcast": true,
+        "sentBy": "6989697b86d8b5f174ca68f2",
+        "sentByName": "shivanesh123",
+        "targetRoles": [
+          "user",
+          "admin"
+        ],
+        "__v": 0,
+        "createdAt": "2026-02-11T09:00:35.399Z",
+        "updatedAt": "2026-02-11T09:00:35.399Z"
+      },
+      {
+        "_id": "698c4533d5d6d04f9c9c9ce7",
+        "user": "6988d4097d1b9ee692a057fd",
+        "type": "announcement",
+        "title": "Announcement",
+        "message": "food ready",
+        "isRead": false,
+        "isUrgent": false,
+        "broadcast": true,
+        "sentBy": "6989697b86d8b5f174ca68f2",
+        "sentByName": "shivanesh123",
+        "targetRoles": [
+          "user",
+          "admin"
+        ],
+        "__v": 0,
+        "createdAt": "2026-02-11T09:00:35.399Z",
+        "updatedAt": "2026-02-11T09:00:35.399Z"
+      },
+      {
+        "_id": "698c4533d5d6d04f9c9c9ce8",
+        "user": "6988d49413c558095c701ec2",
+        "type": "announcement",
+        "title": "Announcement",
+        "message": "food ready",
+        "isRead": false,
+        "isUrgent": false,
+        "broadcast": true,
+        "sentBy": "6989697b86d8b5f174ca68f2",
+        "sentByName": "shivanesh123",
+        "targetRoles": [
+          "user",
+          "admin"
+        ],
+        "__v": 0,
+        "createdAt": "2026-02-11T09:00:35.400Z",
+        "updatedAt": "2026-02-11T09:00:35.400Z"
+      },
+      {
+        "_id": "698c4533d5d6d04f9c9c9ce9",
+        "user": "6988ddb9d556898135f57c79",
+        "type": "announcement",
+        "title": "Announcement",
+        "message": "food ready",
+        "isRead": false,
+        "isUrgent": false,
+        "broadcast": true,
+        "sentBy": "6989697b86d8b5f174ca68f2",
+        "sentByName": "shivanesh123",
+        "targetRoles": [
+          "user",
+          "admin"
+        ],
+        "__v": 0,
+        "createdAt": "2026-02-11T09:00:35.400Z",
+        "updatedAt": "2026-02-11T09:00:35.400Z"
+      },
+      {
+        "_id": "698c4533d5d6d04f9c9c9cea",
+        "user": "6989676f86d8b5f174ca68ed",
+        "type": "announcement",
+        "title": "Announcement",
+        "message": "food ready",
+        "isRead": false,
+        "isUrgent": false,
+        "broadcast": true,
+        "sentBy": "6989697b86d8b5f174ca68f2",
+        "sentByName": "shivanesh123",
+        "targetRoles": [
+          "user",
+          "admin"
+        ],
+        "__v": 0,
+        "createdAt": "2026-02-11T09:00:35.400Z",
+        "updatedAt": "2026-02-11T09:00:35.400Z"
+      },
+      {
+        "_id": "698c4c3962289c60c93f7a27",
+        "user": "6988d4087d1b9ee692a057f7",
+        "type": "announcement",
+        "title": "Announcement",
+        "message": "sebdthe food this canteen",
+        "isRead": false,
+        "isUrgent": false,
+        "broadcast": true,
+        "sentBy": "6989697b86d8b5f174ca68f2",
+        "sentByName": "shivanesh123",
+        "targetRoles": [
+          "user",
+          "canteen_staff",
+          "kitchen_staff",
+          "counter_staff",
+          "manager"
+        ],
+        "__v": 0,
+        "createdAt": "2026-02-11T09:30:33.448Z",
+        "updatedAt": "2026-02-11T09:30:33.448Z"
+      },
+      {
+        "_id": "698c4c3962289c60c93f7a28",
+        "user": "69896a4d86d8b5f174ca68f5",
+        "type": "announcement",
+        "title": "Announcement",
+        "message": "sebdthe food this canteen",
+        "isRead": false,
+        "isUrgent": false,
+        "broadcast": true,
+        "sentBy": "6989697b86d8b5f174ca68f2",
+        "sentByName": "shivanesh123",
+        "targetRoles": [
+          "user",
+          "canteen_staff",
+          "kitchen_staff",
+          "counter_staff",
+          "manager"
+        ],
+        "__v": 0,
+        "createdAt": "2026-02-11T09:30:33.448Z",
+        "updatedAt": "2026-02-11T09:30:33.448Z"
+      },
+      {
+        "_id": "698c4c3962289c60c93f7a29",
+        "user": "6988d4087d1b9ee692a057f9",
+        "type": "announcement",
+        "title": "Announcement",
+        "message": "sebdthe food this canteen",
+        "isRead": false,
+        "isUrgent": false,
+        "broadcast": true,
+        "sentBy": "6989697b86d8b5f174ca68f2",
+        "sentByName": "shivanesh123",
+        "targetRoles": [
+          "user",
+          "canteen_staff",
+          "kitchen_staff",
+          "counter_staff",
+          "manager"
+        ],
+        "__v": 0,
+        "createdAt": "2026-02-11T09:30:33.448Z",
+        "updatedAt": "2026-02-11T09:30:33.448Z"
+      },
+      {
+        "_id": "698c4c3962289c60c93f7a2a",
+        "user": "6988d4087d1b9ee692a057f8",
+        "type": "announcement",
+        "title": "Announcement",
+        "message": "sebdthe food this canteen",
+        "isRead": false,
+        "isUrgent": false,
+        "broadcast": true,
+        "sentBy": "6989697b86d8b5f174ca68f2",
+        "sentByName": "shivanesh123",
+        "targetRoles": [
+          "user",
+          "canteen_staff",
+          "kitchen_staff",
+          "counter_staff",
+          "manager"
+        ],
+        "__v": 0,
+        "createdAt": "2026-02-11T09:30:33.448Z",
+        "updatedAt": "2026-02-11T09:30:33.448Z"
+      },
+      {
+        "_id": "698c4c3962289c60c93f7a2b",
+        "user": "6988d4087d1b9ee692a057f5",
+        "type": "announcement",
+        "title": "Announcement",
+        "message": "sebdthe food this canteen",
+        "isRead": false,
+        "isUrgent": false,
+        "broadcast": true,
+        "sentBy": "6989697b86d8b5f174ca68f2",
+        "sentByName": "shivanesh123",
+        "targetRoles": [
+          "user",
+          "canteen_staff",
+          "kitchen_staff",
+          "counter_staff",
+          "manager"
+        ],
+        "__v": 0,
+        "createdAt": "2026-02-11T09:30:33.448Z",
+        "updatedAt": "2026-02-11T09:30:33.448Z"
+      },
+      {
+        "_id": "698c4c3962289c60c93f7a2c",
+        "user": "6989697b86d8b5f174ca68f2",
+        "type": "announcement",
+        "title": "Announcement",
+        "message": "sebdthe food this canteen",
+        "isRead": false,
+        "isUrgent": false,
+        "broadcast": true,
+        "sentBy": "6989697b86d8b5f174ca68f2",
+        "sentByName": "shivanesh123",
+        "targetRoles": [
+          "user",
+          "canteen_staff",
+          "kitchen_staff",
+          "counter_staff",
+          "manager"
+        ],
+        "__v": 0,
+        "createdAt": "2026-02-11T09:30:33.448Z",
+        "updatedAt": "2026-02-11T09:30:33.448Z"
+      },
+      {
+        "_id": "698c4c3962289c60c93f7a2d",
+        "user": "698a3dec67b45cbee8c0d8e2",
+        "type": "announcement",
+        "title": "Announcement",
+        "message": "sebdthe food this canteen",
+        "isRead": false,
+        "isUrgent": false,
+        "broadcast": true,
+        "sentBy": "6989697b86d8b5f174ca68f2",
+        "sentByName": "shivanesh123",
+        "targetRoles": [
+          "user",
+          "canteen_staff",
+          "kitchen_staff",
+          "counter_staff",
+          "manager"
+        ],
+        "__v": 0,
+        "createdAt": "2026-02-11T09:30:33.448Z",
+        "updatedAt": "2026-02-11T09:30:33.448Z"
+      },
+      {
+        "_id": "698c4c3962289c60c93f7a2e",
+        "user": "698a4ba7c8694c874af87c34",
+        "type": "announcement",
+        "title": "Announcement",
+        "message": "sebdthe food this canteen",
+        "isRead": false,
+        "isUrgent": false,
+        "broadcast": true,
+        "sentBy": "6989697b86d8b5f174ca68f2",
+        "sentByName": "shivanesh123",
+        "targetRoles": [
+          "user",
+          "canteen_staff",
+          "kitchen_staff",
+          "counter_staff",
+          "manager"
+        ],
+        "__v": 0,
+        "createdAt": "2026-02-11T09:30:33.448Z",
+        "updatedAt": "2026-02-11T09:30:33.448Z"
+      },
+      {
+        "_id": "698c4c3962289c60c93f7a2f",
+        "user": "698aaafc240cd39c129fa854",
+        "type": "announcement",
+        "title": "Announcement",
+        "message": "sebdthe food this canteen",
+        "isRead": false,
+        "isUrgent": false,
+        "broadcast": true,
+        "sentBy": "6989697b86d8b5f174ca68f2",
+        "sentByName": "shivanesh123",
+        "targetRoles": [
+          "user",
+          "canteen_staff",
+          "kitchen_staff",
+          "counter_staff",
+          "manager"
+        ],
+        "__v": 0,
+        "createdAt": "2026-02-11T09:30:33.448Z",
+        "updatedAt": "2026-02-11T09:30:33.448Z"
+      },
+      {
+        "_id": "698c4c3962289c60c93f7a30",
+        "user": "6988d4097d1b9ee692a057fd",
+        "type": "announcement",
+        "title": "Announcement",
+        "message": "sebdthe food this canteen",
+        "isRead": false,
+        "isUrgent": false,
+        "broadcast": true,
+        "sentBy": "6989697b86d8b5f174ca68f2",
+        "sentByName": "shivanesh123",
+        "targetRoles": [
+          "user",
+          "canteen_staff",
+          "kitchen_staff",
+          "counter_staff",
+          "manager"
+        ],
+        "__v": 0,
+        "createdAt": "2026-02-11T09:30:33.449Z",
+        "updatedAt": "2026-02-11T09:30:33.449Z"
+      },
+      {
+        "_id": "698c4c3962289c60c93f7a31",
+        "user": "6988d49413c558095c701ec2",
+        "type": "announcement",
+        "title": "Announcement",
+        "message": "sebdthe food this canteen",
+        "isRead": false,
+        "isUrgent": false,
+        "broadcast": true,
+        "sentBy": "6989697b86d8b5f174ca68f2",
+        "sentByName": "shivanesh123",
+        "targetRoles": [
+          "user",
+          "canteen_staff",
+          "kitchen_staff",
+          "counter_staff",
+          "manager"
+        ],
+        "__v": 0,
+        "createdAt": "2026-02-11T09:30:33.449Z",
+        "updatedAt": "2026-02-11T09:30:33.449Z"
+      },
+      {
+        "_id": "698c4c3962289c60c93f7a32",
+        "user": "6988ddb9d556898135f57c79",
+        "type": "announcement",
+        "title": "Announcement",
+        "message": "sebdthe food this canteen",
+        "isRead": false,
+        "isUrgent": false,
+        "broadcast": true,
+        "sentBy": "6989697b86d8b5f174ca68f2",
+        "sentByName": "shivanesh123",
+        "targetRoles": [
+          "user",
+          "canteen_staff",
+          "kitchen_staff",
+          "counter_staff",
+          "manager"
+        ],
+        "__v": 0,
+        "createdAt": "2026-02-11T09:30:33.449Z",
+        "updatedAt": "2026-02-11T09:30:33.449Z"
+      },
+      {
+        "_id": "698c4c3962289c60c93f7a33",
+        "user": "6989676f86d8b5f174ca68ed",
+        "type": "announcement",
+        "title": "Announcement",
+        "message": "sebdthe food this canteen",
+        "isRead": false,
+        "isUrgent": false,
+        "broadcast": true,
+        "sentBy": "6989697b86d8b5f174ca68f2",
+        "sentByName": "shivanesh123",
+        "targetRoles": [
+          "user",
+          "canteen_staff",
+          "kitchen_staff",
+          "counter_staff",
+          "manager"
+        ],
+        "__v": 0,
+        "createdAt": "2026-02-11T09:30:33.449Z",
+        "updatedAt": "2026-02-11T09:30:33.449Z"
+      }
+    ],
+    "AuditLog": [
+      {
+        "_id": "698a3396da3d1eb58a6856f1",
+        "action": "Setting updated: ONLINE_BOOKING_ENABLED",
+        "user": "6989539dab97ef87becdb39f",
+        "userName": "Admin",
+        "userRole": "admin",
+        "resource": "SystemSetting",
+        "details": {
+          "key": "ONLINE_BOOKING_ENABLED",
+          "previousValue": "false",
+          "newValue": "true"
+        },
+        "createdAt": "2026-02-09T19:20:54.666Z",
+        "updatedAt": "2026-02-09T19:20:54.666Z",
+        "__v": 0
+      },
+      {
+        "_id": "698a3398da3d1eb58a6856f9",
+        "action": "Setting updated: WALKIN_ENABLED",
+        "user": "6989539dab97ef87becdb39f",
+        "userName": "Admin",
+        "userRole": "admin",
+        "resource": "SystemSetting",
+        "details": {
+          "key": "WALKIN_ENABLED",
+          "previousValue": "false",
+          "newValue": "true"
+        },
+        "createdAt": "2026-02-09T19:20:56.636Z",
+        "updatedAt": "2026-02-09T19:20:56.636Z",
+        "__v": 0
+      },
+      {
+        "_id": "698a33a0da3d1eb58a6857b8",
+        "action": "Manual backup created",
+        "user": "6989539dab97ef87becdb39f",
+        "userName": "Admin",
+        "resource": "Backup",
+        "details": {
+          "fileName": "backup-2026-02-09T19-21-04-244Z.json"
+        },
+        "createdAt": "2026-02-09T19:21:04.284Z",
+        "updatedAt": "2026-02-09T19:21:04.284Z",
+        "__v": 0
+      },
+      {
+        "_id": "698aba931a9916d5c1cfc912",
+        "action": "Manual backup created",
+        "user": "6989539dab97ef87becdb39f",
+        "userName": "Admin",
+        "resource": "Backup",
+        "details": {
+          "fileName": "backup-2026-02-10T04-56-51-890Z.json"
+        },
+        "createdAt": "2026-02-10T04:56:51.930Z",
+        "updatedAt": "2026-02-10T04:56:51.930Z",
+        "__v": 0
+      },
+      {
+        "_id": "698ac92293df345080f129a4",
+        "action": "Setting updated: WALKIN_ENABLED",
+        "user": "6989539dab97ef87becdb39f",
+        "userName": "Admin",
+        "userRole": "admin",
+        "resource": "SystemSetting",
+        "details": {
+          "key": "WALKIN_ENABLED",
+          "previousValue": "true",
+          "newValue": "false"
+        },
+        "createdAt": "2026-02-10T05:58:58.393Z",
+        "updatedAt": "2026-02-10T05:58:58.393Z",
+        "__v": 0
+      },
+      {
+        "_id": "698ac92393df345080f129a9",
+        "action": "Setting updated: WALKIN_ENABLED",
+        "user": "6989539dab97ef87becdb39f",
+        "userName": "Admin",
+        "userRole": "admin",
+        "resource": "SystemSetting",
+        "details": {
+          "key": "WALKIN_ENABLED",
+          "previousValue": "false",
+          "newValue": "true"
+        },
+        "createdAt": "2026-02-10T05:58:59.826Z",
+        "updatedAt": "2026-02-10T05:58:59.826Z",
+        "__v": 0
+      },
+      {
+        "_id": "698acaca93df345080f129ff",
+        "action": "Setting updated: ONLINE_BOOKING_ENABLED",
+        "user": "6989539dab97ef87becdb39f",
+        "userName": "Admin",
+        "userRole": "admin",
+        "resource": "SystemSetting",
+        "details": {
+          "key": "ONLINE_BOOKING_ENABLED",
+          "previousValue": "true",
+          "newValue": "false"
+        },
+        "createdAt": "2026-02-10T06:06:02.720Z",
+        "updatedAt": "2026-02-10T06:06:02.720Z",
+        "__v": 0
+      },
+      {
+        "_id": "698acacd93df345080f12a04",
+        "action": "Setting updated: ONLINE_BOOKING_ENABLED",
+        "user": "6989539dab97ef87becdb39f",
+        "userName": "Admin",
+        "userRole": "admin",
+        "resource": "SystemSetting",
+        "details": {
+          "key": "ONLINE_BOOKING_ENABLED",
+          "previousValue": "false",
+          "newValue": "false"
+        },
+        "createdAt": "2026-02-10T06:06:05.036Z",
+        "updatedAt": "2026-02-10T06:06:05.036Z",
+        "__v": 0
+      },
+      {
+        "_id": "698acacd93df345080f12a08",
+        "action": "Setting updated: WALKIN_ENABLED",
+        "user": "6989539dab97ef87becdb39f",
+        "userName": "Admin",
+        "userRole": "admin",
+        "resource": "SystemSetting",
+        "details": {
+          "key": "WALKIN_ENABLED",
+          "previousValue": "true",
+          "newValue": "true"
+        },
+        "createdAt": "2026-02-10T06:06:05.044Z",
+        "updatedAt": "2026-02-10T06:06:05.044Z",
+        "__v": 0
+      },
+      {
+        "_id": "698acee593df345080f12e1d",
+        "action": "Setting updated: AUTO_BACKUP_ENABLED",
+        "user": "6989539dab97ef87becdb39f",
+        "userName": "Admin",
+        "userRole": "admin",
+        "resource": "SystemSetting",
+        "details": {
+          "key": "AUTO_BACKUP_ENABLED",
+          "previousValue": "false",
+          "newValue": "true"
+        },
+        "createdAt": "2026-02-10T06:23:33.065Z",
+        "updatedAt": "2026-02-10T06:23:33.065Z",
+        "__v": 0
+      },
+      {
+        "_id": "698acee593df345080f12e22",
+        "action": "Setting updated: AUTO_BACKUP_ENABLED",
+        "user": "6989539dab97ef87becdb39f",
+        "userName": "Admin",
+        "userRole": "admin",
+        "resource": "SystemSetting",
+        "details": {
+          "key": "AUTO_BACKUP_ENABLED",
+          "previousValue": "true",
+          "newValue": "false"
+        },
+        "createdAt": "2026-02-10T06:23:33.585Z",
+        "updatedAt": "2026-02-10T06:23:33.585Z",
+        "__v": 0
+      },
+      {
+        "_id": "698acee893df345080f12e33",
+        "action": "Setting updated: ONLINE_BOOKING_ENABLED",
+        "user": "6989539dab97ef87becdb39f",
+        "userName": "Admin",
+        "userRole": "admin",
+        "resource": "SystemSetting",
+        "details": {
+          "key": "ONLINE_BOOKING_ENABLED",
+          "previousValue": "false",
+          "newValue": "true"
+        },
+        "createdAt": "2026-02-10T06:23:36.679Z",
+        "updatedAt": "2026-02-10T06:23:36.679Z",
+        "__v": 0
+      },
+      {
+        "_id": "698acfb993df345080f12e95",
+        "action": "Setting updated: ONLINE_BOOKING_ENABLED",
+        "user": "6989539dab97ef87becdb39f",
+        "userName": "Admin",
+        "userRole": "admin",
+        "resource": "SystemSetting",
+        "details": {
+          "key": "ONLINE_BOOKING_ENABLED",
+          "previousValue": "true",
+          "newValue": "false"
+        },
+        "createdAt": "2026-02-10T06:27:05.262Z",
+        "updatedAt": "2026-02-10T06:27:05.262Z",
+        "__v": 0
+      },
+      {
+        "_id": "698acfb993df345080f12e9a",
+        "action": "Setting updated: ONLINE_BOOKING_ENABLED",
+        "user": "6989539dab97ef87becdb39f",
+        "userName": "Admin",
+        "userRole": "admin",
+        "resource": "SystemSetting",
+        "details": {
+          "key": "ONLINE_BOOKING_ENABLED",
+          "previousValue": "false",
+          "newValue": "true"
+        },
+        "createdAt": "2026-02-10T06:27:05.651Z",
+        "updatedAt": "2026-02-10T06:27:05.651Z",
+        "__v": 0
+      },
+      {
+        "_id": "698acfba93df345080f12e9f",
+        "action": "Setting updated: WALKIN_ENABLED",
+        "user": "6989539dab97ef87becdb39f",
+        "userName": "Admin",
+        "userRole": "admin",
+        "resource": "SystemSetting",
+        "details": {
+          "key": "WALKIN_ENABLED",
+          "previousValue": "true",
+          "newValue": "false"
+        },
+        "createdAt": "2026-02-10T06:27:06.810Z",
+        "updatedAt": "2026-02-10T06:27:06.810Z",
+        "__v": 0
+      },
+      {
+        "_id": "698acfbb93df345080f12ea4",
+        "action": "Setting updated: WALKIN_ENABLED",
+        "user": "6989539dab97ef87becdb39f",
+        "userName": "Admin",
+        "userRole": "admin",
+        "resource": "SystemSetting",
+        "details": {
+          "key": "WALKIN_ENABLED",
+          "previousValue": "false",
+          "newValue": "true"
+        },
+        "createdAt": "2026-02-10T06:27:07.182Z",
+        "updatedAt": "2026-02-10T06:27:07.182Z",
+        "__v": 0
+      },
+      {
+        "_id": "698ad0a193df345080f12ebf",
+        "action": "Setting updated: ONLINE_BOOKING_ENABLED",
+        "user": "6989539dab97ef87becdb39f",
+        "userName": "Admin",
+        "userRole": "admin",
+        "resource": "SystemSetting",
+        "details": {
+          "key": "ONLINE_BOOKING_ENABLED",
+          "previousValue": "true",
+          "newValue": "true"
+        },
+        "createdAt": "2026-02-10T06:30:57.614Z",
+        "updatedAt": "2026-02-10T06:30:57.614Z",
+        "__v": 0
+      },
+      {
+        "_id": "698ad0a193df345080f12ec3",
+        "action": "Setting updated: WALKIN_ENABLED",
+        "user": "6989539dab97ef87becdb39f",
+        "userName": "Admin",
+        "userRole": "admin",
+        "resource": "SystemSetting",
+        "details": {
+          "key": "WALKIN_ENABLED",
+          "previousValue": "true",
+          "newValue": "true"
+        },
+        "createdAt": "2026-02-10T06:30:57.617Z",
+        "updatedAt": "2026-02-10T06:30:57.617Z",
+        "__v": 0
+      },
+      {
+        "_id": "698ad1cb93df345080f12f7d",
+        "action": "Setting updated: ONLINE_BOOKING_ENABLED",
+        "user": "6989539dab97ef87becdb39f",
+        "userName": "Admin",
+        "userRole": "admin",
+        "resource": "SystemSetting",
+        "details": {
+          "key": "ONLINE_BOOKING_ENABLED",
+          "previousValue": "true",
+          "newValue": "true"
+        },
+        "createdAt": "2026-02-10T06:35:55.711Z",
+        "updatedAt": "2026-02-10T06:35:55.711Z",
+        "__v": 0
+      },
+      {
+        "_id": "698ad1cb93df345080f12f81",
+        "action": "Setting updated: WALKIN_ENABLED",
+        "user": "6989539dab97ef87becdb39f",
+        "userName": "Admin",
+        "userRole": "admin",
+        "resource": "SystemSetting",
+        "details": {
+          "key": "WALKIN_ENABLED",
+          "previousValue": "true",
+          "newValue": "true"
+        },
+        "createdAt": "2026-02-10T06:35:55.716Z",
+        "updatedAt": "2026-02-10T06:35:55.716Z",
+        "__v": 0
+      },
+      {
+        "_id": "698b482a2b71dd333791b534",
+        "action": "Manual backup created",
+        "user": "6989539dab97ef87becdb39f",
+        "userName": "Admin",
+        "resource": "Backup",
+        "details": {
+          "fileName": "backup-2026-02-10T15-00-58-188Z.json"
+        },
+        "createdAt": "2026-02-10T15:00:58.231Z",
+        "updatedAt": "2026-02-10T15:00:58.231Z",
+        "__v": 0
+      },
+      {
+        "_id": "698b48312b71dd333791b543",
+        "action": "Setting updated: AUTO_BACKUP_ENABLED",
+        "user": "6989539dab97ef87becdb39f",
+        "userName": "Admin",
+        "userRole": "admin",
+        "resource": "SystemSetting",
+        "details": {
+          "key": "AUTO_BACKUP_ENABLED",
+          "previousValue": "false",
+          "newValue": "true"
+        },
+        "createdAt": "2026-02-10T15:01:05.606Z",
+        "updatedAt": "2026-02-10T15:01:05.606Z",
+        "__v": 0
+      },
+      {
+        "_id": "698b48322b71dd333791b548",
+        "action": "Setting updated: AUTO_BACKUP_ENABLED",
+        "user": "6989539dab97ef87becdb39f",
+        "userName": "Admin",
+        "userRole": "admin",
+        "resource": "SystemSetting",
+        "details": {
+          "key": "AUTO_BACKUP_ENABLED",
+          "previousValue": "true",
+          "newValue": "false"
+        },
+        "createdAt": "2026-02-10T15:01:06.177Z",
+        "updatedAt": "2026-02-10T15:01:06.177Z",
+        "__v": 0
+      },
+      {
+        "_id": "698b48382b71dd333791b56f",
+        "action": "Setting updated: ONLINE_BOOKING_ENABLED",
+        "user": "6989539dab97ef87becdb39f",
+        "userName": "Admin",
+        "userRole": "admin",
+        "resource": "SystemSetting",
+        "details": {
+          "key": "ONLINE_BOOKING_ENABLED",
+          "previousValue": "true",
+          "newValue": "false"
+        },
+        "createdAt": "2026-02-10T15:01:12.691Z",
+        "updatedAt": "2026-02-10T15:01:12.691Z",
+        "__v": 0
+      },
+      {
+        "_id": "698b48392b71dd333791b574",
+        "action": "Setting updated: ONLINE_BOOKING_ENABLED",
+        "user": "6989539dab97ef87becdb39f",
+        "userName": "Admin",
+        "userRole": "admin",
+        "resource": "SystemSetting",
+        "details": {
+          "key": "ONLINE_BOOKING_ENABLED",
+          "previousValue": "false",
+          "newValue": "true"
+        },
+        "createdAt": "2026-02-10T15:01:13.422Z",
+        "updatedAt": "2026-02-10T15:01:13.422Z",
+        "__v": 0
+      },
+      {
+        "_id": "698c3e5a2e60f612d832c8b2",
+        "action": "Setting updated: AUTO_BACKUP_ENABLED",
+        "user": "6989539dab97ef87becdb39f",
+        "userName": "Admin",
+        "userRole": "admin",
+        "resource": "SystemSetting",
+        "details": {
+          "key": "AUTO_BACKUP_ENABLED",
+          "previousValue": "false",
+          "newValue": "true"
+        },
+        "createdAt": "2026-02-11T08:31:22.701Z",
+        "updatedAt": "2026-02-11T08:31:22.701Z",
+        "__v": 0
+      },
+      {
+        "_id": "698c3e5b2e60f612d832c8b7",
+        "action": "Setting updated: AUTO_BACKUP_ENABLED",
+        "user": "6989539dab97ef87becdb39f",
+        "userName": "Admin",
+        "userRole": "admin",
+        "resource": "SystemSetting",
+        "details": {
+          "key": "AUTO_BACKUP_ENABLED",
+          "previousValue": "true",
+          "newValue": "false"
+        },
+        "createdAt": "2026-02-11T08:31:23.237Z",
+        "updatedAt": "2026-02-11T08:31:23.237Z",
+        "__v": 0
+      },
+      {
+        "_id": "698c3e5c2e60f612d832c8c6",
+        "action": "Manual backup created",
+        "user": "6989539dab97ef87becdb39f",
+        "userName": "Admin",
+        "resource": "Backup",
+        "details": {
+          "fileName": "backup-2026-02-11T08-31-23-984Z.json"
+        },
+        "createdAt": "2026-02-11T08:31:24.041Z",
+        "updatedAt": "2026-02-11T08:31:24.041Z",
+        "__v": 0
+      },
+      {
+        "_id": "698c3eb62e60f612d832c8de",
+        "action": "Setting updated: AUTO_BACKUP_ENABLED",
+        "user": "6989539dab97ef87becdb39f",
+        "userName": "Admin",
+        "userRole": "admin",
+        "resource": "SystemSetting",
+        "details": {
+          "key": "AUTO_BACKUP_ENABLED",
+          "previousValue": "false",
+          "newValue": "true"
+        },
+        "createdAt": "2026-02-11T08:32:54.563Z",
+        "updatedAt": "2026-02-11T08:32:54.563Z",
+        "__v": 0
+      },
+      {
+        "_id": "698c3eb62e60f612d832c8e3",
+        "action": "Setting updated: AUTO_BACKUP_ENABLED",
+        "user": "6989539dab97ef87becdb39f",
+        "userName": "Admin",
+        "userRole": "admin",
+        "resource": "SystemSetting",
+        "details": {
+          "key": "AUTO_BACKUP_ENABLED",
+          "previousValue": "true",
+          "newValue": "false"
+        },
+        "createdAt": "2026-02-11T08:32:54.949Z",
+        "updatedAt": "2026-02-11T08:32:54.949Z",
+        "__v": 0
+      },
+      {
+        "_id": "698c3eb72e60f612d832c8f2",
+        "action": "Manual backup created",
+        "user": "6989539dab97ef87becdb39f",
+        "userName": "Admin",
+        "resource": "Backup",
+        "details": {
+          "fileName": "backup-2026-02-11T08-32-55-667Z.json"
+        },
+        "createdAt": "2026-02-11T08:32:55.710Z",
+        "updatedAt": "2026-02-11T08:32:55.710Z",
+        "__v": 0
+      },
+      {
+        "_id": "698c3ec32e60f612d832c90e",
+        "action": "Setting updated: AUTO_BACKUP_ENABLED",
+        "user": "6989539dab97ef87becdb39f",
+        "userName": "Admin",
+        "userRole": "admin",
+        "resource": "SystemSetting",
+        "details": {
+          "key": "AUTO_BACKUP_ENABLED",
+          "previousValue": "false",
+          "newValue": "true"
+        },
+        "createdAt": "2026-02-11T08:33:07.857Z",
+        "updatedAt": "2026-02-11T08:33:07.857Z",
+        "__v": 0
+      },
+      {
+        "_id": "698c3ec42e60f612d832c913",
+        "action": "Setting updated: AUTO_BACKUP_ENABLED",
+        "user": "6989539dab97ef87becdb39f",
+        "userName": "Admin",
+        "userRole": "admin",
+        "resource": "SystemSetting",
+        "details": {
+          "key": "AUTO_BACKUP_ENABLED",
+          "previousValue": "true",
+          "newValue": "false"
+        },
+        "createdAt": "2026-02-11T08:33:08.328Z",
+        "updatedAt": "2026-02-11T08:33:08.328Z",
+        "__v": 0
+      },
+      {
+        "_id": "698c3ec52e60f612d832c922",
+        "action": "Manual backup created",
+        "user": "6989539dab97ef87becdb39f",
+        "userName": "Admin",
+        "resource": "Backup",
+        "details": {
+          "fileName": "backup-2026-02-11T08-33-09-310Z.json"
+        },
+        "createdAt": "2026-02-11T08:33:09.360Z",
+        "updatedAt": "2026-02-11T08:33:09.360Z",
+        "__v": 0
+      },
+      {
+        "_id": "698c3ed42e60f612d832c940",
+        "action": "Setting updated: ONLINE_BOOKING_ENABLED",
+        "user": "6989539dab97ef87becdb39f",
+        "userName": "Admin",
+        "userRole": "admin",
+        "resource": "SystemSetting",
+        "details": {
+          "key": "ONLINE_BOOKING_ENABLED",
+          "previousValue": "true",
+          "newValue": "false"
+        },
+        "createdAt": "2026-02-11T08:33:24.939Z",
+        "updatedAt": "2026-02-11T08:33:24.939Z",
+        "__v": 0
+      },
+      {
+        "_id": "698c3ed52e60f612d832c945",
+        "action": "Setting updated: ONLINE_BOOKING_ENABLED",
+        "user": "6989539dab97ef87becdb39f",
+        "userName": "Admin",
+        "userRole": "admin",
+        "resource": "SystemSetting",
+        "details": {
+          "key": "ONLINE_BOOKING_ENABLED",
+          "previousValue": "false",
+          "newValue": "true"
+        },
+        "createdAt": "2026-02-11T08:33:25.643Z",
+        "updatedAt": "2026-02-11T08:33:25.643Z",
+        "__v": 0
+      },
+      {
+        "_id": "698c3ed62e60f612d832c94a",
+        "action": "Setting updated: WALKIN_ENABLED",
+        "user": "6989539dab97ef87becdb39f",
+        "userName": "Admin",
+        "userRole": "admin",
+        "resource": "SystemSetting",
+        "details": {
+          "key": "WALKIN_ENABLED",
+          "previousValue": "true",
+          "newValue": "false"
+        },
+        "createdAt": "2026-02-11T08:33:26.822Z",
+        "updatedAt": "2026-02-11T08:33:26.822Z",
+        "__v": 0
+      },
+      {
+        "_id": "698c3ed72e60f612d832c94f",
+        "action": "Setting updated: WALKIN_ENABLED",
+        "user": "6989539dab97ef87becdb39f",
+        "userName": "Admin",
+        "userRole": "admin",
+        "resource": "SystemSetting",
+        "details": {
+          "key": "WALKIN_ENABLED",
+          "previousValue": "false",
+          "newValue": "true"
+        },
+        "createdAt": "2026-02-11T08:33:27.706Z",
+        "updatedAt": "2026-02-11T08:33:27.706Z",
+        "__v": 0
+      },
+      {
+        "_id": "698c3f062e60f612d832ca3d",
+        "action": "Setting updated: WALKIN_ENABLED",
+        "user": "6989539dab97ef87becdb39f",
+        "userName": "Admin",
+        "userRole": "admin",
+        "resource": "SystemSetting",
+        "details": {
+          "key": "WALKIN_ENABLED",
+          "previousValue": "true",
+          "newValue": "false"
+        },
+        "createdAt": "2026-02-11T08:34:14.056Z",
+        "updatedAt": "2026-02-11T08:34:14.056Z",
+        "__v": 0
+      },
+      {
+        "_id": "698c3f072e60f612d832ca42",
+        "action": "Setting updated: ONLINE_BOOKING_ENABLED",
+        "user": "6989539dab97ef87becdb39f",
+        "userName": "Admin",
+        "userRole": "admin",
+        "resource": "SystemSetting",
+        "details": {
+          "key": "ONLINE_BOOKING_ENABLED",
+          "previousValue": "true",
+          "newValue": "true"
+        },
+        "createdAt": "2026-02-11T08:34:15.770Z",
+        "updatedAt": "2026-02-11T08:34:15.770Z",
+        "__v": 0
+      },
+      {
+        "_id": "698c3f072e60f612d832ca46",
+        "action": "Setting updated: WALKIN_ENABLED",
+        "user": "6989539dab97ef87becdb39f",
+        "userName": "Admin",
+        "userRole": "admin",
+        "resource": "SystemSetting",
+        "details": {
+          "key": "WALKIN_ENABLED",
+          "previousValue": "false",
+          "newValue": "false"
+        },
+        "createdAt": "2026-02-11T08:34:15.777Z",
+        "updatedAt": "2026-02-11T08:34:15.777Z",
+        "__v": 0
+      },
+      {
+        "_id": "698c3f272e60f612d832cace",
+        "action": "Setting updated: WALKIN_ENABLED",
+        "user": "6989539dab97ef87becdb39f",
+        "userName": "Admin",
+        "userRole": "admin",
+        "resource": "SystemSetting",
+        "details": {
+          "key": "WALKIN_ENABLED",
+          "previousValue": "false",
+          "newValue": "true"
+        },
+        "createdAt": "2026-02-11T08:34:47.888Z",
+        "updatedAt": "2026-02-11T08:34:47.888Z",
+        "__v": 0
+      },
+      {
+        "_id": "698c3f292e60f612d832cad3",
+        "action": "Setting updated: ONLINE_BOOKING_ENABLED",
+        "user": "6989539dab97ef87becdb39f",
+        "userName": "Admin",
+        "userRole": "admin",
+        "resource": "SystemSetting",
+        "details": {
+          "key": "ONLINE_BOOKING_ENABLED",
+          "previousValue": "true",
+          "newValue": "false"
+        },
+        "createdAt": "2026-02-11T08:34:49.228Z",
+        "updatedAt": "2026-02-11T08:34:49.228Z",
+        "__v": 0
+      },
+      {
+        "_id": "698c3f2a2e60f612d832cad8",
+        "action": "Setting updated: ONLINE_BOOKING_ENABLED",
+        "user": "6989539dab97ef87becdb39f",
+        "userName": "Admin",
+        "userRole": "admin",
+        "resource": "SystemSetting",
+        "details": {
+          "key": "ONLINE_BOOKING_ENABLED",
+          "previousValue": "false",
+          "newValue": "false"
+        },
+        "createdAt": "2026-02-11T08:34:50.404Z",
+        "updatedAt": "2026-02-11T08:34:50.404Z",
+        "__v": 0
+      },
+      {
+        "_id": "698c3f2a2e60f612d832cadc",
+        "action": "Setting updated: WALKIN_ENABLED",
+        "user": "6989539dab97ef87becdb39f",
+        "userName": "Admin",
+        "userRole": "admin",
+        "resource": "SystemSetting",
+        "details": {
+          "key": "WALKIN_ENABLED",
+          "previousValue": "true",
+          "newValue": "true"
+        },
+        "createdAt": "2026-02-11T08:34:50.415Z",
+        "updatedAt": "2026-02-11T08:34:50.415Z",
+        "__v": 0
+      },
+      {
+        "_id": "698c43eed5d6d04f9c9c982c",
+        "action": "Setting updated: ONLINE_BOOKING_ENABLED",
+        "user": "6989539dab97ef87becdb39f",
+        "userName": "Admin",
+        "userRole": "admin",
+        "resource": "SystemSetting",
+        "details": {
+          "key": "ONLINE_BOOKING_ENABLED",
+          "previousValue": "false",
+          "newValue": "true"
+        },
+        "createdAt": "2026-02-11T08:55:10.807Z",
+        "updatedAt": "2026-02-11T08:55:10.807Z",
+        "__v": 0
+      },
+      {
+        "_id": "698c43efd5d6d04f9c9c9831",
+        "action": "Setting updated: ONLINE_BOOKING_ENABLED",
+        "user": "6989539dab97ef87becdb39f",
+        "userName": "Admin",
+        "userRole": "admin",
+        "resource": "SystemSetting",
+        "details": {
+          "key": "ONLINE_BOOKING_ENABLED",
+          "previousValue": "true",
+          "newValue": "false"
+        },
+        "createdAt": "2026-02-11T08:55:11.887Z",
+        "updatedAt": "2026-02-11T08:55:11.887Z",
+        "__v": 0
+      },
+      {
+        "_id": "698c4436d5d6d04f9c9c98c9",
+        "action": "Setting updated: ONLINE_BOOKING_ENABLED",
+        "user": "6989539dab97ef87becdb39f",
+        "userName": "Admin",
+        "userRole": "admin",
+        "resource": "SystemSetting",
+        "details": {
+          "key": "ONLINE_BOOKING_ENABLED",
+          "previousValue": "false",
+          "newValue": "true"
+        },
+        "createdAt": "2026-02-11T08:56:22.754Z",
+        "updatedAt": "2026-02-11T08:56:22.754Z",
+        "__v": 0
+      },
+      {
+        "_id": "698c4439d5d6d04f9c9c98dc",
+        "action": "Setting updated: AUTO_BACKUP_ENABLED",
+        "user": "6989539dab97ef87becdb39f",
+        "userName": "Admin",
+        "userRole": "admin",
+        "resource": "SystemSetting",
+        "details": {
+          "key": "AUTO_BACKUP_ENABLED",
+          "previousValue": "false",
+          "newValue": "true"
+        },
+        "createdAt": "2026-02-11T08:56:25.629Z",
+        "updatedAt": "2026-02-11T08:56:25.629Z",
+        "__v": 0
+      },
+      {
+        "_id": "698c443ad5d6d04f9c9c98e1",
+        "action": "Setting updated: AUTO_BACKUP_ENABLED",
+        "user": "6989539dab97ef87becdb39f",
+        "userName": "Admin",
+        "userRole": "admin",
+        "resource": "SystemSetting",
+        "details": {
+          "key": "AUTO_BACKUP_ENABLED",
+          "previousValue": "true",
+          "newValue": "false"
+        },
+        "createdAt": "2026-02-11T08:56:26.323Z",
+        "updatedAt": "2026-02-11T08:56:26.323Z",
+        "__v": 0
+      },
+      {
+        "_id": "698c443bd5d6d04f9c9c98f0",
+        "action": "Manual backup created",
+        "user": "6989539dab97ef87becdb39f",
+        "userName": "Admin",
+        "resource": "Backup",
+        "details": {
+          "fileName": "backup-2026-02-11T08-56-27-182Z.json"
+        },
+        "createdAt": "2026-02-11T08:56:27.230Z",
+        "updatedAt": "2026-02-11T08:56:27.230Z",
+        "__v": 0
+      },
+      {
+        "_id": "69abf0ae6719ef54b61f370e",
+        "action": "Setting updated: AUTO_BACKUP_ENABLED",
+        "user": "69abf0876719ef54b61f3614",
+        "userName": "Admin",
+        "userRole": "admin",
+        "resource": "SystemSetting",
+        "details": {
+          "key": "AUTO_BACKUP_ENABLED",
+          "previousValue": "false",
+          "newValue": "true"
+        },
+        "createdAt": "2026-03-07T09:32:30.455Z",
+        "updatedAt": "2026-03-07T09:32:30.455Z",
+        "__v": 0
+      },
+      {
+        "_id": "69abf0af6719ef54b61f3713",
+        "action": "Setting updated: AUTO_BACKUP_ENABLED",
+        "user": "69abf0876719ef54b61f3614",
+        "userName": "Admin",
+        "userRole": "admin",
+        "resource": "SystemSetting",
+        "details": {
+          "key": "AUTO_BACKUP_ENABLED",
+          "previousValue": "true",
+          "newValue": "false"
+        },
+        "createdAt": "2026-03-07T09:32:31.052Z",
+        "updatedAt": "2026-03-07T09:32:31.052Z",
+        "__v": 0
+      },
+      {
+        "_id": "69abf0b66719ef54b61f3736",
+        "action": "Setting updated: ONLINE_BOOKING_ENABLED",
+        "user": "69abf0876719ef54b61f3614",
+        "userName": "Admin",
+        "userRole": "admin",
+        "resource": "SystemSetting",
+        "details": {
+          "key": "ONLINE_BOOKING_ENABLED",
+          "previousValue": "true",
+          "newValue": "false"
+        },
+        "createdAt": "2026-03-07T09:32:38.055Z",
+        "updatedAt": "2026-03-07T09:32:38.055Z",
+        "__v": 0
+      },
+      {
+        "_id": "69abf0b96719ef54b61f374d",
+        "action": "Setting updated: ONLINE_BOOKING_ENABLED",
+        "user": "69abf0876719ef54b61f3614",
+        "userName": "Admin",
+        "userRole": "admin",
+        "resource": "SystemSetting",
+        "details": {
+          "key": "ONLINE_BOOKING_ENABLED",
+          "previousValue": "false",
+          "newValue": "false"
+        },
+        "createdAt": "2026-03-07T09:32:41.628Z",
+        "updatedAt": "2026-03-07T09:32:41.628Z",
+        "__v": 0
+      },
+      {
+        "_id": "69abf0b96719ef54b61f3751",
+        "action": "Setting updated: WALKIN_ENABLED",
+        "user": "69abf0876719ef54b61f3614",
+        "userName": "Admin",
+        "userRole": "admin",
+        "resource": "SystemSetting",
+        "details": {
+          "key": "WALKIN_ENABLED",
+          "previousValue": "true",
+          "newValue": "true"
+        },
+        "createdAt": "2026-03-07T09:32:41.631Z",
+        "updatedAt": "2026-03-07T09:32:41.631Z",
+        "__v": 0
+      }
+    ],
+    "Holiday": [],
+    "WasteReport": [],
+    "Forecast": [
+      {
+        "_id": "69895e62b92c8b7c3a8c2add",
+        "date": "2026-02-08T18:30:00.000Z",
+        "mealType": "DINNER",
+        "predictedCount": 50,
+        "weatherCondition": "Unknown",
+        "isSpecialPeriod": false,
+        "specialPeriodType": "Normal",
+        "modelVersion": "v1.0",
+        "canteenId": "default",
+        "itemForecasts": [],
+        "createdAt": "2026-02-09T04:11:14.988Z",
+        "updatedAt": "2026-02-09T04:11:14.988Z",
+        "__v": 0
+      },
+      {
+        "_id": "69895e62b92c8b7c3a8c2adf",
+        "date": "2026-02-08T18:30:00.000Z",
+        "mealType": "SNACKS",
+        "predictedCount": 50,
+        "weatherCondition": "Unknown",
+        "isSpecialPeriod": false,
+        "specialPeriodType": "Normal",
+        "modelVersion": "v1.0",
+        "canteenId": "default",
+        "itemForecasts": [],
+        "createdAt": "2026-02-09T04:11:14.996Z",
+        "updatedAt": "2026-02-09T04:11:14.996Z",
+        "__v": 0
+      },
+      {
+        "_id": "69895e62b92c8b7c3a8c2ae1",
+        "date": "2026-02-08T18:30:00.000Z",
+        "mealType": "BREAKFAST",
+        "predictedCount": 50,
+        "weatherCondition": "Unknown",
+        "isSpecialPeriod": false,
+        "specialPeriodType": "Normal",
+        "modelVersion": "v1.0",
+        "canteenId": "default",
+        "itemForecasts": [],
+        "createdAt": "2026-02-09T04:11:15.000Z",
+        "updatedAt": "2026-02-09T04:11:15.000Z",
+        "__v": 0
+      },
+      {
+        "_id": "69895e63b92c8b7c3a8c2ae3",
+        "date": "2026-02-08T18:30:00.000Z",
+        "mealType": "LUNCH",
+        "predictedCount": 50,
+        "weatherCondition": "Unknown",
+        "isSpecialPeriod": false,
+        "specialPeriodType": "Normal",
+        "modelVersion": "v1.0",
+        "canteenId": "default",
+        "itemForecasts": [],
+        "createdAt": "2026-02-09T04:11:15.004Z",
+        "updatedAt": "2026-02-09T04:11:15.004Z",
+        "__v": 0
+      },
+      {
+        "_id": "69895e63b92c8b7c3a8c2af8",
+        "date": "2026-02-09T18:30:00.000Z",
+        "mealType": "BREAKFAST",
+        "predictedCount": 50,
+        "weatherCondition": "Unknown",
+        "isSpecialPeriod": false,
+        "specialPeriodType": "Normal",
+        "modelVersion": "v1.0",
+        "canteenId": "default",
+        "itemForecasts": [],
+        "createdAt": "2026-02-09T04:11:15.036Z",
+        "updatedAt": "2026-02-09T04:11:15.036Z",
+        "__v": 0
+      },
+      {
+        "_id": "69895e63b92c8b7c3a8c2afb",
+        "date": "2026-02-09T18:30:00.000Z",
+        "mealType": "LUNCH",
+        "predictedCount": 50,
+        "weatherCondition": "Unknown",
+        "isSpecialPeriod": false,
+        "specialPeriodType": "Normal",
+        "modelVersion": "v1.0",
+        "canteenId": "default",
+        "itemForecasts": [],
+        "createdAt": "2026-02-09T04:11:15.040Z",
+        "updatedAt": "2026-02-09T04:11:15.040Z",
+        "__v": 0
+      },
+      {
+        "_id": "69895e63b92c8b7c3a8c2afd",
+        "date": "2026-02-09T18:30:00.000Z",
+        "mealType": "DINNER",
+        "predictedCount": 50,
+        "weatherCondition": "Unknown",
+        "isSpecialPeriod": false,
+        "specialPeriodType": "Normal",
+        "modelVersion": "v1.0",
+        "canteenId": "default",
+        "itemForecasts": [],
+        "createdAt": "2026-02-09T04:11:15.043Z",
+        "updatedAt": "2026-02-09T04:11:15.043Z",
+        "__v": 0
+      },
+      {
+        "_id": "69895e63b92c8b7c3a8c2aff",
+        "date": "2026-02-09T18:30:00.000Z",
+        "mealType": "SNACKS",
+        "predictedCount": 50,
+        "weatherCondition": "Unknown",
+        "isSpecialPeriod": false,
+        "specialPeriodType": "Normal",
+        "modelVersion": "v1.0",
+        "canteenId": "default",
+        "itemForecasts": [],
+        "createdAt": "2026-02-09T04:11:15.047Z",
+        "updatedAt": "2026-02-09T04:11:15.047Z",
+        "__v": 0
+      },
+      {
+        "_id": "69895e63b92c8b7c3a8c2b15",
+        "date": "2026-02-10T18:30:00.000Z",
+        "mealType": "BREAKFAST",
+        "predictedCount": 50,
+        "weatherCondition": "Unknown",
+        "isSpecialPeriod": false,
+        "specialPeriodType": "Normal",
+        "modelVersion": "v1.0",
+        "canteenId": "default",
+        "itemForecasts": [],
+        "createdAt": "2026-02-09T04:11:15.063Z",
+        "updatedAt": "2026-02-09T04:11:15.063Z",
+        "__v": 0
+      },
+      {
+        "_id": "69895e63b92c8b7c3a8c2b17",
+        "date": "2026-02-10T18:30:00.000Z",
+        "mealType": "DINNER",
+        "predictedCount": 50,
+        "weatherCondition": "Unknown",
+        "isSpecialPeriod": false,
+        "specialPeriodType": "Normal",
+        "modelVersion": "v1.0",
+        "canteenId": "default",
+        "itemForecasts": [],
+        "createdAt": "2026-02-09T04:11:15.064Z",
+        "updatedAt": "2026-02-09T04:11:15.064Z",
+        "__v": 0
+      },
+      {
+        "_id": "69895e63b92c8b7c3a8c2b19",
+        "date": "2026-02-10T18:30:00.000Z",
+        "mealType": "LUNCH",
+        "predictedCount": 50,
+        "weatherCondition": "Unknown",
+        "isSpecialPeriod": false,
+        "specialPeriodType": "Normal",
+        "modelVersion": "v1.0",
+        "canteenId": "default",
+        "itemForecasts": [],
+        "createdAt": "2026-02-09T04:11:15.066Z",
+        "updatedAt": "2026-02-09T04:11:15.066Z",
+        "__v": 0
+      },
+      {
+        "_id": "69895e63b92c8b7c3a8c2b1b",
+        "date": "2026-02-10T18:30:00.000Z",
+        "mealType": "SNACKS",
+        "predictedCount": 50,
+        "weatherCondition": "Unknown",
+        "isSpecialPeriod": false,
+        "specialPeriodType": "Normal",
+        "modelVersion": "v1.0",
+        "canteenId": "default",
+        "itemForecasts": [],
+        "createdAt": "2026-02-09T04:11:15.067Z",
+        "updatedAt": "2026-02-09T04:11:15.067Z",
+        "__v": 0
+      },
+      {
+        "_id": "69895e63b92c8b7c3a8c2b31",
+        "date": "2026-02-11T18:30:00.000Z",
+        "mealType": "LUNCH",
+        "predictedCount": 50,
+        "weatherCondition": "Unknown",
+        "isSpecialPeriod": false,
+        "specialPeriodType": "Normal",
+        "modelVersion": "v1.0",
+        "canteenId": "default",
+        "itemForecasts": [],
+        "createdAt": "2026-02-09T04:11:15.080Z",
+        "updatedAt": "2026-02-09T04:11:15.080Z",
+        "__v": 0
+      },
+      {
+        "_id": "69895e63b92c8b7c3a8c2b33",
+        "date": "2026-02-11T18:30:00.000Z",
+        "mealType": "SNACKS",
+        "predictedCount": 50,
+        "weatherCondition": "Unknown",
+        "isSpecialPeriod": false,
+        "specialPeriodType": "Normal",
+        "modelVersion": "v1.0",
+        "canteenId": "default",
+        "itemForecasts": [],
+        "createdAt": "2026-02-09T04:11:15.081Z",
+        "updatedAt": "2026-02-09T04:11:15.081Z",
+        "__v": 0
+      },
+      {
+        "_id": "69895e63b92c8b7c3a8c2b35",
+        "date": "2026-02-11T18:30:00.000Z",
+        "mealType": "BREAKFAST",
+        "predictedCount": 50,
+        "weatherCondition": "Unknown",
+        "isSpecialPeriod": false,
+        "specialPeriodType": "Normal",
+        "modelVersion": "v1.0",
+        "canteenId": "default",
+        "itemForecasts": [],
+        "createdAt": "2026-02-09T04:11:15.082Z",
+        "updatedAt": "2026-02-09T04:11:15.082Z",
+        "__v": 0
+      },
+      {
+        "_id": "69895e63b92c8b7c3a8c2b37",
+        "date": "2026-02-11T18:30:00.000Z",
+        "mealType": "DINNER",
+        "predictedCount": 50,
+        "weatherCondition": "Unknown",
+        "isSpecialPeriod": false,
+        "specialPeriodType": "Normal",
+        "modelVersion": "v1.0",
+        "canteenId": "default",
+        "itemForecasts": [],
+        "createdAt": "2026-02-09T04:11:15.084Z",
+        "updatedAt": "2026-02-09T04:11:15.084Z",
+        "__v": 0
+      },
+      {
+        "_id": "69895e63b92c8b7c3a8c2b4d",
+        "date": "2026-02-12T18:30:00.000Z",
+        "mealType": "BREAKFAST",
+        "predictedCount": 50,
+        "weatherCondition": "Unknown",
+        "isSpecialPeriod": false,
+        "specialPeriodType": "Normal",
+        "modelVersion": "v1.0",
+        "canteenId": "default",
+        "itemForecasts": [],
+        "createdAt": "2026-02-09T04:11:15.097Z",
+        "updatedAt": "2026-02-09T04:11:15.097Z",
+        "__v": 0
+      },
+      {
+        "_id": "69895e63b92c8b7c3a8c2b4f",
+        "date": "2026-02-12T18:30:00.000Z",
+        "mealType": "LUNCH",
+        "predictedCount": 50,
+        "weatherCondition": "Unknown",
+        "isSpecialPeriod": false,
+        "specialPeriodType": "Normal",
+        "modelVersion": "v1.0",
+        "canteenId": "default",
+        "itemForecasts": [],
+        "createdAt": "2026-02-09T04:11:15.098Z",
+        "updatedAt": "2026-02-09T04:11:15.098Z",
+        "__v": 0
+      },
+      {
+        "_id": "69895e63b92c8b7c3a8c2b51",
+        "date": "2026-02-12T18:30:00.000Z",
+        "mealType": "DINNER",
+        "predictedCount": 50,
+        "weatherCondition": "Unknown",
+        "isSpecialPeriod": false,
+        "specialPeriodType": "Normal",
+        "modelVersion": "v1.0",
+        "canteenId": "default",
+        "itemForecasts": [],
+        "createdAt": "2026-02-09T04:11:15.100Z",
+        "updatedAt": "2026-02-09T04:11:15.100Z",
+        "__v": 0
+      },
+      {
+        "_id": "69895e63b92c8b7c3a8c2b53",
+        "date": "2026-02-12T18:30:00.000Z",
+        "mealType": "SNACKS",
+        "predictedCount": 50,
+        "weatherCondition": "Unknown",
+        "isSpecialPeriod": false,
+        "specialPeriodType": "Normal",
+        "modelVersion": "v1.0",
+        "canteenId": "default",
+        "itemForecasts": [],
+        "createdAt": "2026-02-09T04:11:15.101Z",
+        "updatedAt": "2026-02-09T04:11:15.101Z",
+        "__v": 0
+      },
+      {
+        "_id": "69895e63b92c8b7c3a8c2b66",
+        "date": "2026-02-13T18:30:00.000Z",
+        "mealType": "DINNER",
+        "predictedCount": 50,
+        "weatherCondition": "Unknown",
+        "isSpecialPeriod": true,
+        "specialPeriodType": "Weekend",
+        "modelVersion": "v1.0",
+        "canteenId": "default",
+        "itemForecasts": [],
+        "createdAt": "2026-02-09T04:11:15.112Z",
+        "updatedAt": "2026-02-09T04:11:15.112Z",
+        "__v": 0
+      },
+      {
+        "_id": "69895e63b92c8b7c3a8c2b6b",
+        "date": "2026-02-13T18:30:00.000Z",
+        "mealType": "LUNCH",
+        "predictedCount": 50,
+        "weatherCondition": "Unknown",
+        "isSpecialPeriod": true,
+        "specialPeriodType": "Weekend",
+        "modelVersion": "v1.0",
+        "canteenId": "default",
+        "itemForecasts": [],
+        "createdAt": "2026-02-09T04:11:15.118Z",
+        "updatedAt": "2026-02-09T04:11:15.118Z",
+        "__v": 0
+      },
+      {
+        "_id": "69895e63b92c8b7c3a8c2b6d",
+        "date": "2026-02-13T18:30:00.000Z",
+        "mealType": "BREAKFAST",
+        "predictedCount": 50,
+        "weatherCondition": "Unknown",
+        "isSpecialPeriod": true,
+        "specialPeriodType": "Weekend",
+        "modelVersion": "v1.0",
+        "canteenId": "default",
+        "itemForecasts": [],
+        "createdAt": "2026-02-09T04:11:15.121Z",
+        "updatedAt": "2026-02-09T04:11:15.121Z",
+        "__v": 0
+      },
+      {
+        "_id": "69895e63b92c8b7c3a8c2b6f",
+        "date": "2026-02-13T18:30:00.000Z",
+        "mealType": "SNACKS",
+        "predictedCount": 50,
+        "weatherCondition": "Unknown",
+        "isSpecialPeriod": true,
+        "specialPeriodType": "Weekend",
+        "modelVersion": "v1.0",
+        "canteenId": "default",
+        "itemForecasts": [],
+        "createdAt": "2026-02-09T04:11:15.124Z",
+        "updatedAt": "2026-02-09T04:11:15.124Z",
+        "__v": 0
+      },
+      {
+        "_id": "69895e63b92c8b7c3a8c2b85",
+        "date": "2026-02-14T18:30:00.000Z",
+        "mealType": "BREAKFAST",
+        "predictedCount": 50,
+        "weatherCondition": "Unknown",
+        "isSpecialPeriod": true,
+        "specialPeriodType": "Weekend",
+        "modelVersion": "v1.0",
+        "canteenId": "default",
+        "itemForecasts": [],
+        "createdAt": "2026-02-09T04:11:15.154Z",
+        "updatedAt": "2026-02-09T04:11:15.154Z",
+        "__v": 0
+      },
+      {
+        "_id": "69895e63b92c8b7c3a8c2b87",
+        "date": "2026-02-14T18:30:00.000Z",
+        "mealType": "LUNCH",
+        "predictedCount": 0,
+        "weatherCondition": "Unknown",
+        "isSpecialPeriod": true,
+        "specialPeriodType": "Weekend",
+        "modelVersion": "v1.0",
+        "canteenId": "default",
+        "itemForecasts": [],
+        "createdAt": "2026-02-09T04:11:15.157Z",
+        "updatedAt": "2026-02-09T04:11:15.157Z",
+        "__v": 0
+      },
+      {
+        "_id": "69895e63b92c8b7c3a8c2b89",
+        "date": "2026-02-14T18:30:00.000Z",
+        "mealType": "DINNER",
+        "predictedCount": 50,
+        "weatherCondition": "Unknown",
+        "isSpecialPeriod": true,
+        "specialPeriodType": "Weekend",
+        "modelVersion": "v1.0",
+        "canteenId": "default",
+        "itemForecasts": [],
+        "createdAt": "2026-02-09T04:11:15.160Z",
+        "updatedAt": "2026-02-09T04:11:15.160Z",
+        "__v": 0
+      },
+      {
+        "_id": "69895e63b92c8b7c3a8c2b8b",
+        "date": "2026-02-14T18:30:00.000Z",
+        "mealType": "SNACKS",
+        "predictedCount": 50,
+        "weatherCondition": "Unknown",
+        "isSpecialPeriod": true,
+        "specialPeriodType": "Weekend",
+        "modelVersion": "v1.0",
+        "canteenId": "default",
+        "itemForecasts": [],
+        "createdAt": "2026-02-09T04:11:15.162Z",
+        "updatedAt": "2026-02-09T04:11:15.162Z",
+        "__v": 0
+      },
+      {
+        "_id": "698a339ada3d1eb58a68572e",
+        "date": "2026-02-15T18:30:00.000Z",
+        "mealType": "BREAKFAST",
+        "predictedCount": 50,
+        "weatherCondition": "Unknown",
+        "isSpecialPeriod": false,
+        "specialPeriodType": "Normal",
+        "modelVersion": "v1.0",
+        "canteenId": "default",
+        "itemForecasts": [],
+        "createdAt": "2026-02-09T19:20:58.084Z",
+        "updatedAt": "2026-02-09T19:20:58.084Z",
+        "__v": 0
+      },
+      {
+        "_id": "698a339ada3d1eb58a685730",
+        "date": "2026-02-15T18:30:00.000Z",
+        "mealType": "DINNER",
+        "predictedCount": 50,
+        "weatherCondition": "Unknown",
+        "isSpecialPeriod": false,
+        "specialPeriodType": "Normal",
+        "modelVersion": "v1.0",
+        "canteenId": "default",
+        "itemForecasts": [],
+        "createdAt": "2026-02-09T19:20:58.090Z",
+        "updatedAt": "2026-02-09T19:20:58.090Z",
+        "__v": 0
+      },
+      {
+        "_id": "698a339ada3d1eb58a685732",
+        "date": "2026-02-15T18:30:00.000Z",
+        "mealType": "LUNCH",
+        "predictedCount": 50,
+        "weatherCondition": "Unknown",
+        "isSpecialPeriod": false,
+        "specialPeriodType": "Normal",
+        "modelVersion": "v1.0",
+        "canteenId": "default",
+        "itemForecasts": [],
+        "createdAt": "2026-02-09T19:20:58.093Z",
+        "updatedAt": "2026-02-09T19:20:58.093Z",
+        "__v": 0
+      },
+      {
+        "_id": "698a339ada3d1eb58a685734",
+        "date": "2026-02-15T18:30:00.000Z",
+        "mealType": "SNACKS",
+        "predictedCount": 50,
+        "weatherCondition": "Unknown",
+        "isSpecialPeriod": false,
+        "specialPeriodType": "Normal",
+        "modelVersion": "v1.0",
+        "canteenId": "default",
+        "itemForecasts": [],
+        "createdAt": "2026-02-09T19:20:58.098Z",
+        "updatedAt": "2026-02-09T19:20:58.098Z",
+        "__v": 0
+      },
+      {
+        "_id": "698c450ad5d6d04f9c9c9c39",
+        "date": "2026-02-16T18:30:00.000Z",
+        "mealType": "LUNCH",
+        "predictedCount": 0,
+        "weatherCondition": "Unknown",
+        "isSpecialPeriod": false,
+        "specialPeriodType": "Normal",
+        "modelVersion": "v1.0",
+        "canteenId": "default",
+        "itemForecasts": [],
+        "createdAt": "2026-02-11T08:59:54.229Z",
+        "updatedAt": "2026-02-11T08:59:54.229Z",
+        "__v": 0
+      },
+      {
+        "_id": "698c450ad5d6d04f9c9c9c3e",
+        "date": "2026-02-16T18:30:00.000Z",
+        "mealType": "BREAKFAST",
+        "predictedCount": 50,
+        "weatherCondition": "Unknown",
+        "isSpecialPeriod": false,
+        "specialPeriodType": "Normal",
+        "modelVersion": "v1.0",
+        "canteenId": "default",
+        "itemForecasts": [],
+        "createdAt": "2026-02-11T08:59:54.235Z",
+        "updatedAt": "2026-02-11T08:59:54.235Z",
+        "__v": 0
+      },
+      {
+        "_id": "698c450ad5d6d04f9c9c9c40",
+        "date": "2026-02-16T18:30:00.000Z",
+        "mealType": "DINNER",
+        "predictedCount": 50,
+        "weatherCondition": "Unknown",
+        "isSpecialPeriod": false,
+        "specialPeriodType": "Normal",
+        "modelVersion": "v1.0",
+        "canteenId": "default",
+        "itemForecasts": [],
+        "createdAt": "2026-02-11T08:59:54.238Z",
+        "updatedAt": "2026-02-11T08:59:54.238Z",
+        "__v": 0
+      },
+      {
+        "_id": "698c450ad5d6d04f9c9c9c42",
+        "date": "2026-02-16T18:30:00.000Z",
+        "mealType": "SNACKS",
+        "predictedCount": 50,
+        "weatherCondition": "Unknown",
+        "isSpecialPeriod": false,
+        "specialPeriodType": "Normal",
+        "modelVersion": "v1.0",
+        "canteenId": "default",
+        "itemForecasts": [],
+        "createdAt": "2026-02-11T08:59:54.239Z",
+        "updatedAt": "2026-02-11T08:59:54.239Z",
+        "__v": 0
+      },
+      {
+        "_id": "69a3e3db72772239d2419a8a",
+        "date": "2026-02-28T18:30:00.000Z",
+        "mealType": "LUNCH",
+        "predictedCount": 0,
+        "weatherCondition": "Unknown",
+        "isSpecialPeriod": true,
+        "specialPeriodType": "Weekend",
+        "modelVersion": "v1.0",
+        "canteenId": "default",
+        "itemForecasts": [],
+        "createdAt": "2026-03-01T06:59:39.637Z",
+        "updatedAt": "2026-03-01T06:59:39.637Z",
+        "__v": 0
+      },
+      {
+        "_id": "69a3e3db72772239d2419a8c",
+        "date": "2026-02-28T18:30:00.000Z",
+        "mealType": "BREAKFAST",
+        "predictedCount": 50,
+        "weatherCondition": "Unknown",
+        "isSpecialPeriod": true,
+        "specialPeriodType": "Weekend",
+        "modelVersion": "v1.0",
+        "canteenId": "default",
+        "itemForecasts": [],
+        "createdAt": "2026-03-01T06:59:39.641Z",
+        "updatedAt": "2026-03-01T06:59:39.641Z",
+        "__v": 0
+      },
+      {
+        "_id": "69a3e3db72772239d2419a8f",
+        "date": "2026-02-28T18:30:00.000Z",
+        "mealType": "SNACKS",
+        "predictedCount": 50,
+        "weatherCondition": "Unknown",
+        "isSpecialPeriod": true,
+        "specialPeriodType": "Weekend",
+        "modelVersion": "v1.0",
+        "canteenId": "default",
+        "itemForecasts": [],
+        "createdAt": "2026-03-01T06:59:39.645Z",
+        "updatedAt": "2026-03-01T06:59:39.645Z",
+        "__v": 0
+      },
+      {
+        "_id": "69a3e3db72772239d2419a91",
+        "date": "2026-02-28T18:30:00.000Z",
+        "mealType": "DINNER",
+        "predictedCount": 50,
+        "weatherCondition": "Unknown",
+        "isSpecialPeriod": true,
+        "specialPeriodType": "Weekend",
+        "modelVersion": "v1.0",
+        "canteenId": "default",
+        "itemForecasts": [],
+        "createdAt": "2026-03-01T06:59:39.647Z",
+        "updatedAt": "2026-03-01T06:59:39.647Z",
+        "__v": 0
+      },
+      {
+        "_id": "69abf0886719ef54b61f3633",
+        "date": "2026-03-06T18:30:00.000Z",
+        "mealType": "LUNCH",
+        "predictedCount": 50,
+        "weatherCondition": "Unknown",
+        "isSpecialPeriod": true,
+        "specialPeriodType": "Weekend",
+        "modelVersion": "v1.0",
+        "canteenId": "default",
+        "itemForecasts": [],
+        "createdAt": "2026-03-07T09:31:52.170Z",
+        "updatedAt": "2026-03-07T09:31:52.170Z",
+        "__v": 0
+      },
+      {
+        "_id": "69abf0886719ef54b61f3636",
+        "date": "2026-03-06T18:30:00.000Z",
+        "mealType": "SNACKS",
+        "predictedCount": 50,
+        "weatherCondition": "Unknown",
+        "isSpecialPeriod": true,
+        "specialPeriodType": "Weekend",
+        "modelVersion": "v1.0",
+        "canteenId": "default",
+        "itemForecasts": [],
+        "createdAt": "2026-03-07T09:31:52.175Z",
+        "updatedAt": "2026-03-07T09:31:52.175Z",
+        "__v": 0
+      },
+      {
+        "_id": "69abf0886719ef54b61f3638",
+        "date": "2026-03-06T18:30:00.000Z",
+        "mealType": "BREAKFAST",
+        "predictedCount": 50,
+        "weatherCondition": "Unknown",
+        "isSpecialPeriod": true,
+        "specialPeriodType": "Weekend",
+        "modelVersion": "v1.0",
+        "canteenId": "default",
+        "itemForecasts": [],
+        "createdAt": "2026-03-07T09:31:52.177Z",
+        "updatedAt": "2026-03-07T09:31:52.177Z",
+        "__v": 0
+      },
+      {
+        "_id": "69abf0886719ef54b61f363a",
+        "date": "2026-03-06T18:30:00.000Z",
+        "mealType": "DINNER",
+        "predictedCount": 50,
+        "weatherCondition": "Unknown",
+        "isSpecialPeriod": true,
+        "specialPeriodType": "Weekend",
+        "modelVersion": "v1.0",
+        "canteenId": "default",
+        "itemForecasts": [],
+        "createdAt": "2026-03-07T09:31:52.179Z",
+        "updatedAt": "2026-03-07T09:31:52.179Z",
+        "__v": 0
+      }
+    ],
+    "Canteen": [
+      {
+        "_id": "69895b36d3fa9392e199c21f",
+        "name": "prasadha",
+        "location": "Near MBA",
+        "status": "Open",
+        "crowd": "Low",
+        "capacity": 100,
+        "occupancy": 0,
+        "isActive": true,
+        "imageUrl": null,
+        "imageColor": "bg-orange-100",
+        "operatingHours": {
+          "open": "08:00",
+          "close": "20:00"
+        },
+        "ecoScore": "B",
+        "description": "",
+        "createdAt": "2026-02-09T03:57:42.363Z",
+        "updatedAt": "2026-02-10T10:39:19.410Z",
+        "__v": 0
+      },
+      {
+        "_id": "69895ce618e7fcbbc41c5d27",
+        "name": "samudhra",
+        "location": "Near AB2",
+        "status": "Open",
+        "crowd": "Low",
+        "capacity": 150,
+        "occupancy": 0,
+        "isActive": true,
+        "imageUrl": null,
+        "imageColor": "bg-orange-100",
+        "operatingHours": {
+          "open": "08:00",
+          "close": "20:00"
+        },
+        "ecoScore": "B",
+        "description": "",
+        "createdAt": "2026-02-09T04:04:54.519Z",
+        "updatedAt": "2026-02-10T10:34:12.756Z",
+        "__v": 0
+      },
+      {
+        "_id": "69895d0718e7fcbbc41c5d2c",
+        "name": "sopanam",
+        "location": "Near AB1",
+        "status": "Open",
+        "crowd": "Low",
+        "capacity": 100,
+        "occupancy": 0,
+        "isActive": true,
+        "imageUrl": null,
+        "imageColor": "bg-orange-100",
+        "operatingHours": {
+          "open": "08:00",
+          "close": "20:00"
+        },
+        "ecoScore": "B",
+        "description": "",
+        "createdAt": "2026-02-09T04:05:27.876Z",
+        "updatedAt": "2026-02-10T10:34:12.736Z",
+        "__v": 0
+      },
+      {
+        "_id": "698c3c722e60f612d832c7f9",
+        "name": "millet",
+        "location": "near adithi",
+        "status": "Open",
+        "crowd": "Low",
+        "capacity": 100,
+        "occupancy": 0,
+        "isActive": true,
+        "imageUrl": null,
+        "imageColor": "bg-orange-100",
+        "operatingHours": {
+          "open": "08:00",
+          "close": "20:00"
+        },
+        "ecoScore": "B",
+        "description": "",
+        "createdAt": "2026-02-11T08:23:14.030Z",
+        "updatedAt": "2026-02-11T08:23:14.077Z",
+        "__v": 0
+      }
+    ]
+  }
+}

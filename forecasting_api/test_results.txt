@@ -1,0 +1,64 @@
+﻿=== MODEL METRICS ===
+{
+  "cv_mae": 23.26,
+  "mae_test": 15.43,
+  "mae_train": 13.72,
+  "mape": 18.69,
+  "r2": 0.9459,
+  "rmse": 21.38
+}
+Total records: 1386
+Avg demand:    147.16
+
+Top drivers:
+  Evt_vacation               0.2612
+  Is_Vacation                0.1544
+  Day_Num                    0.1010
+  Is_Weekday                 0.0611
+  Is_Veg_Num                 0.0530
+
+=== CHART DATA (Actual vs Predicted, Test Set) ===
+  MON DINNER     Winter_Vacation       Actual=  11  Predicted=  33  Err=200.0%
+  FRI BREAKFAST  Mid_Sem_Exams         Actual= 313  Predicted= 243  Err=22.4%
+  THU LUNCH      Normal                Actual= 234  Predicted= 198  Err=15.4%
+  MON BREAKFAST  Winter_Vacation       Actual=  18  Predicted=  16  Err=11.1%
+  SAT LUNCH      Normal                Actual= 105  Predicted= 109  Err=3.8%
+  THU LUNCH      Normal                Actual= 263  Predicted= 270  Err=2.7%
+  WED BREAKFAST  Normal                Actual= 239  Predicted= 237  Err=0.8%
+  WED BREAKFAST  End_Sem_Exams         Actual= 123  Predicted= 141  Err=14.6%
+  TUE BREAKFAST  Reopen_Day            Actual= 225  Predicted= 278  Err=23.6%
+  SUN LUNCH      Normal                Actual= 134  Predicted= 140  Err=4.5%
+
+=== SCENARIO PREDICTIONS ===
+  MON Lunch      Veg    Normal               Sunny        =>    247 units
+  MON Lunch      Veg    End_Sem_Exams        Sunny        =>    267 units
+  SAT Lunch      Veg    Weekend              Sunny        =>    100 units
+  MON Lunch      Veg    Winter_Vacation      Cold         =>     21 units
+  WED Breakfast  Veg    Normal               Heavy_Rain   =>    197 units
+  FRI Dinner     NonVeg Normal               Cold         =>    201 units
+  MON Lunch      NonVeg Diwali_Week          Sunny        =>    235 units
+  TUE Breakfast  Veg    Diwali_Break         Sunny        =>     12 units
+  THU Lunch      Veg    Navratri_Festival    Sunny        =>    296 units
+  SUN Dinner     Veg    Weekend              Rainy        =>    111 units
+
+=== SANITY CHECKS ===
+  Normal weekday lunch:   247
+  Vacation weekday lunch: 21
+  Ratio: 0.08 (should be < 0.3)
+  => PASS
+
+  Normal weekday lunch: 247
+  Exam weekday lunch:   267
+  Exam > Normal => PASS
+
+  Weekday lunch:  247
+  Weekend lunch:  100
+  Weekend < Weekday => PASS
+
+  Normal sunny:      247
+  Normal heavy rain: 199
+  Rain < Sunny => PASS
+
+========================================
+ALL SANITY CHECKS: PASSED
+========================================

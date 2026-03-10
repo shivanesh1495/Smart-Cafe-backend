@@ -1,0 +1,200 @@
+﻿============================================================
+1. DATA QUALITY AUDIT
+============================================================
+Total records: 248
+Columns: ['Date', 'Day_of_Week', 'Meal_Type', 'Main_Dish', 'Is_Veg', 'Event_Context', 'Weather', 'Qty_Prepared', 'Qty_Consumed', 'Waste_Qty']
+
+Missing values:
+Date             0
+Day_of_Week      0
+Meal_Type        0
+Main_Dish        0
+Is_Veg           0
+Event_Context    0
+Weather          0
+Qty_Prepared     0
+Qty_Consumed     0
+Waste_Qty        0
+dtype: int64
+
+Target (Qty_Consumed) stats:
+count    248.000000
+mean     133.463710
+std       90.354849
+min        8.000000
+25%       48.750000
+50%      147.500000
+75%      206.250000
+max      355.000000
+Name: Qty_Consumed, dtype: float64
+
+Meal_Type distribution:
+Meal_Type
+LUNCH        132
+DINNER        62
+BREAKFAST     54
+Name: count, dtype: int64
+
+Day_of_Week distribution:
+Day_of_Week
+SAT    40
+MON    38
+TUE    38
+THU    36
+WED    35
+FRI    34
+SUN    27
+Name: count, dtype: int64
+
+Event_Context distribution:
+Event_Context
+Normal                  68
+Winter_Vacation         46
+Weekend                 39
+End_Sem_Exams           26
+Diwali_Break            10
+Cyclone_Alert            6
+Post_Festival_Return     5
+Exam_Week                4
+Exam_End_Party           4
+Festival_Week            4
+Lab_Exams                4
+Post_Cyclone             4
+Pre_Reopen               4
+Reopen_Day               3
+Makar_Sankranti          3
+Republic_Day             3
+Diwali                   2
+Post_Festival            2
+Last_Exam_Day            2
+Vacation_Start           2
+Christmas                2
+New_Year_Eve             2
+New_Year_Day             2
+Post_Exam_Break          1
+Name: count, dtype: int64
+
+Weather distribution:
+Weather
+Sunny         101
+Cold           58
+Cloudy         32
+Rainy          19
+Heavy_Rain     16
+Cool           15
+Normal          6
+ColD            1
+Name: count, dtype: int64
+
+Correlation matrix:
+              Qty_Prepared  Qty_Consumed  Waste_Qty
+Qty_Prepared      1.000000      0.922972  -0.422648
+Qty_Consumed      0.922972      1.000000  -0.733082
+Waste_Qty        -0.422648     -0.733082   1.000000
+
+============================================================
+2. CURRENT MODEL (api.py)
+============================================================
+MAE:  17.19
+MAPE: 28.70%
+RMSE: 29.98
+R2:   0.8771
+5-Fold CV MAE: 44.75 (+/- 6.49)
+
+Predictions with >30% error: 10 / 50 (20.0%)
+
+Top 10 worst predictions:
+     Actual  Predicted  Error  Error%
+180      10       54.7   44.7   447.0
+195      60      170.3  110.3   183.8
+38       50      107.1   57.1   114.3
+10      120      241.7  121.7   101.4
+178       8       13.1    5.1    63.8
+158       8       12.3    4.3    54.3
+182      60       84.0   24.0    40.0
+172       8       11.0    3.0    37.4
+67       30       39.7    9.7    32.3
+192      22       15.0    7.0    31.8
+
+Top 10 features:
+Event_Context_Winter_Vacation    0.423132
+Event_Context_Weekend            0.145384
+Is_Holiday                       0.079251
+Is_Exam_Week                     0.052143
+Meal_Type_BREAKFAST              0.031664
+Event_Context_Normal             0.031354
+Event_Context_Pre_Reopen         0.018005
+Event_Context_Vacation_Start     0.017461
+Event_Context_Festival_Week      0.016421
+Is_Veg                           0.014966
+dtype: float64
+
+============================================================
+3. IMPROVED MODELS
+============================================================
+[Improved RF] MAE: 20.86, MAPE: 49.89%, RMSE: 38.82, R2: 0.7939
+[Improved RF] 5-Fold CV MAE: 35.77
+[Gradient Boost] MAE: 23.97, MAPE: 38.24%, RMSE: 39.79, R2: 0.7834
+[Gradient Boost] 5-Fold CV MAE: 40.24
+
+============================================================
+4. COMPARISON SUMMARY
+============================================================
+Model                     MAE      MAPE%    RMSE     R2       CV MAE  
+-----------------------------------------------------------------
+Current (api.py)          17.19    28.70    29.98    0.8771   44.75   
+Improved RF               20.86    49.89    38.82    0.7939   35.77   
+Gradient Boosting         23.97    38.24    39.79    0.7834   40.24   
+
+Best model: Improved RF
+
+--- Per Meal Type ---
+  BREAKFAST: MAE=34.2, MAPE=72.9%, n=6
+  LUNCH: MAE=16.2, MAPE=18.2%, n=29
+  DINNER: MAE=24.4, MAPE=102.0%, n=15
+
+--- Per Event Context ---
+  Cyclone_Alert: MAE=7.1, MAPE=5.9%, n=1
+  Diwali_Break: MAE=3.7, MAPE=10.0%, n=3
+  End_Sem_Exams: MAE=17.6, MAPE=7.4%, n=5
+  Exam_End_Party: MAE=109.3, MAPE=91.1%, n=1
+  Exam_Week: MAE=23.8, MAPE=12.1%, n=2
+  Festival_Week: MAE=10.9, MAPE=4.9%, n=1
+  Lab_Exams: MAE=33.0, MAPE=17.4%, n=1
+  New_Year_Day: MAE=29.4, MAPE=49.0%, n=1
+  New_Year_Eve: MAE=118.2, MAPE=1182.0%, n=1
+  Normal: MAE=16.2, MAPE=7.6%, n=12
+  Post_Cyclone: MAE=32.4, MAPE=16.6%, n=1
+  Post_Festival: MAE=59.6, MAPE=119.1%, n=1
+  Pre_Reopen: MAE=170.8, MAPE=284.6%, n=1
+  Republic_Day: MAE=11.8, MAPE=5.7%, n=2
+  Weekend: MAE=6.2, MAPE=7.8%, n=9
+  Winter_Vacation: MAE=6.4, MAPE=57.5%, n=8
+
+--- Sample Predictions ---
+    Day_of_Week  Meal_Type    Event_Context     Weather  Qty_Consumed  Predicted  Error_Pct
+33          TUE      LUNCH    Festival_Week       Sunny           220        209        4.9
+6           MON  BREAKFAST        Exam_Week       Sunny           290        279        3.9
+182         THU     DINNER     New_Year_Day  Heavy_Rain            60         89       49.0
+86          FRI     DINNER        Lab_Exams      Cloudy           190        223       17.4
+156         FRI  BREAKFAST  Winter_Vacation        Cold            12         20       63.2
+246         SAT      LUNCH          Weekend       Sunny            88         80        9.6
+195         THU  BREAKFAST       Pre_Reopen       Rainy            60        231      284.6
+104         FRI      LUNCH     Post_Cyclone      Cloudy           195        163       16.6
+9           TUE      LUNCH        Exam_Week       Rainy           180        216       20.2
+235         MON      LUNCH     Republic_Day       Sunny           230        223        2.9
+232         SUN     DINNER          Weekend      Cloudy            75         77        2.1
+236         MON      LUNCH     Republic_Day       Sunny           200        217        8.5
+238         TUE      LUNCH           Normal       Sunny           205        191        6.8
+178         TUE  BREAKFAST  Winter_Vacation        Cold             8         14       76.8
+66          WED      LUNCH     Diwali_Break       Sunny            35         33        6.8
+158         SAT      LUNCH  Winter_Vacation        Cold             8         11       36.3
+192         TUE     DINNER  Winter_Vacation        Cold            22         13       41.4
+15          FRI      LUNCH           Normal  Heavy_Rain           245        158       35.4
+183         FRI      LUNCH  Winter_Vacation        Cold            12         21       73.4
+24          WED     DINNER           Normal      Cloudy           175        167        4.4
+120         THU      LUNCH    End_Sem_Exams       Rainy           240        207       13.6
+19          MON      LUNCH           Normal       Sunny           215        203        5.4
+112         MON      LUNCH    End_Sem_Exams        ColD           235        217        7.8
+67          WED  BREAKFAST     Diwali_Break       Sunny            30         32        5.9
+222         TUE     DINNER           Normal        Cold           195        180        7.9

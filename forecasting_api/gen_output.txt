@@ -1,0 +1,57 @@
+﻿Generated 1386 records
+Date range: 01-08-2025 to 31-05-2026
+
+Meal distribution:
+Meal_Type
+DINNER       479
+LUNCH        458
+BREAKFAST    449
+Name: count, dtype: int64
+
+Event distribution:
+Event_Context
+Normal               778
+Summer_Vacation      139
+Winter_Vacation      116
+End_Sem_Exams        112
+Mid_Sem_Exams         45
+Diwali_Week           26
+Navratri_Festival     24
+Exam_End_Break        24
+Lab_Exams             23
+Cultural_Fest         23
+Holi_Festival         22
+Diwali_Break          21
+Orientation           12
+New_Year               5
+Christmas              4
+Reopen_Day             4
+Makar_Sankranti        4
+Republic_Day           4
+Name: count, dtype: int64
+
+Weather distribution:
+Weather
+Sunny         386
+Cloudy        247
+Hot           210
+Rainy         135
+Cool          126
+Humid          89
+Warm           78
+Cold           69
+Heavy_Rain     46
+Name: count, dtype: int64
+
+Qty_Consumed stats:
+count    1386.000000
+mean      147.164502
+std        93.158661
+min         4.000000
+25%        75.000000
+50%       151.000000
+75%       218.000000
+max       397.000000
+Name: Qty_Consumed, dtype: float64
+
+Saved to cafeteria_data_full_quarter.csv

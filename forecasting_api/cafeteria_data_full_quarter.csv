@@ -1,0 +1,1392 @@
+Date,Day_of_Week,Meal_Type,Main_Dish,Is_Veg,Event_Context,Weather,Qty_Prepared,Qty_Consumed,Waste_Qty
+01-08-2025,FRI,BREAKFAST,Idli Sambar,True,Orientation,Humid,334,278,56
+01-08-2025,FRI,LUNCH,Dal Makhani,True,Orientation,Humid,297,279,18
+01-08-2025,FRI,LUNCH,Fish Fry,False,Orientation,Humid,267,263,4
+01-08-2025,FRI,DINNER,Rasam Rice,True,Orientation,Humid,222,199,23
+02-08-2025,SAT,BREAKFAST,Bread Omelette,False,Orientation,Humid,111,88,23
+02-08-2025,SAT,LUNCH,Sambar Rice,True,Orientation,Humid,172,147,25
+02-08-2025,SAT,DINNER,Veg Fried Rice,True,Orientation,Humid,114,92,22
+03-08-2025,SUN,BREAKFAST,Aloo Paratha,True,Orientation,Rainy,125,112,13
+03-08-2025,SUN,LUNCH,Dal Makhani,True,Orientation,Rainy,149,128,21
+03-08-2025,SUN,LUNCH,Dal Fry,True,Orientation,Rainy,135,133,2
+03-08-2025,SUN,DINNER,Chapati Kurma,True,Orientation,Rainy,97,97,0
+03-08-2025,SUN,DINNER,Paneer Tikka,True,Orientation,Rainy,112,90,22
+04-08-2025,MON,BREAKFAST,Chana Masala,True,Normal,Humid,265,224,41
+04-08-2025,MON,BREAKFAST,Poha,True,Normal,Humid,298,291,7
+04-08-2025,MON,LUNCH,Dal Makhani,True,Normal,Humid,284,268,16
+04-08-2025,MON,DINNER,Rasam Rice,True,Normal,Humid,182,151,31
+04-08-2025,MON,DINNER,Tandoori Chicken,False,Normal,Humid,143,136,7
+05-08-2025,TUE,BREAKFAST,Chana Masala,True,Normal,Cloudy,266,221,45
+05-08-2025,TUE,LUNCH,Chicken Biryani,False,Normal,Cloudy,201,197,4
+05-08-2025,TUE,LUNCH,Veg Biryani,True,Normal,Cloudy,338,295,43
+05-08-2025,TUE,DINNER,Egg Fried Rice,False,Normal,Cloudy,165,132,33
+06-08-2025,WED,BREAKFAST,Bread Omelette,False,Normal,Humid,156,155,1
+06-08-2025,WED,LUNCH,Mix Veg Curry,True,Normal,Humid,273,215,58
+06-08-2025,WED,DINNER,Tandoori Chicken,False,Normal,Humid,164,146,18
+06-08-2025,WED,DINNER,Curd Rice,True,Normal,Humid,222,179,43
+07-08-2025,THU,BREAKFAST,Pongal,True,Normal,Humid,288,255,33
+07-08-2025,THU,LUNCH,Chicken Curry,False,Normal,Humid,157,155,2
+07-08-2025,THU,DINNER,Aloo Palak,True,Normal,Humid,183,167,16
+08-08-2025,FRI,BREAKFAST,Pongal,True,Normal,Rainy,221,199,22
+08-08-2025,FRI,LUNCH,Veg Biryani,True,Normal,Rainy,222,216,6
+08-08-2025,FRI,LUNCH,Dal Fry,True,Normal,Rainy,258,203,55
+08-08-2025,FRI,DINNER,Paneer Tikka,True,Normal,Rainy,203,175,28
+08-08-2025,FRI,DINNER,Curd Rice,True,Normal,Rainy,187,156,31
+09-08-2025,SAT,BREAKFAST,Masala Dosa,True,Normal,Cloudy,157,129,28
+09-08-2025,SAT,LUNCH,Chicken Biryani,False,Normal,Cloudy,104,93,11
+09-08-2025,SAT,DINNER,Prawn Masala,False,Normal,Cloudy,96,77,19
+10-08-2025,SUN,BREAKFAST,Poha,True,Normal,Humid,122,106,16
+10-08-2025,SUN,LUNCH,Kadhi Pakora,True,Normal,Humid,136,120,16
+10-08-2025,SUN,LUNCH,Veg Biryani,True,Normal,Humid,143,126,17
+10-08-2025,SUN,DINNER,Curd Rice,True,Normal,Humid,103,88,15
+11-08-2025,MON,BREAKFAST,Idli Sambar,True,Normal,Rainy,187,168,19
+11-08-2025,MON,LUNCH,Kadhi Pakora,True,Normal,Rainy,258,220,38
+11-08-2025,MON,LUNCH,Veg Biryani,True,Normal,Rainy,237,223,14
+11-08-2025,MON,DINNER,Veg Fried Rice,True,Normal,Rainy,180,163,17
+12-08-2025,TUE,BREAKFAST,Aloo Paratha,True,Normal,Humid,268,254,14
+12-08-2025,TUE,BREAKFAST,Chana Masala,True,Normal,Humid,247,224,23
+12-08-2025,TUE,LUNCH,Kadhi Pakora,True,Normal,Humid,280,280,0
+12-08-2025,TUE,LUNCH,Chicken Curry,False,Normal,Humid,196,189,7
+12-08-2025,TUE,DINNER,Paneer Tikka,True,Normal,Humid,214,176,38
+12-08-2025,TUE,DINNER,Aloo Palak,True,Normal,Humid,197,176,21
+13-08-2025,WED,BREAKFAST,Masala Dosa,True,Normal,Rainy,217,187,30
+13-08-2025,WED,LUNCH,Fish Fry,False,Normal,Rainy,189,174,15
+13-08-2025,WED,LUNCH,Chicken Biryani,False,Normal,Rainy,193,154,39
+13-08-2025,WED,DINNER,Curd Rice,True,Normal,Rainy,183,159,24
+13-08-2025,WED,DINNER,Veg Fried Rice,True,Normal,Rainy,187,172,15
+14-08-2025,THU,BREAKFAST,Pongal,True,Normal,Rainy,238,192,46
+14-08-2025,THU,BREAKFAST,Bread Omelette,False,Normal,Rainy,169,157,12
+14-08-2025,THU,LUNCH,Mutton Curry,False,Normal,Rainy,227,176,51
+14-08-2025,THU,DINNER,Paneer Tikka,True,Normal,Rainy,192,165,27
+15-08-2025,FRI,BREAKFAST,Bread Omelette,False,Normal,Humid,179,178,1
+15-08-2025,FRI,LUNCH,Kadhi Pakora,True,Normal,Humid,270,247,23
+15-08-2025,FRI,DINNER,Tandoori Chicken,False,Normal,Humid,161,127,34
+15-08-2025,FRI,DINNER,Egg Fried Rice,False,Normal,Humid,145,126,19
+16-08-2025,SAT,BREAKFAST,Idli Sambar,True,Normal,Humid,121,95,26
+16-08-2025,SAT,BREAKFAST,Chana Masala,True,Normal,Humid,137,118,19
+16-08-2025,SAT,LUNCH,Chicken Curry,False,Normal,Humid,97,87,10
+16-08-2025,SAT,DINNER,Curd Rice,True,Normal,Humid,103,79,24
+16-08-2025,SAT,DINNER,Rasam Rice,True,Normal,Humid,112,94,18
+17-08-2025,SUN,BREAKFAST,Poha,True,Normal,Cloudy,135,124,11
+17-08-2025,SUN,BREAKFAST,Aloo Paratha,True,Normal,Cloudy,121,101,20
+17-08-2025,SUN,LUNCH,Fish Curry,False,Normal,Cloudy,113,94,19
+17-08-2025,SUN,DINNER,Prawn Masala,False,Normal,Cloudy,88,73,15
+17-08-2025,SUN,DINNER,Paneer Tikka,True,Normal,Cloudy,109,83,26
+18-08-2025,MON,BREAKFAST,Masala Dosa,True,Normal,Humid,241,202,39
+18-08-2025,MON,LUNCH,Paneer Butter Masala,True,Normal,Humid,296,259,37
+18-08-2025,MON,DINNER,Paneer Tikka,True,Normal,Humid,228,175,53
+18-08-2025,MON,DINNER,Prawn Masala,False,Normal,Humid,165,127,38
+19-08-2025,TUE,BREAKFAST,Chana Masala,True,Normal,Humid,285,252,33
+19-08-2025,TUE,LUNCH,Sambar Rice,True,Normal,Humid,271,213,58
+19-08-2025,TUE,LUNCH,Rajma Chawal,True,Normal,Humid,318,261,57
+19-08-2025,TUE,DINNER,Aloo Palak,True,Normal,Humid,226,223,3
+19-08-2025,TUE,DINNER,Veg Fried Rice,True,Normal,Humid,240,208,32
+20-08-2025,WED,BREAKFAST,Pongal,True,Normal,Rainy,218,201,17
+20-08-2025,WED,LUNCH,Fish Curry,False,Normal,Rainy,179,162,17
+20-08-2025,WED,DINNER,Rasam Rice,True,Normal,Rainy,209,171,38
+20-08-2025,WED,DINNER,Prawn Masala,False,Normal,Rainy,122,116,6
+21-08-2025,THU,BREAKFAST,Egg Bhurji,False,Normal,Rainy,153,150,3
+21-08-2025,THU,LUNCH,Veg Biryani,True,Normal,Rainy,274,252,22
+21-08-2025,THU,DINNER,Veg Fried Rice,True,Normal,Rainy,159,151,8
+21-08-2025,THU,DINNER,Prawn Masala,False,Normal,Rainy,167,155,12
+22-08-2025,FRI,BREAKFAST,Masala Dosa,True,Normal,Humid,227,189,38
+22-08-2025,FRI,LUNCH,Chicken Curry,False,Normal,Humid,193,166,27
+22-08-2025,FRI,LUNCH,Fish Fry,False,Normal,Humid,221,204,17
+22-08-2025,FRI,DINNER,Egg Fried Rice,False,Normal,Humid,144,128,16
+22-08-2025,FRI,DINNER,Prawn Masala,False,Normal,Humid,182,157,25
+23-08-2025,SAT,BREAKFAST,Aloo Paratha,True,Normal,Cloudy,139,128,11
+23-08-2025,SAT,LUNCH,Rajma Chawal,True,Normal,Cloudy,132,115,17
+23-08-2025,SAT,DINNER,Chapati Kurma,True,Normal,Cloudy,101,101,0
+23-08-2025,SAT,DINNER,Prawn Masala,False,Normal,Cloudy,57,50,7
+24-08-2025,SUN,BREAKFAST,Idli Sambar,True,Normal,Rainy,93,74,19
+24-08-2025,SUN,LUNCH,Fish Curry,False,Normal,Rainy,91,81,10
+24-08-2025,SUN,DINNER,Veg Fried Rice,True,Normal,Rainy,97,89,8
+25-08-2025,MON,BREAKFAST,Chana Masala,True,Normal,Rainy,195,188,7
+25-08-2025,MON,LUNCH,Mix Veg Curry,True,Normal,Rainy,256,220,36
+25-08-2025,MON,DINNER,Aloo Palak,True,Normal,Rainy,181,166,15
+26-08-2025,TUE,BREAKFAST,Aloo Paratha,True,Normal,Humid,246,235,11
+26-08-2025,TUE,BREAKFAST,Masala Dosa,True,Normal,Humid,275,228,47
+26-08-2025,TUE,LUNCH,Fish Curry,False,Normal,Humid,201,182,19
+26-08-2025,TUE,DINNER,Veg Fried Rice,True,Normal,Humid,183,178,5
+26-08-2025,TUE,DINNER,Egg Fried Rice,False,Normal,Humid,177,155,22
+27-08-2025,WED,BREAKFAST,Pongal,True,Normal,Cloudy,284,265,19
+27-08-2025,WED,LUNCH,Chicken Curry,False,Normal,Cloudy,255,203,52
+27-08-2025,WED,DINNER,Curd Rice,True,Normal,Cloudy,217,194,23
+27-08-2025,WED,DINNER,Chicken Tikka,False,Normal,Cloudy,169,144,25
+28-08-2025,THU,BREAKFAST,Idli Sambar,True,Normal,Cloudy,284,250,34
+28-08-2025,THU,BREAKFAST,Chana Masala,True,Normal,Cloudy,287,237,50
+28-08-2025,THU,LUNCH,Sambar Rice,True,Normal,Cloudy,333,299,34
+28-08-2025,THU,DINNER,Curd Rice,True,Normal,Cloudy,199,198,1
+28-08-2025,THU,DINNER,Rasam Rice,True,Normal,Cloudy,246,197,49
+29-08-2025,FRI,BREAKFAST,Aloo Paratha,True,Normal,Rainy,262,242,20
+29-08-2025,FRI,LUNCH,Paneer Butter Masala,True,Normal,Rainy,242,192,50
+29-08-2025,FRI,LUNCH,Kadhi Pakora,True,Normal,Rainy,286,244,42
+29-08-2025,FRI,DINNER,Aloo Palak,True,Normal,Rainy,168,151,17
+30-08-2025,SAT,BREAKFAST,Pongal,True,Normal,Cloudy,117,104,13
+30-08-2025,SAT,LUNCH,Egg Curry,False,Normal,Cloudy,101,92,9
+30-08-2025,SAT,LUNCH,Mutton Curry,False,Normal,Cloudy,112,112,0
+30-08-2025,SAT,DINNER,Chapati Kurma,True,Normal,Cloudy,104,95,9
+31-08-2025,SUN,BREAKFAST,Pongal,True,Normal,Humid,119,116,3
+31-08-2025,SUN,LUNCH,Paneer Butter Masala,True,Normal,Humid,134,103,31
+31-08-2025,SUN,DINNER,Egg Fried Rice,False,Normal,Humid,67,67,0
+31-08-2025,SUN,DINNER,Tandoori Chicken,False,Normal,Humid,77,73,4
+01-09-2025,MON,BREAKFAST,Idli Sambar,True,Normal,Rainy,223,194,29
+01-09-2025,MON,BREAKFAST,Pongal,True,Normal,Rainy,245,196,49
+01-09-2025,MON,LUNCH,Sambar Rice,True,Normal,Rainy,260,233,27
+01-09-2025,MON,LUNCH,Kadhi Pakora,True,Normal,Rainy,258,231,27
+01-09-2025,MON,DINNER,Egg Fried Rice,False,Normal,Rainy,149,125,24
+01-09-2025,MON,DINNER,Aloo Palak,True,Normal,Rainy,200,154,46
+02-09-2025,TUE,BREAKFAST,Poha,True,Normal,Cloudy,340,291,49
+02-09-2025,TUE,BREAKFAST,Pongal,True,Normal,Cloudy,330,272,58
+02-09-2025,TUE,LUNCH,Dal Makhani,True,Normal,Cloudy,314,281,33
+02-09-2025,TUE,LUNCH,Sambar Rice,True,Normal,Cloudy,287,244,43
+02-09-2025,TUE,DINNER,Curd Rice,True,Normal,Cloudy,223,190,33
+03-09-2025,WED,BREAKFAST,Egg Bhurji,False,Normal,Rainy,170,167,3
+03-09-2025,WED,LUNCH,Sambar Rice,True,Normal,Rainy,253,245,8
+03-09-2025,WED,DINNER,Paneer Tikka,True,Normal,Rainy,176,156,20
+04-09-2025,THU,BREAKFAST,Aloo Paratha,True,Normal,Rainy,239,195,44
+04-09-2025,THU,LUNCH,Rajma Chawal,True,Normal,Rainy,240,206,34
+04-09-2025,THU,LUNCH,Chicken Biryani,False,Normal,Rainy,195,173,22
+04-09-2025,THU,DINNER,Tandoori Chicken,False,Normal,Rainy,110,100,10
+05-09-2025,FRI,BREAKFAST,Pongal,True,Normal,Sunny,318,258,60
+05-09-2025,FRI,LUNCH,Chicken Curry,False,Normal,Sunny,252,210,42
+05-09-2025,FRI,LUNCH,Chicken Biryani,False,Normal,Sunny,219,187,32
+05-09-2025,FRI,DINNER,Aloo Palak,True,Normal,Sunny,220,206,14
+05-09-2025,FRI,DINNER,Veg Fried Rice,True,Normal,Sunny,242,232,10
+06-09-2025,SAT,BREAKFAST,Aloo Paratha,True,Normal,Sunny,141,118,23
+06-09-2025,SAT,BREAKFAST,Poha,True,Normal,Sunny,147,130,17
+06-09-2025,SAT,LUNCH,Paneer Butter Masala,True,Normal,Sunny,199,177,22
+06-09-2025,SAT,LUNCH,Chicken Curry,False,Normal,Sunny,101,94,7
+06-09-2025,SAT,DINNER,Egg Fried Rice,False,Normal,Sunny,92,83,9
+06-09-2025,SAT,DINNER,Curd Rice,True,Normal,Sunny,101,94,7
+07-09-2025,SUN,BREAKFAST,Egg Bhurji,False,Normal,Rainy,88,71,17
+07-09-2025,SUN,LUNCH,Rajma Chawal,True,Normal,Rainy,133,118,15
+07-09-2025,SUN,DINNER,Prawn Masala,False,Normal,Rainy,75,67,8
+08-09-2025,MON,BREAKFAST,Chana Masala,True,Normal,Cloudy,323,265,58
+08-09-2025,MON,LUNCH,Fish Fry,False,Normal,Cloudy,199,174,25
+08-09-2025,MON,DINNER,Curd Rice,True,Normal,Cloudy,215,196,19
+09-09-2025,TUE,BREAKFAST,Egg Bhurji,False,Normal,Cloudy,172,167,5
+09-09-2025,TUE,LUNCH,Chicken Biryani,False,Normal,Cloudy,207,189,18
+09-09-2025,TUE,LUNCH,Egg Curry,False,Normal,Cloudy,237,210,27
+09-09-2025,TUE,DINNER,Prawn Masala,False,Normal,Cloudy,147,135,12
+10-09-2025,WED,BREAKFAST,Poha,True,Normal,Cloudy,250,221,29
+10-09-2025,WED,LUNCH,Rajma Chawal,True,Normal,Cloudy,268,236,32
+10-09-2025,WED,LUNCH,Fish Fry,False,Normal,Cloudy,247,234,13
+10-09-2025,WED,DINNER,Aloo Palak,True,Normal,Cloudy,214,213,1
+11-09-2025,THU,BREAKFAST,Chana Masala,True,Normal,Cloudy,289,236,53
+11-09-2025,THU,LUNCH,Chicken Curry,False,Normal,Cloudy,208,196,12
+11-09-2025,THU,DINNER,Prawn Masala,False,Normal,Cloudy,165,124,41
+11-09-2025,THU,DINNER,Egg Fried Rice,False,Normal,Cloudy,164,121,43
+12-09-2025,FRI,BREAKFAST,Pongal,True,Normal,Cloudy,291,256,35
+12-09-2025,FRI,LUNCH,Mutton Curry,False,Normal,Cloudy,213,187,26
+12-09-2025,FRI,LUNCH,Veg Biryani,True,Normal,Cloudy,260,238,22
+12-09-2025,FRI,DINNER,Chapati Kurma,True,Normal,Cloudy,212,190,22
+13-09-2025,SAT,BREAKFAST,Masala Dosa,True,Normal,Cloudy,117,103,14
+13-09-2025,SAT,LUNCH,Fish Curry,False,Normal,Cloudy,120,106,14
+13-09-2025,SAT,DINNER,Prawn Masala,False,Normal,Cloudy,75,75,0
+13-09-2025,SAT,DINNER,Chicken Tikka,False,Normal,Cloudy,101,89,12
+14-09-2025,SUN,BREAKFAST,Pongal,True,Normal,Sunny,121,108,13
+14-09-2025,SUN,LUNCH,Fish Fry,False,Normal,Sunny,135,108,27
+14-09-2025,SUN,DINNER,Prawn Masala,False,Normal,Sunny,70,67,3
+15-09-2025,MON,BREAKFAST,Poha,True,Mid_Sem_Exams,Rainy,238,213,25
+15-09-2025,MON,BREAKFAST,Aloo Paratha,True,Mid_Sem_Exams,Rainy,236,208,28
+15-09-2025,MON,LUNCH,Sambar Rice,True,Mid_Sem_Exams,Rainy,255,212,43
+15-09-2025,MON,DINNER,Curd Rice,True,Mid_Sem_Exams,Rainy,222,170,52
+15-09-2025,MON,DINNER,Chapati Kurma,True,Mid_Sem_Exams,Rainy,204,188,16
+16-09-2025,TUE,BREAKFAST,Aloo Paratha,True,Mid_Sem_Exams,Cloudy,357,274,83
+16-09-2025,TUE,LUNCH,Aloo Gobi,True,Mid_Sem_Exams,Cloudy,401,392,9
+16-09-2025,TUE,DINNER,Tandoori Chicken,False,Mid_Sem_Exams,Cloudy,175,161,14
+16-09-2025,TUE,DINNER,Paneer Tikka,True,Mid_Sem_Exams,Cloudy,248,195,53
+17-09-2025,WED,BREAKFAST,Poha,True,Mid_Sem_Exams,Rainy,258,222,36
+17-09-2025,WED,LUNCH,Sambar Rice,True,Mid_Sem_Exams,Rainy,267,236,31
+17-09-2025,WED,LUNCH,Paneer Butter Masala,True,Mid_Sem_Exams,Rainy,271,243,28
+17-09-2025,WED,DINNER,Chicken Tikka,False,Mid_Sem_Exams,Rainy,154,134,20
+17-09-2025,WED,DINNER,Veg Fried Rice,True,Mid_Sem_Exams,Rainy,217,203,14
+18-09-2025,THU,BREAKFAST,Pongal,True,Mid_Sem_Exams,Cloudy,294,225,69
+18-09-2025,THU,LUNCH,Mutton Curry,False,Mid_Sem_Exams,Cloudy,295,231,64
+18-09-2025,THU,LUNCH,Sambar Rice,True,Mid_Sem_Exams,Cloudy,394,349,45
+18-09-2025,THU,DINNER,Veg Fried Rice,True,Mid_Sem_Exams,Cloudy,247,222,25
+18-09-2025,THU,DINNER,Tandoori Chicken,False,Mid_Sem_Exams,Cloudy,195,158,37
+19-09-2025,FRI,BREAKFAST,Masala Dosa,True,Mid_Sem_Exams,Cloudy,318,313,5
+19-09-2025,FRI,BREAKFAST,Bread Omelette,False,Mid_Sem_Exams,Cloudy,246,212,34
+19-09-2025,FRI,LUNCH,Dal Makhani,True,Mid_Sem_Exams,Cloudy,298,247,51
+19-09-2025,FRI,DINNER,Veg Fried Rice,True,Mid_Sem_Exams,Cloudy,276,229,47
+20-09-2025,SAT,BREAKFAST,Masala Dosa,True,Normal,Cloudy,134,117,17
+20-09-2025,SAT,BREAKFAST,Bread Omelette,False,Normal,Cloudy,109,93,16
+20-09-2025,SAT,LUNCH,Egg Curry,False,Normal,Cloudy,95,94,1
+20-09-2025,SAT,DINNER,Curd Rice,True,Normal,Cloudy,115,106,9
+20-09-2025,SAT,DINNER,Prawn Masala,False,Normal,Cloudy,78,73,5
+21-09-2025,SUN,BREAKFAST,Idli Sambar,True,Normal,Cloudy,125,100,25
+21-09-2025,SUN,BREAKFAST,Egg Bhurji,False,Normal,Cloudy,104,84,20
+21-09-2025,SUN,LUNCH,Paneer Butter Masala,True,Normal,Cloudy,159,136,23
+21-09-2025,SUN,LUNCH,Chicken Biryani,False,Normal,Cloudy,118,93,25
+21-09-2025,SUN,DINNER,Chapati Kurma,True,Normal,Cloudy,111,90,21
+21-09-2025,SUN,DINNER,Rasam Rice,True,Normal,Cloudy,122,109,13
+22-09-2025,MON,BREAKFAST,Chana Masala,True,Normal,Sunny,242,220,22
+22-09-2025,MON,BREAKFAST,Egg Bhurji,False,Normal,Sunny,182,171,11
+22-09-2025,MON,LUNCH,Kadhi Pakora,True,Normal,Sunny,332,321,11
+22-09-2025,MON,LUNCH,Chicken Biryani,False,Normal,Sunny,250,218,32
+22-09-2025,MON,DINNER,Chicken Tikka,False,Normal,Sunny,164,155,9
+23-09-2025,TUE,BREAKFAST,Masala Dosa,True,Normal,Sunny,325,306,19
+23-09-2025,TUE,LUNCH,Fish Curry,False,Normal,Sunny,263,214,49
+23-09-2025,TUE,DINNER,Chapati Kurma,True,Normal,Sunny,229,182,47
+23-09-2025,TUE,DINNER,Prawn Masala,False,Normal,Sunny,203,184,19
+24-09-2025,WED,BREAKFAST,Chana Masala,True,Normal,Sunny,297,240,57
+24-09-2025,WED,LUNCH,Rajma Chawal,True,Normal,Sunny,368,264,104
+24-09-2025,WED,LUNCH,Chicken Curry,False,Normal,Sunny,225,175,50
+24-09-2025,WED,DINNER,Tandoori Chicken,False,Normal,Sunny,149,129,20
+24-09-2025,WED,DINNER,Curd Rice,True,Normal,Sunny,225,193,32
+25-09-2025,THU,BREAKFAST,Masala Dosa,True,Normal,Sunny,298,263,35
+25-09-2025,THU,LUNCH,Chicken Curry,False,Normal,Sunny,253,253,0
+25-09-2025,THU,LUNCH,Kadhi Pakora,True,Normal,Sunny,319,263,56
+25-09-2025,THU,DINNER,Chicken Tikka,False,Normal,Sunny,155,137,18
+25-09-2025,THU,DINNER,Aloo Palak,True,Normal,Sunny,233,201,32
+26-09-2025,FRI,BREAKFAST,Aloo Paratha,True,Normal,Sunny,272,249,23
+26-09-2025,FRI,LUNCH,Chicken Curry,False,Normal,Sunny,226,209,17
+26-09-2025,FRI,LUNCH,Kadhi Pakora,True,Normal,Sunny,324,271,53
+26-09-2025,FRI,DINNER,Tandoori Chicken,False,Normal,Sunny,188,143,45
+27-09-2025,SAT,BREAKFAST,Bread Omelette,False,Normal,Sunny,105,87,18
+27-09-2025,SAT,BREAKFAST,Masala Dosa,True,Normal,Sunny,151,120,31
+27-09-2025,SAT,LUNCH,Veg Biryani,True,Normal,Sunny,146,119,27
+27-09-2025,SAT,DINNER,Veg Fried Rice,True,Normal,Sunny,104,96,8
+27-09-2025,SAT,DINNER,Chicken Tikka,False,Normal,Sunny,84,84,0
+28-09-2025,SUN,BREAKFAST,Egg Bhurji,False,Normal,Sunny,99,80,19
+28-09-2025,SUN,BREAKFAST,Aloo Paratha,True,Normal,Sunny,134,116,18
+28-09-2025,SUN,LUNCH,Chicken Curry,False,Normal,Sunny,112,100,12
+28-09-2025,SUN,LUNCH,Dal Makhani,True,Normal,Sunny,178,150,28
+28-09-2025,SUN,DINNER,Paneer Tikka,True,Normal,Sunny,123,107,16
+28-09-2025,SUN,DINNER,Rasam Rice,True,Normal,Sunny,109,102,7
+29-09-2025,MON,BREAKFAST,Pongal,True,Normal,Cloudy,256,227,29
+29-09-2025,MON,BREAKFAST,Bread Omelette,False,Normal,Cloudy,190,182,8
+29-09-2025,MON,LUNCH,Chicken Curry,False,Normal,Cloudy,247,204,43
+29-09-2025,MON,DINNER,Veg Fried Rice,True,Normal,Cloudy,201,189,12
+29-09-2025,MON,DINNER,Tandoori Chicken,False,Normal,Cloudy,153,120,33
+30-09-2025,TUE,BREAKFAST,Idli Sambar,True,Normal,Rainy,233,194,39
+30-09-2025,TUE,LUNCH,Dal Fry,True,Normal,Rainy,291,240,51
+30-09-2025,TUE,DINNER,Egg Fried Rice,False,Normal,Rainy,128,115,13
+01-10-2025,WED,BREAKFAST,Bread Omelette,False,Navratri_Festival,Cloudy,290,272,18
+01-10-2025,WED,LUNCH,Kadhi Pakora,True,Navratri_Festival,Cloudy,427,339,88
+01-10-2025,WED,LUNCH,Dal Makhani,True,Navratri_Festival,Cloudy,335,305,30
+01-10-2025,WED,DINNER,Chapati Kurma,True,Navratri_Festival,Cloudy,270,233,37
+02-10-2025,THU,BREAKFAST,Aloo Paratha,True,Navratri_Festival,Sunny,440,374,66
+02-10-2025,THU,BREAKFAST,Pongal,True,Navratri_Festival,Sunny,372,333,39
+02-10-2025,THU,LUNCH,Sambar Rice,True,Navratri_Festival,Sunny,395,329,66
+02-10-2025,THU,LUNCH,Mix Veg Curry,True,Navratri_Festival,Sunny,343,278,65
+02-10-2025,THU,DINNER,Rasam Rice,True,Navratri_Festival,Sunny,284,245,39
+03-10-2025,FRI,BREAKFAST,Egg Bhurji,False,Navratri_Festival,Cloudy,237,198,39
+03-10-2025,FRI,LUNCH,Egg Curry,False,Navratri_Festival,Cloudy,311,268,43
+03-10-2025,FRI,LUNCH,Dal Fry,True,Navratri_Festival,Cloudy,370,354,16
+03-10-2025,FRI,DINNER,Prawn Masala,False,Navratri_Festival,Cloudy,198,183,15
+03-10-2025,FRI,DINNER,Egg Fried Rice,False,Navratri_Festival,Cloudy,197,173,24
+04-10-2025,SAT,BREAKFAST,Egg Bhurji,False,Navratri_Festival,Sunny,115,100,15
+04-10-2025,SAT,BREAKFAST,Poha,True,Navratri_Festival,Sunny,176,162,14
+04-10-2025,SAT,LUNCH,Mutton Curry,False,Navratri_Festival,Sunny,138,111,27
+04-10-2025,SAT,DINNER,Prawn Masala,False,Navratri_Festival,Sunny,107,101,6
+04-10-2025,SAT,DINNER,Egg Fried Rice,False,Navratri_Festival,Sunny,84,83,1
+05-10-2025,SUN,BREAKFAST,Masala Dosa,True,Navratri_Festival,Rainy,129,122,7
+05-10-2025,SUN,LUNCH,Rajma Chawal,True,Navratri_Festival,Rainy,180,151,29
+05-10-2025,SUN,LUNCH,Fish Curry,False,Navratri_Festival,Rainy,128,113,15
+05-10-2025,SUN,DINNER,Veg Fried Rice,True,Navratri_Festival,Rainy,110,99,11
+05-10-2025,SUN,DINNER,Aloo Palak,True,Navratri_Festival,Rainy,111,104,7
+06-10-2025,MON,BREAKFAST,Pongal,True,Normal,Cloudy,271,258,13
+06-10-2025,MON,BREAKFAST,Egg Bhurji,False,Normal,Cloudy,203,173,30
+06-10-2025,MON,LUNCH,Dal Makhani,True,Normal,Cloudy,359,293,66
+06-10-2025,MON,DINNER,Paneer Tikka,True,Normal,Cloudy,219,202,17
+06-10-2025,MON,DINNER,Veg Fried Rice,True,Normal,Cloudy,184,176,8
+07-10-2025,TUE,BREAKFAST,Bread Omelette,False,Normal,Sunny,212,185,27
+07-10-2025,TUE,BREAKFAST,Poha,True,Normal,Sunny,271,245,26
+07-10-2025,TUE,LUNCH,Kadhi Pakora,True,Normal,Sunny,347,315,32
+07-10-2025,TUE,LUNCH,Sambar Rice,True,Normal,Sunny,350,303,47
+07-10-2025,TUE,DINNER,Chicken Tikka,False,Normal,Sunny,185,157,28
+08-10-2025,WED,BREAKFAST,Bread Omelette,False,Normal,Cloudy,223,191,32
+08-10-2025,WED,LUNCH,Sambar Rice,True,Normal,Cloudy,391,314,77
+08-10-2025,WED,LUNCH,Aloo Gobi,True,Normal,Cloudy,280,213,67
+08-10-2025,WED,DINNER,Chicken Tikka,False,Normal,Cloudy,156,138,18
+08-10-2025,WED,DINNER,Tandoori Chicken,False,Normal,Cloudy,145,126,19
+09-10-2025,THU,BREAKFAST,Egg Bhurji,False,Normal,Rainy,166,149,17
+09-10-2025,THU,LUNCH,Veg Biryani,True,Normal,Rainy,252,210,42
+09-10-2025,THU,DINNER,Egg Fried Rice,False,Normal,Rainy,159,127,32
+09-10-2025,THU,DINNER,Chapati Kurma,True,Normal,Rainy,204,182,22
+10-10-2025,FRI,BREAKFAST,Bread Omelette,False,Normal,Cloudy,214,187,27
+10-10-2025,FRI,BREAKFAST,Chana Masala,True,Normal,Cloudy,228,211,17
+10-10-2025,FRI,LUNCH,Mutton Curry,False,Normal,Cloudy,231,186,45
+10-10-2025,FRI,DINNER,Paneer Tikka,True,Normal,Cloudy,231,184,47
+10-10-2025,FRI,DINNER,Prawn Masala,False,Normal,Cloudy,191,156,35
+11-10-2025,SAT,BREAKFAST,Idli Sambar,True,Normal,Sunny,134,120,14
+11-10-2025,SAT,BREAKFAST,Egg Bhurji,False,Normal,Sunny,106,84,22
+11-10-2025,SAT,LUNCH,Paneer Butter Masala,True,Normal,Sunny,159,131,28
+11-10-2025,SAT,LUNCH,Mutton Curry,False,Normal,Sunny,121,97,24
+11-10-2025,SAT,DINNER,Paneer Tikka,True,Normal,Sunny,120,109,11
+11-10-2025,SAT,DINNER,Chapati Kurma,True,Normal,Sunny,110,94,16
+12-10-2025,SUN,BREAKFAST,Chana Masala,True,Normal,Cloudy,142,118,24
+12-10-2025,SUN,BREAKFAST,Pongal,True,Normal,Cloudy,135,112,23
+12-10-2025,SUN,LUNCH,Aloo Gobi,True,Normal,Cloudy,113,92,21
+12-10-2025,SUN,LUNCH,Fish Fry,False,Normal,Cloudy,115,102,13
+12-10-2025,SUN,DINNER,Aloo Palak,True,Normal,Cloudy,102,85,17
+12-10-2025,SUN,DINNER,Chicken Tikka,False,Normal,Cloudy,91,79,12
+13-10-2025,MON,BREAKFAST,Egg Bhurji,False,Normal,Cloudy,226,192,34
+13-10-2025,MON,LUNCH,Fish Curry,False,Normal,Cloudy,258,232,26
+13-10-2025,MON,DINNER,Curd Rice,True,Normal,Cloudy,224,187,37
+14-10-2025,TUE,BREAKFAST,Idli Sambar,True,Normal,Sunny,274,247,27
+14-10-2025,TUE,LUNCH,Dal Makhani,True,Normal,Sunny,320,270,50
+14-10-2025,TUE,DINNER,Chapati Kurma,True,Normal,Sunny,210,210,0
+15-10-2025,WED,BREAKFAST,Aloo Paratha,True,Normal,Rainy,265,197,68
+15-10-2025,WED,LUNCH,Dal Fry,True,Normal,Rainy,234,206,28
+15-10-2025,WED,DINNER,Tandoori Chicken,False,Normal,Rainy,143,135,8
+16-10-2025,THU,BREAKFAST,Masala Dosa,True,Normal,Sunny,315,274,41
+16-10-2025,THU,BREAKFAST,Bread Omelette,False,Normal,Sunny,253,190,63
+16-10-2025,THU,LUNCH,Paneer Butter Masala,True,Normal,Sunny,298,271,27
+16-10-2025,THU,LUNCH,Chicken Biryani,False,Normal,Sunny,236,204,32
+16-10-2025,THU,DINNER,Paneer Tikka,True,Normal,Sunny,231,202,29
+17-10-2025,FRI,BREAKFAST,Idli Sambar,True,Normal,Cloudy,262,242,20
+17-10-2025,FRI,LUNCH,Chicken Biryani,False,Normal,Cloudy,270,227,43
+17-10-2025,FRI,LUNCH,Chicken Curry,False,Normal,Cloudy,218,171,47
+17-10-2025,FRI,DINNER,Chicken Tikka,False,Normal,Cloudy,138,113,25
+17-10-2025,FRI,DINNER,Veg Fried Rice,True,Normal,Cloudy,223,214,9
+18-10-2025,SAT,BREAKFAST,Pongal,True,Normal,Sunny,144,118,26
+18-10-2025,SAT,LUNCH,Mutton Curry,False,Normal,Sunny,127,97,30
+18-10-2025,SAT,LUNCH,Chicken Curry,False,Normal,Sunny,135,113,22
+18-10-2025,SAT,DINNER,Tandoori Chicken,False,Normal,Sunny,87,79,8
+19-10-2025,SUN,BREAKFAST,Bread Omelette,False,Normal,Sunny,97,85,12
+19-10-2025,SUN,BREAKFAST,Chana Masala,True,Normal,Sunny,134,123,11
+19-10-2025,SUN,LUNCH,Rajma Chawal,True,Normal,Sunny,172,146,26
+19-10-2025,SUN,LUNCH,Mix Veg Curry,True,Normal,Sunny,170,149,21
+19-10-2025,SUN,DINNER,Chapati Kurma,True,Normal,Sunny,122,104,18
+19-10-2025,SUN,DINNER,Chicken Tikka,False,Normal,Sunny,73,67,6
+20-10-2025,MON,BREAKFAST,Bread Omelette,False,Diwali_Week,Cloudy,242,241,1
+20-10-2025,MON,LUNCH,Chicken Curry,False,Diwali_Week,Cloudy,289,247,42
+20-10-2025,MON,LUNCH,Mutton Curry,False,Diwali_Week,Cloudy,312,271,41
+20-10-2025,MON,DINNER,Paneer Tikka,True,Diwali_Week,Cloudy,261,245,16
+20-10-2025,MON,DINNER,Chicken Tikka,False,Diwali_Week,Cloudy,212,159,53
+21-10-2025,TUE,BREAKFAST,Egg Bhurji,False,Diwali_Week,Sunny,320,247,73
+21-10-2025,TUE,BREAKFAST,Aloo Paratha,True,Diwali_Week,Sunny,328,298,30
+21-10-2025,TUE,LUNCH,Mutton Curry,False,Diwali_Week,Sunny,386,324,62
+21-10-2025,TUE,LUNCH,Fish Curry,False,Diwali_Week,Sunny,298,268,30
+21-10-2025,TUE,DINNER,Curd Rice,True,Diwali_Week,Sunny,269,241,28
+21-10-2025,TUE,DINNER,Veg Fried Rice,True,Diwali_Week,Sunny,278,235,43
+22-10-2025,WED,BREAKFAST,Egg Bhurji,False,Diwali_Week,Sunny,285,270,15
+22-10-2025,WED,BREAKFAST,Pongal,True,Diwali_Week,Sunny,381,377,4
+22-10-2025,WED,LUNCH,Chicken Biryani,False,Diwali_Week,Sunny,381,317,64
+22-10-2025,WED,LUNCH,Fish Fry,False,Diwali_Week,Sunny,326,301,25
+22-10-2025,WED,DINNER,Curd Rice,True,Diwali_Week,Sunny,317,274,43
+22-10-2025,WED,DINNER,Chapati Kurma,True,Diwali_Week,Sunny,350,292,58
+23-10-2025,THU,BREAKFAST,Poha,True,Diwali_Week,Cloudy,323,308,15
+23-10-2025,THU,BREAKFAST,Aloo Paratha,True,Diwali_Week,Cloudy,364,290,74
+23-10-2025,THU,LUNCH,Aloo Gobi,True,Diwali_Week,Cloudy,390,314,76
+23-10-2025,THU,DINNER,Curd Rice,True,Diwali_Week,Cloudy,291,277,14
+23-10-2025,THU,DINNER,Aloo Palak,True,Diwali_Week,Cloudy,291,241,50
+24-10-2025,FRI,BREAKFAST,Idli Sambar,True,Diwali_Week,Rainy,283,261,22
+24-10-2025,FRI,BREAKFAST,Masala Dosa,True,Diwali_Week,Rainy,262,251,11
+24-10-2025,FRI,LUNCH,Rajma Chawal,True,Diwali_Week,Rainy,348,261,87
+24-10-2025,FRI,DINNER,Chicken Tikka,False,Diwali_Week,Rainy,189,174,15
+25-10-2025,SAT,BREAKFAST,Egg Bhurji,False,Diwali_Break,Cloudy,12,9,3
+25-10-2025,SAT,LUNCH,Dal Fry,True,Diwali_Break,Cloudy,20,18,2
+25-10-2025,SAT,LUNCH,Egg Curry,False,Diwali_Break,Cloudy,18,14,4
+25-10-2025,SAT,DINNER,Rasam Rice,True,Diwali_Break,Cloudy,14,11,3
+26-10-2025,SUN,BREAKFAST,Bread Omelette,False,Diwali_Break,Cloudy,15,13,2
+26-10-2025,SUN,LUNCH,Veg Biryani,True,Diwali_Break,Cloudy,24,19,5
+26-10-2025,SUN,DINNER,Egg Fried Rice,False,Diwali_Break,Cloudy,11,8,3
+26-10-2025,SUN,DINNER,Prawn Masala,False,Diwali_Break,Cloudy,11,9,2
+27-10-2025,MON,BREAKFAST,Bread Omelette,False,Diwali_Break,Rainy,25,21,4
+27-10-2025,MON,BREAKFAST,Chana Masala,True,Diwali_Break,Rainy,26,23,3
+27-10-2025,MON,LUNCH,Aloo Gobi,True,Diwali_Break,Rainy,39,30,9
+27-10-2025,MON,LUNCH,Fish Curry,False,Diwali_Break,Rainy,27,23,4
+27-10-2025,MON,DINNER,Aloo Palak,True,Diwali_Break,Rainy,28,23,5
+27-10-2025,MON,DINNER,Tandoori Chicken,False,Diwali_Break,Rainy,14,13,1
+28-10-2025,TUE,BREAKFAST,Pongal,True,Diwali_Break,Cloudy,39,32,7
+28-10-2025,TUE,LUNCH,Aloo Gobi,True,Diwali_Break,Cloudy,42,41,1
+28-10-2025,TUE,DINNER,Prawn Masala,False,Diwali_Break,Cloudy,24,23,1
+29-10-2025,WED,BREAKFAST,Aloo Paratha,True,Diwali_Break,Rainy,34,31,3
+29-10-2025,WED,LUNCH,Fish Curry,False,Diwali_Break,Rainy,28,24,4
+29-10-2025,WED,DINNER,Aloo Palak,True,Diwali_Break,Rainy,24,23,1
+29-10-2025,WED,DINNER,Prawn Masala,False,Diwali_Break,Rainy,18,15,3
+30-10-2025,THU,BREAKFAST,Pongal,True,Normal,Rainy,243,186,57
+30-10-2025,THU,BREAKFAST,Bread Omelette,False,Normal,Rainy,157,134,23
+30-10-2025,THU,LUNCH,Veg Biryani,True,Normal,Rainy,276,231,45
+30-10-2025,THU,DINNER,Curd Rice,True,Normal,Rainy,197,147,50
+31-10-2025,FRI,BREAKFAST,Idli Sambar,True,Normal,Sunny,244,236,8
+31-10-2025,FRI,BREAKFAST,Chana Masala,True,Normal,Sunny,296,257,39
+31-10-2025,FRI,LUNCH,Veg Biryani,True,Normal,Sunny,325,276,49
+31-10-2025,FRI,DINNER,Chapati Kurma,True,Normal,Sunny,232,198,34
+01-11-2025,SAT,BREAKFAST,Egg Bhurji,False,Normal,Rainy,83,78,5
+01-11-2025,SAT,LUNCH,Mutton Curry,False,Normal,Rainy,89,89,0
+01-11-2025,SAT,DINNER,Tandoori Chicken,False,Normal,Rainy,71,61,10
+02-11-2025,SUN,BREAKFAST,Egg Bhurji,False,Normal,Rainy,84,70,14
+02-11-2025,SUN,BREAKFAST,Aloo Paratha,True,Normal,Rainy,106,91,15
+02-11-2025,SUN,LUNCH,Paneer Butter Masala,True,Normal,Rainy,135,112,23
+02-11-2025,SUN,LUNCH,Sambar Rice,True,Normal,Rainy,137,123,14
+02-11-2025,SUN,DINNER,Egg Fried Rice,False,Normal,Rainy,64,60,4
+02-11-2025,SUN,DINNER,Rasam Rice,True,Normal,Rainy,103,88,15
+03-11-2025,MON,BREAKFAST,Egg Bhurji,False,Normal,Cool,231,204,27
+03-11-2025,MON,BREAKFAST,Idli Sambar,True,Normal,Cool,277,250,27
+03-11-2025,MON,LUNCH,Paneer Butter Masala,True,Normal,Cool,302,248,54
+03-11-2025,MON,DINNER,Tandoori Chicken,False,Normal,Cool,165,156,9
+04-11-2025,TUE,BREAKFAST,Aloo Paratha,True,Normal,Rainy,207,176,31
+04-11-2025,TUE,LUNCH,Mix Veg Curry,True,Normal,Rainy,268,219,49
+04-11-2025,TUE,DINNER,Tandoori Chicken,False,Normal,Rainy,127,125,2
+04-11-2025,TUE,DINNER,Veg Fried Rice,True,Normal,Rainy,183,169,14
+05-11-2025,WED,BREAKFAST,Egg Bhurji,False,Normal,Heavy_Rain,124,98,26
+05-11-2025,WED,BREAKFAST,Poha,True,Normal,Heavy_Rain,230,198,32
+05-11-2025,WED,LUNCH,Veg Biryani,True,Normal,Heavy_Rain,235,198,37
+05-11-2025,WED,LUNCH,Chicken Biryani,False,Normal,Heavy_Rain,164,135,29
+05-11-2025,WED,DINNER,Tandoori Chicken,False,Normal,Heavy_Rain,104,89,15
+06-11-2025,THU,BREAKFAST,Aloo Paratha,True,Normal,Cool,270,231,39
+06-11-2025,THU,LUNCH,Chicken Curry,False,Normal,Cool,248,238,10
+06-11-2025,THU,LUNCH,Rajma Chawal,True,Normal,Cool,363,341,22
+06-11-2025,THU,DINNER,Veg Fried Rice,True,Normal,Cool,209,190,19
+07-11-2025,FRI,BREAKFAST,Poha,True,Normal,Cloudy,257,229,28
+07-11-2025,FRI,LUNCH,Kadhi Pakora,True,Normal,Cloudy,299,261,38
+07-11-2025,FRI,DINNER,Tandoori Chicken,False,Normal,Cloudy,186,160,26
+07-11-2025,FRI,DINNER,Egg Fried Rice,False,Normal,Cloudy,181,142,39
+08-11-2025,SAT,BREAKFAST,Aloo Paratha,True,Normal,Rainy,128,107,21
+08-11-2025,SAT,LUNCH,Fish Curry,False,Normal,Rainy,92,76,16
+08-11-2025,SAT,LUNCH,Veg Biryani,True,Normal,Rainy,150,120,30
+08-11-2025,SAT,DINNER,Rasam Rice,True,Normal,Rainy,86,69,17
+08-11-2025,SAT,DINNER,Veg Fried Rice,True,Normal,Rainy,96,82,14
+09-11-2025,SUN,BREAKFAST,Bread Omelette,False,Normal,Rainy,79,68,11
+09-11-2025,SUN,LUNCH,Mix Veg Curry,True,Normal,Rainy,141,122,19
+09-11-2025,SUN,DINNER,Paneer Tikka,True,Normal,Rainy,91,85,6
+10-11-2025,MON,BREAKFAST,Pongal,True,Lab_Exams,Rainy,265,247,18
+10-11-2025,MON,LUNCH,Paneer Butter Masala,True,Lab_Exams,Rainy,261,208,53
+10-11-2025,MON,DINNER,Tandoori Chicken,False,Lab_Exams,Rainy,137,127,10
+10-11-2025,MON,DINNER,Aloo Palak,True,Lab_Exams,Rainy,178,169,9
+11-11-2025,TUE,BREAKFAST,Egg Bhurji,False,Lab_Exams,Heavy_Rain,169,143,26
+11-11-2025,TUE,LUNCH,Fish Curry,False,Lab_Exams,Heavy_Rain,164,161,3
+11-11-2025,TUE,LUNCH,Kadhi Pakora,True,Lab_Exams,Heavy_Rain,195,167,28
+11-11-2025,TUE,DINNER,Prawn Masala,False,Lab_Exams,Heavy_Rain,108,98,10
+11-11-2025,TUE,DINNER,Tandoori Chicken,False,Lab_Exams,Heavy_Rain,111,99,12
+12-11-2025,WED,BREAKFAST,Pongal,True,Lab_Exams,Heavy_Rain,201,181,20
+12-11-2025,WED,BREAKFAST,Masala Dosa,True,Lab_Exams,Heavy_Rain,182,144,38
+12-11-2025,WED,LUNCH,Fish Fry,False,Lab_Exams,Heavy_Rain,185,165,20
+12-11-2025,WED,DINNER,Curd Rice,True,Lab_Exams,Heavy_Rain,170,132,38
+12-11-2025,WED,DINNER,Aloo Palak,True,Lab_Exams,Heavy_Rain,153,134,19
+13-11-2025,THU,BREAKFAST,Aloo Paratha,True,Lab_Exams,Cool,289,255,34
+13-11-2025,THU,LUNCH,Egg Curry,False,Lab_Exams,Cool,256,230,26
+13-11-2025,THU,DINNER,Tandoori Chicken,False,Lab_Exams,Cool,168,145,23
+13-11-2025,THU,DINNER,Chapati Kurma,True,Lab_Exams,Cool,278,242,36
+14-11-2025,FRI,BREAKFAST,Egg Bhurji,False,Lab_Exams,Cloudy,213,180,33
+14-11-2025,FRI,BREAKFAST,Poha,True,Lab_Exams,Cloudy,308,254,54
+14-11-2025,FRI,LUNCH,Chicken Biryani,False,Lab_Exams,Cloudy,217,185,32
+14-11-2025,FRI,DINNER,Egg Fried Rice,False,Lab_Exams,Cloudy,145,132,13
+14-11-2025,FRI,DINNER,Rasam Rice,True,Lab_Exams,Cloudy,274,224,50
+15-11-2025,SAT,BREAKFAST,Bread Omelette,False,Normal,Heavy_Rain,71,59,12
+15-11-2025,SAT,BREAKFAST,Poha,True,Normal,Heavy_Rain,92,76,16
+15-11-2025,SAT,LUNCH,Chicken Curry,False,Normal,Heavy_Rain,76,67,9
+15-11-2025,SAT,LUNCH,Rajma Chawal,True,Normal,Heavy_Rain,105,97,8
+15-11-2025,SAT,DINNER,Curd Rice,True,Normal,Heavy_Rain,69,61,8
+16-11-2025,SUN,BREAKFAST,Masala Dosa,True,Normal,Heavy_Rain,88,75,13
+16-11-2025,SUN,BREAKFAST,Chana Masala,True,Normal,Heavy_Rain,90,85,5
+16-11-2025,SUN,LUNCH,Mutton Curry,False,Normal,Heavy_Rain,97,79,18
+16-11-2025,SUN,LUNCH,Egg Curry,False,Normal,Heavy_Rain,76,63,13
+16-11-2025,SUN,DINNER,Egg Fried Rice,False,Normal,Heavy_Rain,48,43,5
+17-11-2025,MON,BREAKFAST,Masala Dosa,True,Normal,Cool,326,269,57
+17-11-2025,MON,BREAKFAST,Poha,True,Normal,Cool,257,216,41
+17-11-2025,MON,LUNCH,Egg Curry,False,Normal,Cool,239,201,38
+17-11-2025,MON,DINNER,Prawn Masala,False,Normal,Cool,192,152,40
+17-11-2025,MON,DINNER,Chapati Kurma,True,Normal,Cool,218,218,0
+18-11-2025,TUE,BREAKFAST,Idli Sambar,True,Normal,Heavy_Rain,165,150,15
+18-11-2025,TUE,BREAKFAST,Pongal,True,Normal,Heavy_Rain,183,151,32
+18-11-2025,TUE,LUNCH,Chicken Biryani,False,Normal,Heavy_Rain,169,131,38
+18-11-2025,TUE,LUNCH,Egg Curry,False,Normal,Heavy_Rain,155,148,7
+18-11-2025,TUE,DINNER,Egg Fried Rice,False,Normal,Heavy_Rain,113,111,2
+18-11-2025,TUE,DINNER,Chapati Kurma,True,Normal,Heavy_Rain,129,113,16
+19-11-2025,WED,BREAKFAST,Poha,True,Normal,Cloudy,317,260,57
+19-11-2025,WED,BREAKFAST,Egg Bhurji,False,Normal,Cloudy,181,149,32
+19-11-2025,WED,LUNCH,Fish Fry,False,Normal,Cloudy,233,208,25
+19-11-2025,WED,LUNCH,Fish Curry,False,Normal,Cloudy,187,179,8
+19-11-2025,WED,DINNER,Rasam Rice,True,Normal,Cloudy,206,177,29
+19-11-2025,WED,DINNER,Chapati Kurma,True,Normal,Cloudy,226,210,16
+20-11-2025,THU,BREAKFAST,Masala Dosa,True,Normal,Cloudy,243,217,26
+20-11-2025,THU,LUNCH,Mix Veg Curry,True,Normal,Cloudy,300,289,11
+20-11-2025,THU,DINNER,Rasam Rice,True,Normal,Cloudy,217,159,58
+20-11-2025,THU,DINNER,Veg Fried Rice,True,Normal,Cloudy,217,192,25
+21-11-2025,FRI,BREAKFAST,Pongal,True,Normal,Cool,277,223,54
+21-11-2025,FRI,BREAKFAST,Chana Masala,True,Normal,Cool,362,297,65
+21-11-2025,FRI,LUNCH,Dal Fry,True,Normal,Cool,351,311,40
+21-11-2025,FRI,DINNER,Prawn Masala,False,Normal,Cool,169,151,18
+21-11-2025,FRI,DINNER,Aloo Palak,True,Normal,Cool,250,229,21
+22-11-2025,SAT,BREAKFAST,Egg Bhurji,False,Normal,Heavy_Rain,59,56,3
+22-11-2025,SAT,BREAKFAST,Pongal,True,Normal,Heavy_Rain,79,76,3
+22-11-2025,SAT,LUNCH,Mix Veg Curry,True,Normal,Heavy_Rain,117,95,22
+22-11-2025,SAT,LUNCH,Paneer Butter Masala,True,Normal,Heavy_Rain,93,85,8
+22-11-2025,SAT,DINNER,Veg Fried Rice,True,Normal,Heavy_Rain,78,73,5
+22-11-2025,SAT,DINNER,Prawn Masala,False,Normal,Heavy_Rain,56,53,3
+23-11-2025,SUN,BREAKFAST,Masala Dosa,True,Normal,Cloudy,132,111,21
+23-11-2025,SUN,LUNCH,Aloo Gobi,True,Normal,Cloudy,163,149,14
+23-11-2025,SUN,LUNCH,Egg Curry,False,Normal,Cloudy,118,99,19
+23-11-2025,SUN,DINNER,Chapati Kurma,True,Normal,Cloudy,129,117,12
+23-11-2025,SUN,DINNER,Aloo Palak,True,Normal,Cloudy,108,106,2
+24-11-2025,MON,BREAKFAST,Poha,True,End_Sem_Exams,Rainy,250,226,24
+24-11-2025,MON,BREAKFAST,Aloo Paratha,True,End_Sem_Exams,Rainy,228,181,47
+24-11-2025,MON,LUNCH,Aloo Gobi,True,End_Sem_Exams,Rainy,282,258,24
+24-11-2025,MON,LUNCH,Fish Fry,False,End_Sem_Exams,Rainy,220,177,43
+24-11-2025,MON,DINNER,Egg Fried Rice,False,End_Sem_Exams,Rainy,141,122,19
+24-11-2025,MON,DINNER,Curd Rice,True,End_Sem_Exams,Rainy,207,175,32
+25-11-2025,TUE,BREAKFAST,Bread Omelette,False,End_Sem_Exams,Cloudy,259,215,44
+25-11-2025,TUE,LUNCH,Mutton Curry,False,End_Sem_Exams,Cloudy,255,248,7
+25-11-2025,TUE,DINNER,Chapati Kurma,True,End_Sem_Exams,Cloudy,269,218,51
+25-11-2025,TUE,DINNER,Curd Rice,True,End_Sem_Exams,Cloudy,265,211,54
+26-11-2025,WED,BREAKFAST,Bread Omelette,False,End_Sem_Exams,Heavy_Rain,162,123,39
+26-11-2025,WED,BREAKFAST,Chana Masala,True,End_Sem_Exams,Heavy_Rain,212,197,15
+26-11-2025,WED,LUNCH,Dal Fry,True,End_Sem_Exams,Heavy_Rain,196,169,27
+26-11-2025,WED,DINNER,Paneer Tikka,True,End_Sem_Exams,Heavy_Rain,177,153,24
+27-11-2025,THU,BREAKFAST,Egg Bhurji,False,End_Sem_Exams,Rainy,177,158,19
+27-11-2025,THU,LUNCH,Mix Veg Curry,True,End_Sem_Exams,Rainy,291,230,61
+27-11-2025,THU,DINNER,Chapati Kurma,True,End_Sem_Exams,Rainy,214,166,48
+27-11-2025,THU,DINNER,Paneer Tikka,True,End_Sem_Exams,Rainy,178,162,16
+28-11-2025,FRI,BREAKFAST,Pongal,True,End_Sem_Exams,Heavy_Rain,190,190,0
+28-11-2025,FRI,LUNCH,Egg Curry,False,End_Sem_Exams,Heavy_Rain,173,144,29
+28-11-2025,FRI,LUNCH,Veg Biryani,True,End_Sem_Exams,Heavy_Rain,190,166,24
+28-11-2025,FRI,DINNER,Tandoori Chicken,False,End_Sem_Exams,Heavy_Rain,141,110,31
+28-11-2025,FRI,DINNER,Chicken Tikka,False,End_Sem_Exams,Heavy_Rain,119,89,30
+29-11-2025,SAT,BREAKFAST,Bread Omelette,False,End_Sem_Exams,Cool,117,108,9
+29-11-2025,SAT,BREAKFAST,Poha,True,End_Sem_Exams,Cool,163,150,13
+29-11-2025,SAT,LUNCH,Mutton Curry,False,End_Sem_Exams,Cool,126,111,15
+29-11-2025,SAT,LUNCH,Mix Veg Curry,True,End_Sem_Exams,Cool,186,156,30
+29-11-2025,SAT,DINNER,Tandoori Chicken,False,End_Sem_Exams,Cool,95,82,13
+30-11-2025,SUN,BREAKFAST,Masala Dosa,True,End_Sem_Exams,Cool,184,172,12
+30-11-2025,SUN,LUNCH,Fish Curry,False,End_Sem_Exams,Cool,142,132,10
+30-11-2025,SUN,DINNER,Chicken Tikka,False,End_Sem_Exams,Cool,90,90,0
+01-12-2025,MON,BREAKFAST,Egg Bhurji,False,End_Sem_Exams,Cool,255,207,48
+01-12-2025,MON,LUNCH,Fish Curry,False,End_Sem_Exams,Cool,299,268,31
+01-12-2025,MON,DINNER,Chapati Kurma,True,End_Sem_Exams,Cool,233,206,27
+01-12-2025,MON,DINNER,Tandoori Chicken,False,End_Sem_Exams,Cool,176,159,17
+02-12-2025,TUE,BREAKFAST,Masala Dosa,True,End_Sem_Exams,Cold,414,342,72
+02-12-2025,TUE,LUNCH,Aloo Gobi,True,End_Sem_Exams,Cold,382,346,36
+02-12-2025,TUE,LUNCH,Kadhi Pakora,True,End_Sem_Exams,Cold,390,374,16
+02-12-2025,TUE,DINNER,Veg Fried Rice,True,End_Sem_Exams,Cold,290,254,36
+03-12-2025,WED,BREAKFAST,Poha,True,End_Sem_Exams,Cloudy,332,329,3
+03-12-2025,WED,BREAKFAST,Pongal,True,End_Sem_Exams,Cloudy,247,221,26
+03-12-2025,WED,LUNCH,Rajma Chawal,True,End_Sem_Exams,Cloudy,334,274,60
+03-12-2025,WED,DINNER,Tandoori Chicken,False,End_Sem_Exams,Cloudy,210,171,39
+03-12-2025,WED,DINNER,Veg Fried Rice,True,End_Sem_Exams,Cloudy,252,215,37
+04-12-2025,THU,BREAKFAST,Aloo Paratha,True,End_Sem_Exams,Cold,287,269,18
+04-12-2025,THU,LUNCH,Chicken Curry,False,End_Sem_Exams,Cold,282,269,13
+04-12-2025,THU,LUNCH,Veg Biryani,True,End_Sem_Exams,Cold,384,368,16
+04-12-2025,THU,DINNER,Aloo Palak,True,End_Sem_Exams,Cold,261,221,40
+04-12-2025,THU,DINNER,Chapati Kurma,True,End_Sem_Exams,Cold,258,244,14
+05-12-2025,FRI,BREAKFAST,Poha,True,End_Sem_Exams,Cold,324,291,33
+05-12-2025,FRI,BREAKFAST,Idli Sambar,True,End_Sem_Exams,Cold,335,301,34
+05-12-2025,FRI,LUNCH,Aloo Gobi,True,End_Sem_Exams,Cold,405,341,64
+05-12-2025,FRI,LUNCH,Chicken Biryani,False,End_Sem_Exams,Cold,252,237,15
+05-12-2025,FRI,DINNER,Chicken Tikka,False,End_Sem_Exams,Cold,160,149,11
+05-12-2025,FRI,DINNER,Aloo Palak,True,End_Sem_Exams,Cold,280,242,38
+06-12-2025,SAT,BREAKFAST,Aloo Paratha,True,Exam_End_Break,Cold,39,32,7
+06-12-2025,SAT,BREAKFAST,Egg Bhurji,False,Exam_End_Break,Cold,30,26,4
+06-12-2025,SAT,LUNCH,Rajma Chawal,True,Exam_End_Break,Cold,53,45,8
+06-12-2025,SAT,LUNCH,Dal Makhani,True,Exam_End_Break,Cold,45,41,4
+06-12-2025,SAT,DINNER,Tandoori Chicken,False,Exam_End_Break,Cold,25,20,5
+06-12-2025,SAT,DINNER,Curd Rice,True,Exam_End_Break,Cold,36,36,0
+07-12-2025,SUN,BREAKFAST,Masala Dosa,True,Exam_End_Break,Cloudy,37,36,1
+07-12-2025,SUN,BREAKFAST,Idli Sambar,True,Exam_End_Break,Cloudy,37,37,0
+07-12-2025,SUN,LUNCH,Veg Biryani,True,Exam_End_Break,Cloudy,38,30,8
+07-12-2025,SUN,LUNCH,Sambar Rice,True,Exam_End_Break,Cloudy,43,41,2
+07-12-2025,SUN,DINNER,Tandoori Chicken,False,Exam_End_Break,Cloudy,23,23,0
+08-12-2025,MON,BREAKFAST,Masala Dosa,True,Exam_End_Break,Cloudy,91,80,11
+08-12-2025,MON,BREAKFAST,Bread Omelette,False,Exam_End_Break,Cloudy,55,48,7
+08-12-2025,MON,LUNCH,Chicken Biryani,False,Exam_End_Break,Cloudy,76,63,13
+08-12-2025,MON,DINNER,Veg Fried Rice,True,Exam_End_Break,Cloudy,72,58,14
+08-12-2025,MON,DINNER,Tandoori Chicken,False,Exam_End_Break,Cloudy,46,42,4
+09-12-2025,TUE,BREAKFAST,Poha,True,Exam_End_Break,Cloudy,89,76,13
+09-12-2025,TUE,BREAKFAST,Chana Masala,True,Exam_End_Break,Cloudy,77,65,12
+09-12-2025,TUE,LUNCH,Fish Fry,False,Exam_End_Break,Cloudy,69,61,8
+09-12-2025,TUE,DINNER,Aloo Palak,True,Exam_End_Break,Cloudy,59,49,10
+10-12-2025,WED,BREAKFAST,Chana Masala,True,Exam_End_Break,Cold,112,98,14
+10-12-2025,WED,LUNCH,Rajma Chawal,True,Exam_End_Break,Cold,109,94,15
+10-12-2025,WED,DINNER,Curd Rice,True,Exam_End_Break,Cold,79,63,16
+10-12-2025,WED,DINNER,Chicken Tikka,False,Exam_End_Break,Cold,62,49,13
+11-12-2025,THU,BREAKFAST,Poha,True,Winter_Vacation,Cool,27,24,3
+11-12-2025,THU,LUNCH,Mix Veg Curry,True,Winter_Vacation,Cool,31,30,1
+11-12-2025,THU,LUNCH,Fish Fry,False,Winter_Vacation,Cool,26,23,3
+11-12-2025,THU,DINNER,Paneer Tikka,True,Winter_Vacation,Cool,24,21,3
+11-12-2025,THU,DINNER,Aloo Palak,True,Winter_Vacation,Cool,24,20,4
+12-12-2025,FRI,BREAKFAST,Chana Masala,True,Winter_Vacation,Cold,31,31,0
+12-12-2025,FRI,BREAKFAST,Bread Omelette,False,Winter_Vacation,Cold,19,18,1
+12-12-2025,FRI,LUNCH,Dal Fry,True,Winter_Vacation,Cold,34,29,5
+12-12-2025,FRI,DINNER,Paneer Tikka,True,Winter_Vacation,Cold,22,21,1
+13-12-2025,SAT,BREAKFAST,Chana Masala,True,Winter_Vacation,Cool,13,11,2
+13-12-2025,SAT,BREAKFAST,Idli Sambar,True,Winter_Vacation,Cool,14,12,2
+13-12-2025,SAT,LUNCH,Sambar Rice,True,Winter_Vacation,Cool,15,11,4
+13-12-2025,SAT,LUNCH,Veg Biryani,True,Winter_Vacation,Cool,12,10,2
+13-12-2025,SAT,DINNER,Egg Fried Rice,False,Winter_Vacation,Cool,6,6,0
+14-12-2025,SUN,BREAKFAST,Bread Omelette,False,Winter_Vacation,Cold,9,9,0
+14-12-2025,SUN,BREAKFAST,Egg Bhurji,False,Winter_Vacation,Cold,8,7,1
+14-12-2025,SUN,LUNCH,Rajma Chawal,True,Winter_Vacation,Cold,18,15,3
+14-12-2025,SUN,LUNCH,Chicken Curry,False,Winter_Vacation,Cold,9,8,1
+14-12-2025,SUN,DINNER,Egg Fried Rice,False,Winter_Vacation,Cold,8,6,2
+15-12-2025,MON,BREAKFAST,Aloo Paratha,True,Winter_Vacation,Cool,28,24,4
+15-12-2025,MON,BREAKFAST,Chana Masala,True,Winter_Vacation,Cool,27,25,2
+15-12-2025,MON,LUNCH,Chicken Curry,False,Winter_Vacation,Cool,25,21,4
+15-12-2025,MON,DINNER,Aloo Palak,True,Winter_Vacation,Cool,26,20,6
+15-12-2025,MON,DINNER,Chicken Tikka,False,Winter_Vacation,Cool,13,12,1
+16-12-2025,TUE,BREAKFAST,Idli Sambar,True,Winter_Vacation,Cool,33,27,6
+16-12-2025,TUE,LUNCH,Veg Biryani,True,Winter_Vacation,Cool,35,31,4
+16-12-2025,TUE,DINNER,Rasam Rice,True,Winter_Vacation,Cool,24,20,4
+16-12-2025,TUE,DINNER,Tandoori Chicken,False,Winter_Vacation,Cool,14,13,1
+17-12-2025,WED,BREAKFAST,Bread Omelette,False,Winter_Vacation,Cool,22,18,4
+17-12-2025,WED,LUNCH,Aloo Gobi,True,Winter_Vacation,Cool,31,28,3
+17-12-2025,WED,LUNCH,Chicken Curry,False,Winter_Vacation,Cool,25,20,5
+17-12-2025,WED,DINNER,Tandoori Chicken,False,Winter_Vacation,Cool,17,14,3
+17-12-2025,WED,DINNER,Paneer Tikka,True,Winter_Vacation,Cool,25,20,5
+18-12-2025,THU,BREAKFAST,Egg Bhurji,False,Winter_Vacation,Cold,22,19,3
+18-12-2025,THU,LUNCH,Veg Biryani,True,Winter_Vacation,Cold,32,32,0
+18-12-2025,THU,LUNCH,Sambar Rice,True,Winter_Vacation,Cold,29,24,5
+18-12-2025,THU,DINNER,Veg Fried Rice,True,Winter_Vacation,Cold,22,17,5
+18-12-2025,THU,DINNER,Egg Fried Rice,False,Winter_Vacation,Cold,18,16,2
+19-12-2025,FRI,BREAKFAST,Chana Masala,True,Winter_Vacation,Cold,31,25,6
+19-12-2025,FRI,LUNCH,Chicken Curry,False,Winter_Vacation,Cold,27,21,6
+19-12-2025,FRI,DINNER,Prawn Masala,False,Winter_Vacation,Cold,17,16,1
+19-12-2025,FRI,DINNER,Curd Rice,True,Winter_Vacation,Cold,22,22,0
+20-12-2025,SAT,BREAKFAST,Masala Dosa,True,Winter_Vacation,Cool,14,12,2
+20-12-2025,SAT,BREAKFAST,Pongal,True,Winter_Vacation,Cool,13,13,0
+20-12-2025,SAT,LUNCH,Mutton Curry,False,Winter_Vacation,Cool,10,8,2
+20-12-2025,SAT,DINNER,Rasam Rice,True,Winter_Vacation,Cool,11,10,1
+20-12-2025,SAT,DINNER,Veg Fried Rice,True,Winter_Vacation,Cool,12,11,1
+21-12-2025,SUN,BREAKFAST,Idli Sambar,True,Winter_Vacation,Cloudy,11,10,1
+21-12-2025,SUN,LUNCH,Dal Makhani,True,Winter_Vacation,Cloudy,13,11,2
+21-12-2025,SUN,LUNCH,Paneer Butter Masala,True,Winter_Vacation,Cloudy,15,13,2
+21-12-2025,SUN,DINNER,Rasam Rice,True,Winter_Vacation,Cloudy,10,9,1
+22-12-2025,MON,BREAKFAST,Aloo Paratha,True,Winter_Vacation,Cloudy,25,22,3
+22-12-2025,MON,LUNCH,Aloo Gobi,True,Winter_Vacation,Cloudy,26,24,2
+22-12-2025,MON,DINNER,Tandoori Chicken,False,Winter_Vacation,Cloudy,14,11,3
+23-12-2025,TUE,BREAKFAST,Poha,True,Winter_Vacation,Cool,24,22,2
+23-12-2025,TUE,BREAKFAST,Pongal,True,Winter_Vacation,Cool,26,25,1
+23-12-2025,TUE,LUNCH,Egg Curry,False,Winter_Vacation,Cool,25,20,5
+23-12-2025,TUE,LUNCH,Paneer Butter Masala,True,Winter_Vacation,Cool,33,33,0
+23-12-2025,TUE,DINNER,Chapati Kurma,True,Winter_Vacation,Cool,21,20,1
+24-12-2025,WED,BREAKFAST,Chana Masala,True,Winter_Vacation,Cool,26,24,2
+24-12-2025,WED,LUNCH,Chicken Biryani,False,Winter_Vacation,Cool,26,23,3
+24-12-2025,WED,DINNER,Chapati Kurma,True,Winter_Vacation,Cool,22,19,3
+24-12-2025,WED,DINNER,Paneer Tikka,True,Winter_Vacation,Cool,20,15,5
+25-12-2025,THU,BREAKFAST,Poha,True,Christmas,Cold,77,75,2
+25-12-2025,THU,LUNCH,Mix Veg Curry,True,Christmas,Cold,79,72,7
+25-12-2025,THU,LUNCH,Rajma Chawal,True,Christmas,Cold,89,72,17
+25-12-2025,THU,DINNER,Egg Fried Rice,False,Christmas,Cold,43,36,7
+26-12-2025,FRI,BREAKFAST,Pongal,True,Winter_Vacation,Cold,28,24,4
+26-12-2025,FRI,BREAKFAST,Aloo Paratha,True,Winter_Vacation,Cold,27,26,1
+26-12-2025,FRI,LUNCH,Chicken Biryani,False,Winter_Vacation,Cold,26,21,5
+26-12-2025,FRI,DINNER,Prawn Masala,False,Winter_Vacation,Cold,16,14,2
+27-12-2025,SAT,BREAKFAST,Idli Sambar,True,Winter_Vacation,Cold,14,12,2
+27-12-2025,SAT,BREAKFAST,Egg Bhurji,False,Winter_Vacation,Cold,9,8,1
+27-12-2025,SAT,LUNCH,Mutton Curry,False,Winter_Vacation,Cold,10,9,1
+27-12-2025,SAT,LUNCH,Kadhi Pakora,True,Winter_Vacation,Cold,15,13,2
+27-12-2025,SAT,DINNER,Rasam Rice,True,Winter_Vacation,Cold,12,11,1
+27-12-2025,SAT,DINNER,Egg Fried Rice,False,Winter_Vacation,Cold,7,6,1
+28-12-2025,SUN,BREAKFAST,Pongal,True,Winter_Vacation,Cloudy,13,11,2
+28-12-2025,SUN,BREAKFAST,Idli Sambar,True,Winter_Vacation,Cloudy,11,10,1
+28-12-2025,SUN,LUNCH,Chicken Biryani,False,Winter_Vacation,Cloudy,9,7,2
+28-12-2025,SUN,LUNCH,Paneer Butter Masala,True,Winter_Vacation,Cloudy,17,13,4
+28-12-2025,SUN,DINNER,Paneer Tikka,True,Winter_Vacation,Cloudy,8,6,2
+29-12-2025,MON,BREAKFAST,Bread Omelette,False,Winter_Vacation,Cold,23,18,5
+29-12-2025,MON,BREAKFAST,Masala Dosa,True,Winter_Vacation,Cold,26,25,1
+29-12-2025,MON,LUNCH,Dal Fry,True,Winter_Vacation,Cold,33,26,7
+29-12-2025,MON,LUNCH,Mix Veg Curry,True,Winter_Vacation,Cold,28,26,2
+29-12-2025,MON,DINNER,Rasam Rice,True,Winter_Vacation,Cold,25,24,1
+29-12-2025,MON,DINNER,Tandoori Chicken,False,Winter_Vacation,Cold,16,14,2
+30-12-2025,TUE,BREAKFAST,Bread Omelette,False,Winter_Vacation,Cloudy,20,19,1
+30-12-2025,TUE,LUNCH,Fish Fry,False,Winter_Vacation,Cloudy,24,22,2
+30-12-2025,TUE,LUNCH,Dal Makhani,True,Winter_Vacation,Cloudy,28,24,4
+30-12-2025,TUE,DINNER,Curd Rice,True,Winter_Vacation,Cloudy,19,18,1
+30-12-2025,TUE,DINNER,Egg Fried Rice,False,Winter_Vacation,Cloudy,14,12,2
+31-12-2025,WED,BREAKFAST,Pongal,True,Winter_Vacation,Cold,28,22,6
+31-12-2025,WED,BREAKFAST,Poha,True,Winter_Vacation,Cold,32,27,5
+31-12-2025,WED,LUNCH,Aloo Gobi,True,Winter_Vacation,Cold,29,24,5
+31-12-2025,WED,LUNCH,Chicken Curry,False,Winter_Vacation,Cold,22,19,3
+31-12-2025,WED,DINNER,Curd Rice,True,Winter_Vacation,Cold,27,23,4
+31-12-2025,WED,DINNER,Paneer Tikka,True,Winter_Vacation,Cold,18,16,2
+01-01-2026,THU,BREAKFAST,Pongal,True,New_Year,Cloudy,53,41,12
+01-01-2026,THU,BREAKFAST,Idli Sambar,True,New_Year,Cloudy,46,41,5
+01-01-2026,THU,LUNCH,Rajma Chawal,True,New_Year,Cloudy,62,50,12
+01-01-2026,THU,DINNER,Rasam Rice,True,New_Year,Cloudy,37,29,8
+01-01-2026,THU,DINNER,Curd Rice,True,New_Year,Cloudy,44,39,5
+02-01-2026,FRI,BREAKFAST,Chana Masala,True,Winter_Vacation,Sunny,24,22,2
+02-01-2026,FRI,LUNCH,Kadhi Pakora,True,Winter_Vacation,Sunny,31,26,5
+02-01-2026,FRI,DINNER,Chicken Tikka,False,Winter_Vacation,Sunny,17,15,2
+02-01-2026,FRI,DINNER,Chapati Kurma,True,Winter_Vacation,Sunny,22,19,3
+03-01-2026,SAT,BREAKFAST,Chana Masala,True,Winter_Vacation,Cool,14,11,3
+03-01-2026,SAT,BREAKFAST,Idli Sambar,True,Winter_Vacation,Cool,13,10,3
+03-01-2026,SAT,LUNCH,Paneer Butter Masala,True,Winter_Vacation,Cool,17,14,3
+03-01-2026,SAT,DINNER,Veg Fried Rice,True,Winter_Vacation,Cool,8,7,1
+03-01-2026,SAT,DINNER,Rasam Rice,True,Winter_Vacation,Cool,10,9,1
+04-01-2026,SUN,BREAKFAST,Pongal,True,Winter_Vacation,Cool,17,13,4
+04-01-2026,SUN,BREAKFAST,Bread Omelette,False,Winter_Vacation,Cool,9,8,1
+04-01-2026,SUN,LUNCH,Chicken Biryani,False,Winter_Vacation,Cool,12,10,2
+04-01-2026,SUN,LUNCH,Dal Makhani,True,Winter_Vacation,Cool,15,12,3
+04-01-2026,SUN,DINNER,Prawn Masala,False,Winter_Vacation,Cool,8,6,2
+04-01-2026,SUN,DINNER,Tandoori Chicken,False,Winter_Vacation,Cool,8,5,3
+05-01-2026,MON,BREAKFAST,Idli Sambar,True,Winter_Vacation,Sunny,33,27,6
+05-01-2026,MON,BREAKFAST,Pongal,True,Winter_Vacation,Sunny,25,23,2
+05-01-2026,MON,LUNCH,Fish Curry,False,Winter_Vacation,Sunny,24,21,3
+05-01-2026,MON,LUNCH,Egg Curry,False,Winter_Vacation,Sunny,24,22,2
+05-01-2026,MON,DINNER,Curd Rice,True,Winter_Vacation,Sunny,21,20,1
+05-01-2026,MON,DINNER,Tandoori Chicken,False,Winter_Vacation,Sunny,17,15,2
+06-01-2026,TUE,BREAKFAST,Poha,True,Reopen_Day,Sunny,259,225,34
+06-01-2026,TUE,LUNCH,Rajma Chawal,True,Reopen_Day,Sunny,252,226,26
+06-01-2026,TUE,LUNCH,Paneer Butter Masala,True,Reopen_Day,Sunny,219,189,30
+06-01-2026,TUE,DINNER,Rasam Rice,True,Reopen_Day,Sunny,192,156,36
+07-01-2026,WED,BREAKFAST,Bread Omelette,False,Normal,Cloudy,200,186,14
+07-01-2026,WED,LUNCH,Dal Fry,True,Normal,Cloudy,327,259,68
+07-01-2026,WED,LUNCH,Aloo Gobi,True,Normal,Cloudy,284,268,16
+07-01-2026,WED,DINNER,Curd Rice,True,Normal,Cloudy,185,162,23
+08-01-2026,THU,BREAKFAST,Pongal,True,Normal,Cool,346,271,75
+08-01-2026,THU,BREAKFAST,Idli Sambar,True,Normal,Cool,310,276,34
+08-01-2026,THU,LUNCH,Paneer Butter Masala,True,Normal,Cool,302,255,47
+08-01-2026,THU,DINNER,Rasam Rice,True,Normal,Cool,236,213,23
+09-01-2026,FRI,BREAKFAST,Bread Omelette,False,Normal,Cool,223,185,38
+09-01-2026,FRI,BREAKFAST,Aloo Paratha,True,Normal,Cool,231,199,32
+09-01-2026,FRI,LUNCH,Kadhi Pakora,True,Normal,Cool,329,280,49
+09-01-2026,FRI,LUNCH,Veg Biryani,True,Normal,Cool,378,296,82
+09-01-2026,FRI,DINNER,Prawn Masala,False,Normal,Cool,183,169,14
+10-01-2026,SAT,BREAKFAST,Bread Omelette,False,Normal,Sunny,101,89,12
+10-01-2026,SAT,BREAKFAST,Idli Sambar,True,Normal,Sunny,109,101,8
+10-01-2026,SAT,LUNCH,Chicken Curry,False,Normal,Sunny,119,100,19
+10-01-2026,SAT,LUNCH,Fish Fry,False,Normal,Sunny,109,99,10
+10-01-2026,SAT,DINNER,Prawn Masala,False,Normal,Sunny,88,73,15
+10-01-2026,SAT,DINNER,Aloo Palak,True,Normal,Sunny,99,98,1
+11-01-2026,SUN,BREAKFAST,Bread Omelette,False,Normal,Sunny,97,76,21
+11-01-2026,SUN,LUNCH,Sambar Rice,True,Normal,Sunny,185,145,40
+11-01-2026,SUN,DINNER,Aloo Palak,True,Normal,Sunny,119,105,14
+12-01-2026,MON,BREAKFAST,Masala Dosa,True,Normal,Sunny,279,272,7
+12-01-2026,MON,LUNCH,Aloo Gobi,True,Normal,Sunny,326,325,1
+12-01-2026,MON,LUNCH,Rajma Chawal,True,Normal,Sunny,344,279,65
+12-01-2026,MON,DINNER,Egg Fried Rice,False,Normal,Sunny,167,152,15
+13-01-2026,TUE,BREAKFAST,Poha,True,Normal,Cloudy,288,241,47
+13-01-2026,TUE,BREAKFAST,Pongal,True,Normal,Cloudy,296,233,63
+13-01-2026,TUE,LUNCH,Mix Veg Curry,True,Normal,Cloudy,238,209,29
+13-01-2026,TUE,LUNCH,Fish Curry,False,Normal,Cloudy,218,182,36
+13-01-2026,TUE,DINNER,Prawn Masala,False,Normal,Cloudy,193,156,37
+14-01-2026,WED,BREAKFAST,Pongal,True,Makar_Sankranti,Cloudy,333,274,59
+14-01-2026,WED,BREAKFAST,Aloo Paratha,True,Makar_Sankranti,Cloudy,321,275,46
+14-01-2026,WED,LUNCH,Kadhi Pakora,True,Makar_Sankranti,Cloudy,294,284,10
+14-01-2026,WED,DINNER,Egg Fried Rice,False,Makar_Sankranti,Cloudy,202,189,13
+15-01-2026,THU,BREAKFAST,Bread Omelette,False,Normal,Sunny,201,182,19
+15-01-2026,THU,BREAKFAST,Masala Dosa,True,Normal,Sunny,280,251,29
+15-01-2026,THU,LUNCH,Fish Curry,False,Normal,Sunny,214,198,16
+15-01-2026,THU,LUNCH,Chicken Curry,False,Normal,Sunny,219,181,38
+15-01-2026,THU,DINNER,Aloo Palak,True,Normal,Sunny,225,186,39
+15-01-2026,THU,DINNER,Rasam Rice,True,Normal,Sunny,247,186,61
+16-01-2026,FRI,BREAKFAST,Chana Masala,True,Normal,Cool,324,257,67
+16-01-2026,FRI,LUNCH,Egg Curry,False,Normal,Cool,283,257,26
+16-01-2026,FRI,DINNER,Curd Rice,True,Normal,Cool,256,229,27
+16-01-2026,FRI,DINNER,Rasam Rice,True,Normal,Cool,227,207,20
+17-01-2026,SAT,BREAKFAST,Aloo Paratha,True,Normal,Cool,142,136,6
+17-01-2026,SAT,LUNCH,Chicken Biryani,False,Normal,Cool,146,110,36
+17-01-2026,SAT,LUNCH,Kadhi Pakora,True,Normal,Cool,179,150,29
+17-01-2026,SAT,DINNER,Chicken Tikka,False,Normal,Cool,69,60,9
+18-01-2026,SUN,BREAKFAST,Aloo Paratha,True,Normal,Cool,148,113,35
+18-01-2026,SUN,BREAKFAST,Poha,True,Normal,Cool,146,117,29
+18-01-2026,SUN,LUNCH,Rajma Chawal,True,Normal,Cool,182,148,34
+18-01-2026,SUN,DINNER,Prawn Masala,False,Normal,Cool,83,73,10
+19-01-2026,MON,BREAKFAST,Chana Masala,True,Normal,Cloudy,274,230,44
+19-01-2026,MON,LUNCH,Fish Curry,False,Normal,Cloudy,225,223,2
+19-01-2026,MON,LUNCH,Mutton Curry,False,Normal,Cloudy,237,223,14
+19-01-2026,MON,DINNER,Veg Fried Rice,True,Normal,Cloudy,195,182,13
+20-01-2026,TUE,BREAKFAST,Masala Dosa,True,Normal,Sunny,280,250,30
+20-01-2026,TUE,LUNCH,Paneer Butter Masala,True,Normal,Sunny,304,295,9
+20-01-2026,TUE,DINNER,Rasam Rice,True,Normal,Sunny,200,200,0
+21-01-2026,WED,BREAKFAST,Egg Bhurji,False,Normal,Sunny,205,192,13
+21-01-2026,WED,BREAKFAST,Bread Omelette,False,Normal,Sunny,231,217,14
+21-01-2026,WED,LUNCH,Chicken Curry,False,Normal,Sunny,255,217,38
+21-01-2026,WED,LUNCH,Chicken Biryani,False,Normal,Sunny,182,182,0
+21-01-2026,WED,DINNER,Curd Rice,True,Normal,Sunny,214,183,31
+21-01-2026,WED,DINNER,Paneer Tikka,True,Normal,Sunny,239,198,41
+22-01-2026,THU,BREAKFAST,Egg Bhurji,False,Normal,Cool,215,199,16
+22-01-2026,THU,LUNCH,Chicken Curry,False,Normal,Cool,271,237,34
+22-01-2026,THU,LUNCH,Veg Biryani,True,Normal,Cool,323,297,26
+22-01-2026,THU,DINNER,Tandoori Chicken,False,Normal,Cool,194,162,32
+22-01-2026,THU,DINNER,Chapati Kurma,True,Normal,Cool,248,195,53
+23-01-2026,FRI,BREAKFAST,Masala Dosa,True,Normal,Cool,327,259,68
+23-01-2026,FRI,LUNCH,Dal Fry,True,Normal,Cool,360,281,79
+23-01-2026,FRI,LUNCH,Sambar Rice,True,Normal,Cool,300,285,15
+23-01-2026,FRI,DINNER,Curd Rice,True,Normal,Cool,241,217,24
+24-01-2026,SAT,BREAKFAST,Pongal,True,Normal,Cool,125,116,9
+24-01-2026,SAT,LUNCH,Dal Fry,True,Normal,Cool,162,157,5
+24-01-2026,SAT,LUNCH,Chicken Biryani,False,Normal,Cool,121,105,16
+24-01-2026,SAT,DINNER,Egg Fried Rice,False,Normal,Cool,80,74,6
+25-01-2026,SUN,BREAKFAST,Chana Masala,True,Normal,Cloudy,152,120,32
+25-01-2026,SUN,LUNCH,Mix Veg Curry,True,Normal,Cloudy,144,110,34
+25-01-2026,SUN,LUNCH,Paneer Butter Masala,True,Normal,Cloudy,137,119,18
+25-01-2026,SUN,DINNER,Egg Fried Rice,False,Normal,Cloudy,83,68,15
+26-01-2026,MON,BREAKFAST,Pongal,True,Republic_Day,Sunny,269,257,12
+26-01-2026,MON,BREAKFAST,Masala Dosa,True,Republic_Day,Sunny,254,241,13
+26-01-2026,MON,LUNCH,Sambar Rice,True,Republic_Day,Sunny,368,307,61
+26-01-2026,MON,DINNER,Egg Fried Rice,False,Republic_Day,Sunny,167,158,9
+27-01-2026,TUE,BREAKFAST,Chana Masala,True,Normal,Cool,326,296,30
+27-01-2026,TUE,LUNCH,Fish Fry,False,Normal,Cool,288,229,59
+27-01-2026,TUE,LUNCH,Veg Biryani,True,Normal,Cool,348,302,46
+27-01-2026,TUE,DINNER,Chicken Tikka,False,Normal,Cool,165,125,40
+27-01-2026,TUE,DINNER,Curd Rice,True,Normal,Cool,209,191,18
+28-01-2026,WED,BREAKFAST,Chana Masala,True,Normal,Cloudy,249,239,10
+28-01-2026,WED,LUNCH,Aloo Gobi,True,Normal,Cloudy,259,216,43
+28-01-2026,WED,DINNER,Prawn Masala,False,Normal,Cloudy,165,145,20
+29-01-2026,THU,BREAKFAST,Masala Dosa,True,Normal,Cloudy,275,270,5
+29-01-2026,THU,BREAKFAST,Poha,True,Normal,Cloudy,269,256,13
+29-01-2026,THU,LUNCH,Aloo Gobi,True,Normal,Cloudy,279,258,21
+29-01-2026,THU,DINNER,Tandoori Chicken,False,Normal,Cloudy,162,133,29
+30-01-2026,FRI,BREAKFAST,Chana Masala,True,Normal,Cloudy,241,208,33
+30-01-2026,FRI,LUNCH,Chicken Curry,False,Normal,Cloudy,270,231,39
+30-01-2026,FRI,LUNCH,Fish Curry,False,Normal,Cloudy,194,168,26
+30-01-2026,FRI,DINNER,Paneer Tikka,True,Normal,Cloudy,224,212,12
+30-01-2026,FRI,DINNER,Rasam Rice,True,Normal,Cloudy,249,203,46
+31-01-2026,SAT,BREAKFAST,Chana Masala,True,Normal,Cool,165,127,38
+31-01-2026,SAT,BREAKFAST,Bread Omelette,False,Normal,Cool,112,90,22
+31-01-2026,SAT,LUNCH,Chicken Curry,False,Normal,Cool,133,110,23
+31-01-2026,SAT,DINNER,Chicken Tikka,False,Normal,Cool,90,75,15
+01-02-2026,SUN,BREAKFAST,Idli Sambar,True,Normal,Warm,130,126,4
+01-02-2026,SUN,BREAKFAST,Poha,True,Normal,Warm,148,148,0
+01-02-2026,SUN,LUNCH,Paneer Butter Masala,True,Normal,Warm,164,151,13
+01-02-2026,SUN,LUNCH,Dal Makhani,True,Normal,Warm,161,138,23
+01-02-2026,SUN,DINNER,Egg Fried Rice,False,Normal,Warm,82,70,12
+01-02-2026,SUN,DINNER,Veg Fried Rice,True,Normal,Warm,100,85,15
+02-02-2026,MON,BREAKFAST,Poha,True,Normal,Sunny,315,283,32
+02-02-2026,MON,LUNCH,Veg Biryani,True,Normal,Sunny,314,288,26
+02-02-2026,MON,DINNER,Prawn Masala,False,Normal,Sunny,185,150,35
+03-02-2026,TUE,BREAKFAST,Chana Masala,True,Normal,Warm,281,230,51
+03-02-2026,TUE,LUNCH,Chicken Biryani,False,Normal,Warm,217,202,15
+03-02-2026,TUE,DINNER,Paneer Tikka,True,Normal,Warm,235,208,27
+03-02-2026,TUE,DINNER,Tandoori Chicken,False,Normal,Warm,198,162,36
+04-02-2026,WED,BREAKFAST,Egg Bhurji,False,Normal,Sunny,225,188,37
+04-02-2026,WED,LUNCH,Kadhi Pakora,True,Normal,Sunny,314,253,61
+04-02-2026,WED,DINNER,Veg Fried Rice,True,Normal,Sunny,212,183,29
+04-02-2026,WED,DINNER,Egg Fried Rice,False,Normal,Sunny,186,160,26
+05-02-2026,THU,BREAKFAST,Egg Bhurji,False,Normal,Warm,216,173,43
+05-02-2026,THU,BREAKFAST,Pongal,True,Normal,Warm,263,230,33
+05-02-2026,THU,LUNCH,Veg Biryani,True,Normal,Warm,286,227,59
+05-02-2026,THU,DINNER,Veg Fried Rice,True,Normal,Warm,235,198,37
+05-02-2026,THU,DINNER,Curd Rice,True,Normal,Warm,214,165,49
+06-02-2026,FRI,BREAKFAST,Egg Bhurji,False,Normal,Warm,191,168,23
+06-02-2026,FRI,BREAKFAST,Bread Omelette,False,Normal,Warm,211,183,28
+06-02-2026,FRI,LUNCH,Egg Curry,False,Normal,Warm,204,184,20
+06-02-2026,FRI,LUNCH,Kadhi Pakora,True,Normal,Warm,284,260,24
+06-02-2026,FRI,DINNER,Paneer Tikka,True,Normal,Warm,226,166,60
+06-02-2026,FRI,DINNER,Veg Fried Rice,True,Normal,Warm,206,182,24
+07-02-2026,SAT,BREAKFAST,Masala Dosa,True,Normal,Warm,151,123,28
+07-02-2026,SAT,LUNCH,Chicken Curry,False,Normal,Warm,94,80,14
+07-02-2026,SAT,DINNER,Curd Rice,True,Normal,Warm,100,85,15
+07-02-2026,SAT,DINNER,Prawn Masala,False,Normal,Warm,76,61,15
+08-02-2026,SUN,BREAKFAST,Masala Dosa,True,Normal,Sunny,127,122,5
+08-02-2026,SUN,LUNCH,Egg Curry,False,Normal,Sunny,116,98,18
+08-02-2026,SUN,DINNER,Aloo Palak,True,Normal,Sunny,122,117,5
+09-02-2026,MON,BREAKFAST,Bread Omelette,False,Normal,Sunny,237,187,50
+09-02-2026,MON,LUNCH,Fish Fry,False,Normal,Sunny,202,191,11
+09-02-2026,MON,DINNER,Egg Fried Rice,False,Normal,Sunny,200,164,36
+10-02-2026,TUE,BREAKFAST,Bread Omelette,False,Normal,Sunny,213,185,28
+10-02-2026,TUE,LUNCH,Kadhi Pakora,True,Normal,Sunny,342,320,22
+10-02-2026,TUE,DINNER,Veg Fried Rice,True,Normal,Sunny,220,197,23
+10-02-2026,TUE,DINNER,Chicken Tikka,False,Normal,Sunny,176,155,21
+11-02-2026,WED,BREAKFAST,Aloo Paratha,True,Normal,Sunny,286,247,39
+11-02-2026,WED,BREAKFAST,Idli Sambar,True,Normal,Sunny,266,246,20
+11-02-2026,WED,LUNCH,Fish Fry,False,Normal,Sunny,244,217,27
+11-02-2026,WED,LUNCH,Rajma Chawal,True,Normal,Sunny,322,248,74
+11-02-2026,WED,DINNER,Paneer Tikka,True,Normal,Sunny,234,199,35
+11-02-2026,WED,DINNER,Tandoori Chicken,False,Normal,Sunny,159,138,21
+12-02-2026,THU,BREAKFAST,Egg Bhurji,False,Normal,Sunny,202,197,5
+12-02-2026,THU,BREAKFAST,Chana Masala,True,Normal,Sunny,258,225,33
+12-02-2026,THU,LUNCH,Egg Curry,False,Normal,Sunny,278,234,44
+12-02-2026,THU,DINNER,Egg Fried Rice,False,Normal,Sunny,177,144,33
+12-02-2026,THU,DINNER,Chapati Kurma,True,Normal,Sunny,250,210,40
+13-02-2026,FRI,BREAKFAST,Masala Dosa,True,Normal,Sunny,273,260,13
+13-02-2026,FRI,LUNCH,Mutton Curry,False,Normal,Sunny,279,240,39
+13-02-2026,FRI,DINNER,Prawn Masala,False,Normal,Sunny,157,140,17
+14-02-2026,SAT,BREAKFAST,Pongal,True,Normal,Warm,133,119,14
+14-02-2026,SAT,BREAKFAST,Bread Omelette,False,Normal,Warm,97,73,24
+14-02-2026,SAT,LUNCH,Dal Makhani,True,Normal,Warm,164,148,16
+14-02-2026,SAT,LUNCH,Veg Biryani,True,Normal,Warm,140,122,18
+14-02-2026,SAT,DINNER,Chapati Kurma,True,Normal,Warm,96,73,23
+15-02-2026,SUN,BREAKFAST,Egg Bhurji,False,Normal,Sunny,97,89,8
+15-02-2026,SUN,BREAKFAST,Idli Sambar,True,Normal,Sunny,129,113,16
+15-02-2026,SUN,LUNCH,Mutton Curry,False,Normal,Sunny,118,107,11
+15-02-2026,SUN,DINNER,Tandoori Chicken,False,Normal,Sunny,75,68,7
+15-02-2026,SUN,DINNER,Prawn Masala,False,Normal,Sunny,95,80,15
+16-02-2026,MON,BREAKFAST,Poha,True,Mid_Sem_Exams,Sunny,300,275,25
+16-02-2026,MON,LUNCH,Kadhi Pakora,True,Mid_Sem_Exams,Sunny,338,281,57
+16-02-2026,MON,LUNCH,Sambar Rice,True,Mid_Sem_Exams,Sunny,298,273,25
+16-02-2026,MON,DINNER,Veg Fried Rice,True,Mid_Sem_Exams,Sunny,263,243,20
+16-02-2026,MON,DINNER,Chicken Tikka,False,Mid_Sem_Exams,Sunny,179,145,34
+17-02-2026,TUE,BREAKFAST,Chana Masala,True,Mid_Sem_Exams,Sunny,326,269,57
+17-02-2026,TUE,LUNCH,Mix Veg Curry,True,Mid_Sem_Exams,Sunny,348,285,63
+17-02-2026,TUE,DINNER,Chicken Tikka,False,Mid_Sem_Exams,Sunny,224,188,36
+18-02-2026,WED,BREAKFAST,Bread Omelette,False,Mid_Sem_Exams,Sunny,243,224,19
+18-02-2026,WED,LUNCH,Veg Biryani,True,Mid_Sem_Exams,Sunny,362,318,44
+18-02-2026,WED,LUNCH,Fish Curry,False,Mid_Sem_Exams,Sunny,237,229,8
+18-02-2026,WED,DINNER,Curd Rice,True,Mid_Sem_Exams,Sunny,283,257,26
+19-02-2026,THU,BREAKFAST,Aloo Paratha,True,Mid_Sem_Exams,Sunny,313,285,28
+19-02-2026,THU,BREAKFAST,Chana Masala,True,Mid_Sem_Exams,Sunny,325,277,48
+19-02-2026,THU,LUNCH,Egg Curry,False,Mid_Sem_Exams,Sunny,226,219,7
+19-02-2026,THU,DINNER,Paneer Tikka,True,Mid_Sem_Exams,Sunny,222,197,25
+19-02-2026,THU,DINNER,Chapati Kurma,True,Mid_Sem_Exams,Sunny,268,236,32
+20-02-2026,FRI,BREAKFAST,Poha,True,Mid_Sem_Exams,Sunny,289,226,63
+20-02-2026,FRI,BREAKFAST,Bread Omelette,False,Mid_Sem_Exams,Sunny,252,245,7
+20-02-2026,FRI,LUNCH,Fish Curry,False,Mid_Sem_Exams,Sunny,232,190,42
+20-02-2026,FRI,LUNCH,Dal Fry,True,Mid_Sem_Exams,Sunny,360,360,0
+20-02-2026,FRI,DINNER,Paneer Tikka,True,Mid_Sem_Exams,Sunny,236,214,22
+21-02-2026,SAT,BREAKFAST,Idli Sambar,True,Normal,Sunny,135,119,16
+21-02-2026,SAT,BREAKFAST,Poha,True,Normal,Sunny,139,126,13
+21-02-2026,SAT,LUNCH,Sambar Rice,True,Normal,Sunny,114,110,4
+21-02-2026,SAT,DINNER,Chapati Kurma,True,Normal,Sunny,141,113,28
+22-02-2026,SUN,BREAKFAST,Bread Omelette,False,Normal,Sunny,86,85,1
+22-02-2026,SUN,BREAKFAST,Egg Bhurji,False,Normal,Sunny,111,100,11
+22-02-2026,SUN,LUNCH,Veg Biryani,True,Normal,Sunny,165,146,19
+22-02-2026,SUN,LUNCH,Sambar Rice,True,Normal,Sunny,173,147,26
+22-02-2026,SUN,DINNER,Aloo Palak,True,Normal,Sunny,125,100,25
+23-02-2026,MON,BREAKFAST,Chana Masala,True,Normal,Sunny,262,232,30
+23-02-2026,MON,LUNCH,Rajma Chawal,True,Normal,Sunny,316,285,31
+23-02-2026,MON,LUNCH,Egg Curry,False,Normal,Sunny,223,201,22
+23-02-2026,MON,DINNER,Chicken Tikka,False,Normal,Sunny,182,155,27
+23-02-2026,MON,DINNER,Tandoori Chicken,False,Normal,Sunny,138,130,8
+24-02-2026,TUE,BREAKFAST,Bread Omelette,False,Normal,Warm,169,147,22
+24-02-2026,TUE,BREAKFAST,Poha,True,Normal,Warm,268,200,68
+24-02-2026,TUE,LUNCH,Dal Fry,True,Normal,Warm,308,307,1
+24-02-2026,TUE,DINNER,Curd Rice,True,Normal,Warm,228,187,41
+24-02-2026,TUE,DINNER,Prawn Masala,False,Normal,Warm,154,154,0
+25-02-2026,WED,BREAKFAST,Bread Omelette,False,Normal,Sunny,232,207,25
+25-02-2026,WED,LUNCH,Kadhi Pakora,True,Normal,Sunny,341,305,36
+25-02-2026,WED,DINNER,Prawn Masala,False,Normal,Sunny,180,147,33
+26-02-2026,THU,BREAKFAST,Pongal,True,Normal,Sunny,255,241,14
+26-02-2026,THU,BREAKFAST,Idli Sambar,True,Normal,Sunny,314,260,54
+26-02-2026,THU,LUNCH,Chicken Curry,False,Normal,Sunny,258,234,24
+26-02-2026,THU,LUNCH,Veg Biryani,True,Normal,Sunny,334,297,37
+26-02-2026,THU,DINNER,Egg Fried Rice,False,Normal,Sunny,176,138,38
+26-02-2026,THU,DINNER,Chicken Tikka,False,Normal,Sunny,154,134,20
+27-02-2026,FRI,BREAKFAST,Chana Masala,True,Normal,Sunny,265,225,40
+27-02-2026,FRI,BREAKFAST,Aloo Paratha,True,Normal,Sunny,271,261,10
+27-02-2026,FRI,LUNCH,Fish Curry,False,Normal,Sunny,239,207,32
+27-02-2026,FRI,DINNER,Tandoori Chicken,False,Normal,Sunny,188,164,24
+27-02-2026,FRI,DINNER,Chicken Tikka,False,Normal,Sunny,177,152,25
+28-02-2026,SAT,BREAKFAST,Pongal,True,Normal,Sunny,134,124,10
+28-02-2026,SAT,LUNCH,Aloo Gobi,True,Normal,Sunny,154,126,28
+28-02-2026,SAT,LUNCH,Mix Veg Curry,True,Normal,Sunny,159,135,24
+28-02-2026,SAT,DINNER,Chapati Kurma,True,Normal,Sunny,130,110,20
+01-03-2026,SUN,BREAKFAST,Idli Sambar,True,Normal,Sunny,120,116,4
+01-03-2026,SUN,BREAKFAST,Pongal,True,Normal,Sunny,125,117,8
+01-03-2026,SUN,LUNCH,Dal Makhani,True,Normal,Sunny,151,131,20
+01-03-2026,SUN,DINNER,Curd Rice,True,Normal,Sunny,110,95,15
+01-03-2026,SUN,DINNER,Chicken Tikka,False,Normal,Sunny,89,75,14
+02-03-2026,MON,BREAKFAST,Poha,True,Normal,Hot,237,210,27
+02-03-2026,MON,LUNCH,Aloo Gobi,True,Normal,Hot,307,259,48
+02-03-2026,MON,LUNCH,Fish Fry,False,Normal,Hot,189,171,18
+02-03-2026,MON,DINNER,Rasam Rice,True,Normal,Hot,203,167,36
+02-03-2026,MON,DINNER,Paneer Tikka,True,Normal,Hot,171,149,22
+03-03-2026,TUE,BREAKFAST,Bread Omelette,False,Normal,Hot,198,175,23
+03-03-2026,TUE,BREAKFAST,Poha,True,Normal,Hot,270,253,17
+03-03-2026,TUE,LUNCH,Dal Makhani,True,Normal,Hot,282,254,28
+03-03-2026,TUE,LUNCH,Rajma Chawal,True,Normal,Hot,305,264,41
+03-03-2026,TUE,DINNER,Paneer Tikka,True,Normal,Hot,217,163,54
+04-03-2026,WED,BREAKFAST,Pongal,True,Normal,Warm,269,239,30
+04-03-2026,WED,BREAKFAST,Poha,True,Normal,Warm,289,258,31
+04-03-2026,WED,LUNCH,Fish Curry,False,Normal,Warm,233,190,43
+04-03-2026,WED,LUNCH,Dal Fry,True,Normal,Warm,300,261,39
+04-03-2026,WED,DINNER,Tandoori Chicken,False,Normal,Warm,168,132,36
+05-03-2026,THU,BREAKFAST,Aloo Paratha,True,Normal,Warm,282,273,9
+05-03-2026,THU,BREAKFAST,Idli Sambar,True,Normal,Warm,285,231,54
+05-03-2026,THU,LUNCH,Mutton Curry,False,Normal,Warm,236,197,39
+05-03-2026,THU,DINNER,Egg Fried Rice,False,Normal,Warm,164,155,9
+06-03-2026,FRI,BREAKFAST,Pongal,True,Normal,Sunny,342,292,50
+06-03-2026,FRI,BREAKFAST,Bread Omelette,False,Normal,Sunny,194,194,0
+06-03-2026,FRI,LUNCH,Chicken Curry,False,Normal,Sunny,236,201,35
+06-03-2026,FRI,LUNCH,Aloo Gobi,True,Normal,Sunny,330,293,37
+06-03-2026,FRI,DINNER,Prawn Masala,False,Normal,Sunny,152,142,10
+07-03-2026,SAT,BREAKFAST,Masala Dosa,True,Normal,Hot,111,94,17
+07-03-2026,SAT,BREAKFAST,Bread Omelette,False,Normal,Hot,84,71,13
+07-03-2026,SAT,LUNCH,Fish Curry,False,Normal,Hot,104,87,17
+07-03-2026,SAT,DINNER,Curd Rice,True,Normal,Hot,113,88,25
+08-03-2026,SUN,BREAKFAST,Pongal,True,Normal,Hot,118,104,14
+08-03-2026,SUN,LUNCH,Egg Curry,False,Normal,Hot,105,84,21
+08-03-2026,SUN,DINNER,Veg Fried Rice,True,Normal,Hot,107,88,19
+09-03-2026,MON,BREAKFAST,Chana Masala,True,Normal,Warm,247,224,23
+09-03-2026,MON,LUNCH,Dal Fry,True,Normal,Warm,287,242,45
+09-03-2026,MON,LUNCH,Egg Curry,False,Normal,Warm,206,188,18
+09-03-2026,MON,DINNER,Tandoori Chicken,False,Normal,Warm,147,119,28
+10-03-2026,TUE,BREAKFAST,Masala Dosa,True,Holi_Festival,Sunny,297,256,41
+10-03-2026,TUE,LUNCH,Fish Curry,False,Holi_Festival,Sunny,273,236,37
+10-03-2026,TUE,LUNCH,Fish Fry,False,Holi_Festival,Sunny,264,244,20
+10-03-2026,TUE,DINNER,Prawn Masala,False,Holi_Festival,Sunny,194,176,18
+10-03-2026,TUE,DINNER,Chicken Tikka,False,Holi_Festival,Sunny,198,171,27
+11-03-2026,WED,BREAKFAST,Poha,True,Holi_Festival,Warm,339,319,20
+11-03-2026,WED,LUNCH,Chicken Curry,False,Holi_Festival,Warm,261,261,0
+11-03-2026,WED,LUNCH,Rajma Chawal,True,Holi_Festival,Warm,323,293,30
+11-03-2026,WED,DINNER,Egg Fried Rice,False,Holi_Festival,Warm,187,161,26
+11-03-2026,WED,DINNER,Prawn Masala,False,Holi_Festival,Warm,184,136,48
+12-03-2026,THU,BREAKFAST,Poha,True,Holi_Festival,Warm,392,339,53
+12-03-2026,THU,LUNCH,Kadhi Pakora,True,Holi_Festival,Warm,356,320,36
+12-03-2026,THU,DINNER,Rasam Rice,True,Holi_Festival,Warm,241,231,10
+13-03-2026,FRI,BREAKFAST,Masala Dosa,True,Holi_Festival,Hot,331,287,44
+13-03-2026,FRI,LUNCH,Paneer Butter Masala,True,Holi_Festival,Hot,351,312,39
+13-03-2026,FRI,DINNER,Veg Fried Rice,True,Holi_Festival,Hot,222,209,13
+13-03-2026,FRI,DINNER,Curd Rice,True,Holi_Festival,Hot,246,225,21
+14-03-2026,SAT,BREAKFAST,Pongal,True,Holi_Festival,Hot,144,116,28
+14-03-2026,SAT,BREAKFAST,Poha,True,Holi_Festival,Hot,156,141,15
+14-03-2026,SAT,LUNCH,Chicken Curry,False,Holi_Festival,Hot,105,92,13
+14-03-2026,SAT,DINNER,Paneer Tikka,True,Holi_Festival,Hot,111,97,14
+14-03-2026,SAT,DINNER,Aloo Palak,True,Holi_Festival,Hot,102,90,12
+15-03-2026,SUN,BREAKFAST,Poha,True,Normal,Hot,119,101,18
+15-03-2026,SUN,LUNCH,Paneer Butter Masala,True,Normal,Hot,128,121,7
+15-03-2026,SUN,DINNER,Tandoori Chicken,False,Normal,Hot,77,67,10
+15-03-2026,SUN,DINNER,Chapati Kurma,True,Normal,Hot,103,81,22
+16-03-2026,MON,BREAKFAST,Idli Sambar,True,Normal,Sunny,283,244,39
+16-03-2026,MON,LUNCH,Chicken Curry,False,Normal,Sunny,242,191,51
+16-03-2026,MON,LUNCH,Dal Makhani,True,Normal,Sunny,274,249,25
+16-03-2026,MON,DINNER,Tandoori Chicken,False,Normal,Sunny,179,155,24
+16-03-2026,MON,DINNER,Chapati Kurma,True,Normal,Sunny,215,193,22
+17-03-2026,TUE,BREAKFAST,Masala Dosa,True,Normal,Warm,255,220,35
+17-03-2026,TUE,BREAKFAST,Aloo Paratha,True,Normal,Warm,240,211,29
+17-03-2026,TUE,LUNCH,Egg Curry,False,Normal,Warm,225,205,20
+17-03-2026,TUE,DINNER,Aloo Palak,True,Normal,Warm,206,184,22
+17-03-2026,TUE,DINNER,Egg Fried Rice,False,Normal,Warm,204,152,52
+18-03-2026,WED,BREAKFAST,Poha,True,Normal,Sunny,290,255,35
+18-03-2026,WED,LUNCH,Kadhi Pakora,True,Normal,Sunny,306,251,55
+18-03-2026,WED,LUNCH,Dal Fry,True,Normal,Sunny,342,300,42
+18-03-2026,WED,DINNER,Veg Fried Rice,True,Normal,Sunny,199,189,10
+18-03-2026,WED,DINNER,Curd Rice,True,Normal,Sunny,202,180,22
+19-03-2026,THU,BREAKFAST,Chana Masala,True,Normal,Hot,196,182,14
+19-03-2026,THU,LUNCH,Fish Curry,False,Normal,Hot,198,171,27
+19-03-2026,THU,LUNCH,Mutton Curry,False,Normal,Hot,186,161,25
+19-03-2026,THU,DINNER,Chicken Tikka,False,Normal,Hot,146,129,17
+19-03-2026,THU,DINNER,Paneer Tikka,True,Normal,Hot,190,170,20
+20-03-2026,FRI,BREAKFAST,Chana Masala,True,Normal,Warm,307,272,35
+20-03-2026,FRI,LUNCH,Dal Fry,True,Normal,Warm,265,249,16
+20-03-2026,FRI,DINNER,Aloo Palak,True,Normal,Warm,230,203,27
+21-03-2026,SAT,BREAKFAST,Poha,True,Normal,Warm,112,100,12
+21-03-2026,SAT,LUNCH,Sambar Rice,True,Normal,Warm,164,134,30
+21-03-2026,SAT,DINNER,Chicken Tikka,False,Normal,Warm,87,68,19
+21-03-2026,SAT,DINNER,Tandoori Chicken,False,Normal,Warm,92,73,19
+22-03-2026,SUN,BREAKFAST,Chana Masala,True,Normal,Sunny,135,126,9
+22-03-2026,SUN,LUNCH,Dal Makhani,True,Normal,Sunny,185,159,26
+22-03-2026,SUN,LUNCH,Egg Curry,False,Normal,Sunny,101,88,13
+22-03-2026,SUN,DINNER,Egg Fried Rice,False,Normal,Sunny,72,63,9
+23-03-2026,MON,BREAKFAST,Egg Bhurji,False,Normal,Hot,187,143,44
+23-03-2026,MON,BREAKFAST,Poha,True,Normal,Hot,234,204,30
+23-03-2026,MON,LUNCH,Sambar Rice,True,Normal,Hot,271,241,30
+23-03-2026,MON,LUNCH,Rajma Chawal,True,Normal,Hot,276,214,62
+23-03-2026,MON,DINNER,Prawn Masala,False,Normal,Hot,157,140,17
+23-03-2026,MON,DINNER,Egg Fried Rice,False,Normal,Hot,132,127,5
+24-03-2026,TUE,BREAKFAST,Chana Masala,True,Normal,Sunny,289,251,38
+24-03-2026,TUE,LUNCH,Sambar Rice,True,Normal,Sunny,283,253,30
+24-03-2026,TUE,DINNER,Egg Fried Rice,False,Normal,Sunny,169,125,44
+24-03-2026,TUE,DINNER,Tandoori Chicken,False,Normal,Sunny,178,149,29
+25-03-2026,WED,BREAKFAST,Pongal,True,Normal,Warm,260,213,47
+25-03-2026,WED,LUNCH,Paneer Butter Masala,True,Normal,Warm,255,255,0
+25-03-2026,WED,LUNCH,Veg Biryani,True,Normal,Warm,329,254,75
+25-03-2026,WED,DINNER,Chicken Tikka,False,Normal,Warm,184,149,35
+25-03-2026,WED,DINNER,Curd Rice,True,Normal,Warm,269,227,42
+26-03-2026,THU,BREAKFAST,Idli Sambar,True,Normal,Sunny,227,205,22
+26-03-2026,THU,BREAKFAST,Masala Dosa,True,Normal,Sunny,277,265,12
+26-03-2026,THU,LUNCH,Aloo Gobi,True,Normal,Sunny,272,272,0
+26-03-2026,THU,DINNER,Rasam Rice,True,Normal,Sunny,241,195,46
+26-03-2026,THU,DINNER,Chicken Tikka,False,Normal,Sunny,173,148,25
+27-03-2026,FRI,BREAKFAST,Masala Dosa,True,Normal,Hot,225,187,38
+27-03-2026,FRI,BREAKFAST,Bread Omelette,False,Normal,Hot,140,127,13
+27-03-2026,FRI,LUNCH,Paneer Butter Masala,True,Normal,Hot,273,236,37
+27-03-2026,FRI,DINNER,Chicken Tikka,False,Normal,Hot,145,123,22
+28-03-2026,SAT,BREAKFAST,Chana Masala,True,Normal,Warm,116,100,16
+28-03-2026,SAT,BREAKFAST,Bread Omelette,False,Normal,Warm,94,89,5
+28-03-2026,SAT,LUNCH,Dal Makhani,True,Normal,Warm,161,141,20
+28-03-2026,SAT,DINNER,Prawn Masala,False,Normal,Warm,75,53,22
+28-03-2026,SAT,DINNER,Chapati Kurma,True,Normal,Warm,109,84,25
+29-03-2026,SUN,BREAKFAST,Poha,True,Normal,Sunny,132,122,10
+29-03-2026,SUN,LUNCH,Egg Curry,False,Normal,Sunny,115,106,9
+29-03-2026,SUN,LUNCH,Dal Fry,True,Normal,Sunny,164,145,19
+29-03-2026,SUN,DINNER,Paneer Tikka,True,Normal,Sunny,112,96,16
+29-03-2026,SUN,DINNER,Prawn Masala,False,Normal,Sunny,95,73,22
+30-03-2026,MON,BREAKFAST,Chana Masala,True,Normal,Sunny,302,291,11
+30-03-2026,MON,BREAKFAST,Pongal,True,Normal,Sunny,269,227,42
+30-03-2026,MON,LUNCH,Chicken Biryani,False,Normal,Sunny,226,218,8
+30-03-2026,MON,LUNCH,Fish Curry,False,Normal,Sunny,251,199,52
+30-03-2026,MON,DINNER,Tandoori Chicken,False,Normal,Sunny,180,157,23
+30-03-2026,MON,DINNER,Curd Rice,True,Normal,Sunny,190,171,19
+31-03-2026,TUE,BREAKFAST,Masala Dosa,True,Normal,Hot,228,175,53
+31-03-2026,TUE,BREAKFAST,Aloo Paratha,True,Normal,Hot,228,204,24
+31-03-2026,TUE,LUNCH,Aloo Gobi,True,Normal,Hot,279,225,54
+31-03-2026,TUE,DINNER,Rasam Rice,True,Normal,Hot,182,163,19
+31-03-2026,TUE,DINNER,Chicken Tikka,False,Normal,Hot,140,134,6
+01-04-2026,WED,BREAKFAST,Idli Sambar,True,Cultural_Fest,Sunny,476,384,92
+01-04-2026,WED,BREAKFAST,Masala Dosa,True,Cultural_Fest,Sunny,427,341,86
+01-04-2026,WED,LUNCH,Veg Biryani,True,Cultural_Fest,Sunny,451,397,54
+01-04-2026,WED,LUNCH,Chicken Curry,False,Cultural_Fest,Sunny,365,307,58
+01-04-2026,WED,DINNER,Chapati Kurma,True,Cultural_Fest,Sunny,303,277,26
+02-04-2026,THU,BREAKFAST,Poha,True,Cultural_Fest,Sunny,399,332,67
+02-04-2026,THU,BREAKFAST,Masala Dosa,True,Cultural_Fest,Sunny,419,371,48
+02-04-2026,THU,LUNCH,Paneer Butter Masala,True,Cultural_Fest,Sunny,440,395,45
+02-04-2026,THU,LUNCH,Mutton Curry,False,Cultural_Fest,Sunny,323,298,25
+02-04-2026,THU,DINNER,Chapati Kurma,True,Cultural_Fest,Sunny,316,258,58
+03-04-2026,FRI,BREAKFAST,Aloo Paratha,True,Cultural_Fest,Sunny,399,341,58
+03-04-2026,FRI,LUNCH,Dal Fry,True,Cultural_Fest,Sunny,505,392,113
+03-04-2026,FRI,DINNER,Chicken Tikka,False,Cultural_Fest,Sunny,240,204,36
+03-04-2026,FRI,DINNER,Paneer Tikka,True,Cultural_Fest,Sunny,320,266,54
+04-04-2026,SAT,BREAKFAST,Bread Omelette,False,Cultural_Fest,Hot,118,97,21
+04-04-2026,SAT,LUNCH,Mutton Curry,False,Cultural_Fest,Hot,134,115,19
+04-04-2026,SAT,LUNCH,Fish Fry,False,Cultural_Fest,Hot,139,111,28
+04-04-2026,SAT,DINNER,Paneer Tikka,True,Cultural_Fest,Hot,125,109,16
+05-04-2026,SUN,BREAKFAST,Chana Masala,True,Cultural_Fest,Sunny,178,169,9
+05-04-2026,SUN,LUNCH,Mix Veg Curry,True,Cultural_Fest,Sunny,185,174,11
+05-04-2026,SUN,LUNCH,Kadhi Pakora,True,Cultural_Fest,Sunny,220,220,0
+05-04-2026,SUN,DINNER,Paneer Tikka,True,Cultural_Fest,Sunny,159,126,33
+05-04-2026,SUN,DINNER,Egg Fried Rice,False,Cultural_Fest,Sunny,104,102,2
+06-04-2026,MON,BREAKFAST,Chana Masala,True,Normal,Sunny,283,244,39
+06-04-2026,MON,BREAKFAST,Egg Bhurji,False,Normal,Sunny,197,184,13
+06-04-2026,MON,LUNCH,Chicken Biryani,False,Normal,Sunny,209,207,2
+06-04-2026,MON,LUNCH,Dal Fry,True,Normal,Sunny,299,259,40
+06-04-2026,MON,DINNER,Veg Fried Rice,True,Normal,Sunny,205,174,31
+07-04-2026,TUE,BREAKFAST,Aloo Paratha,True,Normal,Hot,247,217,30
+07-04-2026,TUE,BREAKFAST,Poha,True,Normal,Hot,228,201,27
+07-04-2026,TUE,LUNCH,Fish Curry,False,Normal,Hot,201,188,13
+07-04-2026,TUE,LUNCH,Dal Makhani,True,Normal,Hot,309,243,66
+07-04-2026,TUE,DINNER,Curd Rice,True,Normal,Hot,187,160,27
+07-04-2026,TUE,DINNER,Egg Fried Rice,False,Normal,Hot,141,127,14
+08-04-2026,WED,BREAKFAST,Masala Dosa,True,Normal,Hot,180,158,22
+08-04-2026,WED,BREAKFAST,Idli Sambar,True,Normal,Hot,241,196,45
+08-04-2026,WED,LUNCH,Fish Fry,False,Normal,Hot,235,199,36
+08-04-2026,WED,LUNCH,Kadhi Pakora,True,Normal,Hot,258,232,26
+08-04-2026,WED,DINNER,Paneer Tikka,True,Normal,Hot,182,140,42
+08-04-2026,WED,DINNER,Aloo Palak,True,Normal,Hot,207,182,25
+09-04-2026,THU,BREAKFAST,Pongal,True,Normal,Hot,231,196,35
+09-04-2026,THU,BREAKFAST,Poha,True,Normal,Hot,225,212,13
+09-04-2026,THU,LUNCH,Chicken Curry,False,Normal,Hot,185,153,32
+09-04-2026,THU,LUNCH,Veg Biryani,True,Normal,Hot,300,259,41
+09-04-2026,THU,DINNER,Veg Fried Rice,True,Normal,Hot,184,151,33
+09-04-2026,THU,DINNER,Tandoori Chicken,False,Normal,Hot,155,132,23
+10-04-2026,FRI,BREAKFAST,Masala Dosa,True,Normal,Sunny,326,291,35
+10-04-2026,FRI,BREAKFAST,Pongal,True,Normal,Sunny,286,221,65
+10-04-2026,FRI,LUNCH,Chicken Biryani,False,Normal,Sunny,205,166,39
+10-04-2026,FRI,DINNER,Veg Fried Rice,True,Normal,Sunny,237,220,17
+11-04-2026,SAT,BREAKFAST,Aloo Paratha,True,Normal,Hot,125,105,20
+11-04-2026,SAT,LUNCH,Rajma Chawal,True,Normal,Hot,139,133,6
+11-04-2026,SAT,DINNER,Curd Rice,True,Normal,Hot,93,75,18
+11-04-2026,SAT,DINNER,Egg Fried Rice,False,Normal,Hot,69,63,6
+12-04-2026,SUN,BREAKFAST,Idli Sambar,True,Normal,Hot,121,111,10
+12-04-2026,SUN,LUNCH,Kadhi Pakora,True,Normal,Hot,148,137,11
+12-04-2026,SUN,DINNER,Egg Fried Rice,False,Normal,Hot,74,71,3
+12-04-2026,SUN,DINNER,Veg Fried Rice,True,Normal,Hot,99,87,12
+13-04-2026,MON,BREAKFAST,Masala Dosa,True,Normal,Hot,227,201,26
+13-04-2026,MON,BREAKFAST,Chana Masala,True,Normal,Hot,210,205,5
+13-04-2026,MON,LUNCH,Fish Fry,False,Normal,Hot,222,173,49
+13-04-2026,MON,DINNER,Tandoori Chicken,False,Normal,Hot,153,110,43
+14-04-2026,TUE,BREAKFAST,Poha,True,Normal,Hot,214,183,31
+14-04-2026,TUE,LUNCH,Fish Fry,False,Normal,Hot,184,172,12
+14-04-2026,TUE,LUNCH,Mutton Curry,False,Normal,Hot,187,177,10
+14-04-2026,TUE,DINNER,Chapati Kurma,True,Normal,Hot,191,154,37
+15-04-2026,WED,BREAKFAST,Poha,True,Normal,Hot,249,225,24
+15-04-2026,WED,BREAKFAST,Chana Masala,True,Normal,Hot,211,198,13
+15-04-2026,WED,LUNCH,Fish Fry,False,Normal,Hot,189,162,27
+15-04-2026,WED,LUNCH,Sambar Rice,True,Normal,Hot,258,213,45
+15-04-2026,WED,DINNER,Aloo Palak,True,Normal,Hot,205,156,49
+16-04-2026,THU,BREAKFAST,Chana Masala,True,Normal,Sunny,298,253,45
+16-04-2026,THU,LUNCH,Dal Fry,True,Normal,Sunny,319,290,29
+16-04-2026,THU,LUNCH,Chicken Curry,False,Normal,Sunny,258,207,51
+16-04-2026,THU,DINNER,Paneer Tikka,True,Normal,Sunny,234,196,38
+16-04-2026,THU,DINNER,Prawn Masala,False,Normal,Sunny,189,152,37
+17-04-2026,FRI,BREAKFAST,Aloo Paratha,True,Normal,Hot,210,193,17
+17-04-2026,FRI,BREAKFAST,Bread Omelette,False,Normal,Hot,167,150,17
+17-04-2026,FRI,LUNCH,Aloo Gobi,True,Normal,Hot,272,263,9
+17-04-2026,FRI,DINNER,Egg Fried Rice,False,Normal,Hot,118,108,10
+18-04-2026,SAT,BREAKFAST,Poha,True,Normal,Sunny,162,131,31
+18-04-2026,SAT,BREAKFAST,Idli Sambar,True,Normal,Sunny,133,133,0
+18-04-2026,SAT,LUNCH,Egg Curry,False,Normal,Sunny,100,89,11
+18-04-2026,SAT,LUNCH,Veg Biryani,True,Normal,Sunny,132,120,12
+18-04-2026,SAT,DINNER,Paneer Tikka,True,Normal,Sunny,102,92,10
+19-04-2026,SUN,BREAKFAST,Bread Omelette,False,Normal,Sunny,102,90,12
+19-04-2026,SUN,BREAKFAST,Masala Dosa,True,Normal,Sunny,147,134,13
+19-04-2026,SUN,LUNCH,Rajma Chawal,True,Normal,Sunny,153,119,34
+19-04-2026,SUN,LUNCH,Kadhi Pakora,True,Normal,Sunny,136,134,2
+19-04-2026,SUN,DINNER,Paneer Tikka,True,Normal,Sunny,107,93,14
+20-04-2026,MON,BREAKFAST,Chana Masala,True,End_Sem_Exams,Hot,303,266,37
+20-04-2026,MON,BREAKFAST,Pongal,True,End_Sem_Exams,Hot,277,244,33
+20-04-2026,MON,LUNCH,Veg Biryani,True,End_Sem_Exams,Hot,249,241,8
+20-04-2026,MON,DINNER,Veg Fried Rice,True,End_Sem_Exams,Hot,211,164,47
+20-04-2026,MON,DINNER,Egg Fried Rice,False,End_Sem_Exams,Hot,145,137,8
+21-04-2026,TUE,BREAKFAST,Masala Dosa,True,End_Sem_Exams,Hot,324,271,53
+21-04-2026,TUE,BREAKFAST,Egg Bhurji,False,End_Sem_Exams,Hot,203,168,35
+21-04-2026,TUE,LUNCH,Veg Biryani,True,End_Sem_Exams,Hot,332,256,76
+21-04-2026,TUE,DINNER,Veg Fried Rice,True,End_Sem_Exams,Hot,220,180,40
+21-04-2026,TUE,DINNER,Chapati Kurma,True,End_Sem_Exams,Hot,204,164,40
+22-04-2026,WED,BREAKFAST,Egg Bhurji,False,End_Sem_Exams,Sunny,259,237,22
+22-04-2026,WED,LUNCH,Paneer Butter Masala,True,End_Sem_Exams,Sunny,320,320,0
+22-04-2026,WED,LUNCH,Kadhi Pakora,True,End_Sem_Exams,Sunny,358,348,10
+22-04-2026,WED,DINNER,Rasam Rice,True,End_Sem_Exams,Sunny,256,211,45
+22-04-2026,WED,DINNER,Aloo Palak,True,End_Sem_Exams,Sunny,238,213,25
+23-04-2026,THU,BREAKFAST,Aloo Paratha,True,End_Sem_Exams,Hot,295,251,44
+23-04-2026,THU,LUNCH,Dal Fry,True,End_Sem_Exams,Hot,302,273,29
+23-04-2026,THU,DINNER,Egg Fried Rice,False,End_Sem_Exams,Hot,176,135,41
+24-04-2026,FRI,BREAKFAST,Bread Omelette,False,End_Sem_Exams,Sunny,217,193,24
+24-04-2026,FRI,BREAKFAST,Chana Masala,True,End_Sem_Exams,Sunny,291,247,44
+24-04-2026,FRI,LUNCH,Egg Curry,False,End_Sem_Exams,Sunny,224,191,33
+24-04-2026,FRI,LUNCH,Mix Veg Curry,True,End_Sem_Exams,Sunny,340,316,24
+24-04-2026,FRI,DINNER,Veg Fried Rice,True,End_Sem_Exams,Sunny,244,227,17
+25-04-2026,SAT,BREAKFAST,Egg Bhurji,False,End_Sem_Exams,Sunny,124,102,22
+25-04-2026,SAT,LUNCH,Rajma Chawal,True,End_Sem_Exams,Sunny,179,143,36
+25-04-2026,SAT,LUNCH,Chicken Biryani,False,End_Sem_Exams,Sunny,109,105,4
+25-04-2026,SAT,DINNER,Chapati Kurma,True,End_Sem_Exams,Sunny,115,101,14
+26-04-2026,SUN,BREAKFAST,Poha,True,End_Sem_Exams,Sunny,130,127,3
+26-04-2026,SUN,LUNCH,Aloo Gobi,True,End_Sem_Exams,Sunny,220,190,30
+26-04-2026,SUN,DINNER,Rasam Rice,True,End_Sem_Exams,Sunny,112,97,15
+26-04-2026,SUN,DINNER,Veg Fried Rice,True,End_Sem_Exams,Sunny,118,102,16
+27-04-2026,MON,BREAKFAST,Pongal,True,End_Sem_Exams,Sunny,299,280,19
+27-04-2026,MON,BREAKFAST,Masala Dosa,True,End_Sem_Exams,Sunny,310,271,39
+27-04-2026,MON,LUNCH,Egg Curry,False,End_Sem_Exams,Sunny,268,218,50
+27-04-2026,MON,LUNCH,Sambar Rice,True,End_Sem_Exams,Sunny,389,343,46
+27-04-2026,MON,DINNER,Paneer Tikka,True,End_Sem_Exams,Sunny,257,209,48
+27-04-2026,MON,DINNER,Prawn Masala,False,End_Sem_Exams,Sunny,189,175,14
+28-04-2026,TUE,BREAKFAST,Idli Sambar,True,End_Sem_Exams,Hot,257,233,24
+28-04-2026,TUE,BREAKFAST,Masala Dosa,True,End_Sem_Exams,Hot,281,210,71
+28-04-2026,TUE,LUNCH,Chicken Curry,False,End_Sem_Exams,Hot,226,202,24
+28-04-2026,TUE,LUNCH,Egg Curry,False,End_Sem_Exams,Hot,210,181,29
+28-04-2026,TUE,DINNER,Chapati Kurma,True,End_Sem_Exams,Hot,178,178,0
+28-04-2026,TUE,DINNER,Chicken Tikka,False,End_Sem_Exams,Hot,167,150,17
+29-04-2026,WED,BREAKFAST,Aloo Paratha,True,End_Sem_Exams,Hot,240,210,30
+29-04-2026,WED,LUNCH,Sambar Rice,True,End_Sem_Exams,Hot,314,274,40
+29-04-2026,WED,DINNER,Curd Rice,True,End_Sem_Exams,Hot,236,198,38
+29-04-2026,WED,DINNER,Rasam Rice,True,End_Sem_Exams,Hot,232,203,29
+30-04-2026,THU,BREAKFAST,Pongal,True,End_Sem_Exams,Sunny,299,262,37
+30-04-2026,THU,LUNCH,Sambar Rice,True,End_Sem_Exams,Sunny,397,379,18
+30-04-2026,THU,LUNCH,Veg Biryani,True,End_Sem_Exams,Sunny,364,364,0
+30-04-2026,THU,DINNER,Paneer Tikka,True,End_Sem_Exams,Sunny,267,215,52
+30-04-2026,THU,DINNER,Tandoori Chicken,False,End_Sem_Exams,Sunny,170,144,26
+01-05-2026,FRI,BREAKFAST,Bread Omelette,False,End_Sem_Exams,Humid,197,174,23
+01-05-2026,FRI,BREAKFAST,Aloo Paratha,True,End_Sem_Exams,Humid,266,229,37
+01-05-2026,FRI,LUNCH,Kadhi Pakora,True,End_Sem_Exams,Humid,315,266,49
+01-05-2026,FRI,LUNCH,Rajma Chawal,True,End_Sem_Exams,Humid,272,220,52
+01-05-2026,FRI,DINNER,Curd Rice,True,End_Sem_Exams,Humid,210,186,24
+02-05-2026,SAT,BREAKFAST,Bread Omelette,False,Summer_Vacation,Hot,5,4,1
+02-05-2026,SAT,LUNCH,Fish Curry,False,Summer_Vacation,Hot,7,6,1
+02-05-2026,SAT,DINNER,Chapati Kurma,True,Summer_Vacation,Hot,7,7,0
+03-05-2026,SUN,BREAKFAST,Egg Bhurji,False,Summer_Vacation,Hot,5,4,1
+03-05-2026,SUN,BREAKFAST,Chana Masala,True,Summer_Vacation,Hot,6,6,0
+03-05-2026,SUN,LUNCH,Mix Veg Curry,True,Summer_Vacation,Hot,9,8,1
+03-05-2026,SUN,LUNCH,Kadhi Pakora,True,Summer_Vacation,Hot,9,8,1
+03-05-2026,SUN,DINNER,Veg Fried Rice,True,Summer_Vacation,Hot,5,4,1
+04-05-2026,MON,BREAKFAST,Poha,True,Summer_Vacation,Humid,21,18,3
+04-05-2026,MON,BREAKFAST,Egg Bhurji,False,Summer_Vacation,Humid,12,10,2
+04-05-2026,MON,LUNCH,Fish Fry,False,Summer_Vacation,Humid,16,14,2
+04-05-2026,MON,DINNER,Chapati Kurma,True,Summer_Vacation,Humid,14,13,1
+05-05-2026,TUE,BREAKFAST,Aloo Paratha,True,Summer_Vacation,Humid,19,14,5
+05-05-2026,TUE,LUNCH,Rajma Chawal,True,Summer_Vacation,Humid,20,19,1
+05-05-2026,TUE,DINNER,Tandoori Chicken,False,Summer_Vacation,Humid,9,7,2
+06-05-2026,WED,BREAKFAST,Idli Sambar,True,Summer_Vacation,Hot,18,16,2
+06-05-2026,WED,BREAKFAST,Pongal,True,Summer_Vacation,Hot,18,17,1
+06-05-2026,WED,LUNCH,Kadhi Pakora,True,Summer_Vacation,Hot,22,18,4
+06-05-2026,WED,DINNER,Veg Fried Rice,True,Summer_Vacation,Hot,14,12,2
+06-05-2026,WED,DINNER,Prawn Masala,False,Summer_Vacation,Hot,12,9,3
+07-05-2026,THU,BREAKFAST,Poha,True,Summer_Vacation,Hot,18,17,1
+07-05-2026,THU,LUNCH,Dal Makhani,True,Summer_Vacation,Hot,17,17,0
+07-05-2026,THU,LUNCH,Mutton Curry,False,Summer_Vacation,Hot,16,13,3
+07-05-2026,THU,DINNER,Tandoori Chicken,False,Summer_Vacation,Hot,9,7,2
+07-05-2026,THU,DINNER,Curd Rice,True,Summer_Vacation,Hot,12,11,1
+08-05-2026,FRI,BREAKFAST,Poha,True,Summer_Vacation,Hot,20,20,0
+08-05-2026,FRI,BREAKFAST,Chana Masala,True,Summer_Vacation,Hot,20,17,3
+08-05-2026,FRI,LUNCH,Kadhi Pakora,True,Summer_Vacation,Hot,22,17,5
+08-05-2026,FRI,DINNER,Aloo Palak,True,Summer_Vacation,Hot,15,13,2
+08-05-2026,FRI,DINNER,Chapati Kurma,True,Summer_Vacation,Hot,12,10,2
+09-05-2026,SAT,BREAKFAST,Egg Bhurji,False,Summer_Vacation,Hot,5,4,1
+09-05-2026,SAT,BREAKFAST,Idli Sambar,True,Summer_Vacation,Hot,5,4,1
+09-05-2026,SAT,LUNCH,Chicken Curry,False,Summer_Vacation,Hot,7,5,2
+09-05-2026,SAT,LUNCH,Fish Fry,False,Summer_Vacation,Hot,5,4,1
+09-05-2026,SAT,DINNER,Prawn Masala,False,Summer_Vacation,Hot,5,5,0
+09-05-2026,SAT,DINNER,Curd Rice,True,Summer_Vacation,Hot,6,6,0
+10-05-2026,SUN,BREAKFAST,Poha,True,Summer_Vacation,Humid,9,8,1
+10-05-2026,SUN,BREAKFAST,Egg Bhurji,False,Summer_Vacation,Humid,5,5,0
+10-05-2026,SUN,LUNCH,Paneer Butter Masala,True,Summer_Vacation,Humid,9,9,0
+10-05-2026,SUN,LUNCH,Egg Curry,False,Summer_Vacation,Humid,6,5,1
+10-05-2026,SUN,DINNER,Veg Fried Rice,True,Summer_Vacation,Humid,8,6,2
+10-05-2026,SUN,DINNER,Tandoori Chicken,False,Summer_Vacation,Humid,5,4,1
+11-05-2026,MON,BREAKFAST,Egg Bhurji,False,Summer_Vacation,Sunny,13,12,1
+11-05-2026,MON,LUNCH,Mix Veg Curry,True,Summer_Vacation,Sunny,25,23,2
+11-05-2026,MON,DINNER,Chicken Tikka,False,Summer_Vacation,Sunny,15,13,2
+11-05-2026,MON,DINNER,Prawn Masala,False,Summer_Vacation,Sunny,16,12,4
+12-05-2026,TUE,BREAKFAST,Aloo Paratha,True,Summer_Vacation,Hot,21,17,4
+12-05-2026,TUE,BREAKFAST,Poha,True,Summer_Vacation,Hot,18,15,3
+12-05-2026,TUE,LUNCH,Aloo Gobi,True,Summer_Vacation,Hot,18,17,1
+12-05-2026,TUE,DINNER,Egg Fried Rice,False,Summer_Vacation,Hot,12,11,1
+13-05-2026,WED,BREAKFAST,Aloo Paratha,True,Summer_Vacation,Sunny,23,21,2
+13-05-2026,WED,LUNCH,Veg Biryani,True,Summer_Vacation,Sunny,23,18,5
+13-05-2026,WED,DINNER,Tandoori Chicken,False,Summer_Vacation,Sunny,13,12,1
+13-05-2026,WED,DINNER,Chapati Kurma,True,Summer_Vacation,Sunny,19,16,3
+14-05-2026,THU,BREAKFAST,Aloo Paratha,True,Summer_Vacation,Hot,17,16,1
+14-05-2026,THU,LUNCH,Dal Makhani,True,Summer_Vacation,Hot,22,19,3
+14-05-2026,THU,LUNCH,Mutton Curry,False,Summer_Vacation,Hot,14,12,2
+14-05-2026,THU,DINNER,Aloo Palak,True,Summer_Vacation,Hot,16,13,3
+14-05-2026,THU,DINNER,Chapati Kurma,True,Summer_Vacation,Hot,13,11,2
+15-05-2026,FRI,BREAKFAST,Pongal,True,Summer_Vacation,Hot,20,16,4
+15-05-2026,FRI,LUNCH,Fish Fry,False,Summer_Vacation,Hot,17,13,4
+15-05-2026,FRI,LUNCH,Dal Makhani,True,Summer_Vacation,Hot,21,17,4
+15-05-2026,FRI,DINNER,Chicken Tikka,False,Summer_Vacation,Hot,8,7,1
+16-05-2026,SAT,BREAKFAST,Masala Dosa,True,Summer_Vacation,Hot,6,5,1
+16-05-2026,SAT,BREAKFAST,Aloo Paratha,True,Summer_Vacation,Hot,8,6,2
+16-05-2026,SAT,LUNCH,Mix Veg Curry,True,Summer_Vacation,Hot,10,8,2
+16-05-2026,SAT,LUNCH,Chicken Curry,False,Summer_Vacation,Hot,5,5,0
+16-05-2026,SAT,DINNER,Aloo Palak,True,Summer_Vacation,Hot,6,6,0
+16-05-2026,SAT,DINNER,Tandoori Chicken,False,Summer_Vacation,Hot,5,5,0
+17-05-2026,SUN,BREAKFAST,Egg Bhurji,False,Summer_Vacation,Sunny,7,5,2
+17-05-2026,SUN,BREAKFAST,Idli Sambar,True,Summer_Vacation,Sunny,9,8,1
+17-05-2026,SUN,LUNCH,Egg Curry,False,Summer_Vacation,Sunny,9,8,1
+17-05-2026,SUN,LUNCH,Mutton Curry,False,Summer_Vacation,Sunny,8,7,1
+17-05-2026,SUN,DINNER,Veg Fried Rice,True,Summer_Vacation,Sunny,9,8,1
+17-05-2026,SUN,DINNER,Curd Rice,True,Summer_Vacation,Sunny,8,7,1
+18-05-2026,MON,BREAKFAST,Idli Sambar,True,Summer_Vacation,Sunny,22,19,3
+18-05-2026,MON,BREAKFAST,Masala Dosa,True,Summer_Vacation,Sunny,20,19,1
+18-05-2026,MON,LUNCH,Fish Curry,False,Summer_Vacation,Sunny,17,16,1
+18-05-2026,MON,DINNER,Chapati Kurma,True,Summer_Vacation,Sunny,18,17,1
+19-05-2026,TUE,BREAKFAST,Masala Dosa,True,Summer_Vacation,Sunny,26,21,5
+19-05-2026,TUE,BREAKFAST,Pongal,True,Summer_Vacation,Sunny,23,19,4
+19-05-2026,TUE,LUNCH,Aloo Gobi,True,Summer_Vacation,Sunny,26,25,1
+19-05-2026,TUE,DINNER,Chicken Tikka,False,Summer_Vacation,Sunny,12,12,0
+20-05-2026,WED,BREAKFAST,Chana Masala,True,Summer_Vacation,Hot,19,17,2
+20-05-2026,WED,BREAKFAST,Poha,True,Summer_Vacation,Hot,19,17,2
+20-05-2026,WED,LUNCH,Fish Curry,False,Summer_Vacation,Hot,14,11,3
+20-05-2026,WED,LUNCH,Chicken Curry,False,Summer_Vacation,Hot,15,13,2
+20-05-2026,WED,DINNER,Egg Fried Rice,False,Summer_Vacation,Hot,11,10,1
+20-05-2026,WED,DINNER,Paneer Tikka,True,Summer_Vacation,Hot,12,10,2
+21-05-2026,THU,BREAKFAST,Poha,True,Summer_Vacation,Sunny,24,20,4
+21-05-2026,THU,LUNCH,Paneer Butter Masala,True,Summer_Vacation,Sunny,23,19,4
+21-05-2026,THU,LUNCH,Mix Veg Curry,True,Summer_Vacation,Sunny,24,20,4
+21-05-2026,THU,DINNER,Prawn Masala,False,Summer_Vacation,Sunny,11,10,1
+22-05-2026,FRI,BREAKFAST,Idli Sambar,True,Summer_Vacation,Hot,19,16,3
+22-05-2026,FRI,LUNCH,Kadhi Pakora,True,Summer_Vacation,Hot,18,17,1
+22-05-2026,FRI,DINNER,Veg Fried Rice,True,Summer_Vacation,Hot,14,12,2
+23-05-2026,SAT,BREAKFAST,Idli Sambar,True,Summer_Vacation,Hot,8,6,2
+23-05-2026,SAT,LUNCH,Mix Veg Curry,True,Summer_Vacation,Hot,10,8,2
+23-05-2026,SAT,DINNER,Curd Rice,True,Summer_Vacation,Hot,5,4,1
+23-05-2026,SAT,DINNER,Chapati Kurma,True,Summer_Vacation,Hot,5,5,0
+24-05-2026,SUN,BREAKFAST,Idli Sambar,True,Summer_Vacation,Humid,9,7,2
+24-05-2026,SUN,BREAKFAST,Egg Bhurji,False,Summer_Vacation,Humid,5,4,1
+24-05-2026,SUN,LUNCH,Sambar Rice,True,Summer_Vacation,Humid,9,7,2
+24-05-2026,SUN,LUNCH,Fish Fry,False,Summer_Vacation,Humid,6,6,0
+24-05-2026,SUN,DINNER,Prawn Masala,False,Summer_Vacation,Humid,6,4,2
+24-05-2026,SUN,DINNER,Aloo Palak,True,Summer_Vacation,Humid,7,5,2
+25-05-2026,MON,BREAKFAST,Poha,True,Summer_Vacation,Hot,22,18,4
+25-05-2026,MON,BREAKFAST,Idli Sambar,True,Summer_Vacation,Hot,19,16,3
+25-05-2026,MON,LUNCH,Mix Veg Curry,True,Summer_Vacation,Hot,22,16,6
+25-05-2026,MON,DINNER,Veg Fried Rice,True,Summer_Vacation,Hot,11,11,0
+26-05-2026,TUE,BREAKFAST,Chana Masala,True,Summer_Vacation,Hot,18,14,4
+26-05-2026,TUE,BREAKFAST,Poha,True,Summer_Vacation,Hot,18,17,1
+26-05-2026,TUE,LUNCH,Rajma Chawal,True,Summer_Vacation,Hot,17,15,2
+26-05-2026,TUE,LUNCH,Aloo Gobi,True,Summer_Vacation,Hot,17,15,2
+26-05-2026,TUE,DINNER,Egg Fried Rice,False,Summer_Vacation,Hot,12,9,3
+26-05-2026,TUE,DINNER,Veg Fried Rice,True,Summer_Vacation,Hot,10,9,1
+27-05-2026,WED,BREAKFAST,Pongal,True,Summer_Vacation,Hot,16,14,2
+27-05-2026,WED,BREAKFAST,Chana Masala,True,Summer_Vacation,Hot,18,16,2
+27-05-2026,WED,LUNCH,Rajma Chawal,True,Summer_Vacation,Hot,17,16,1
+27-05-2026,WED,DINNER,Chicken Tikka,False,Summer_Vacation,Hot,10,10,0
+27-05-2026,WED,DINNER,Tandoori Chicken,False,Summer_Vacation,Hot,10,9,1
+28-05-2026,THU,BREAKFAST,Idli Sambar,True,Summer_Vacation,Humid,21,17,4
+28-05-2026,THU,LUNCH,Rajma Chawal,True,Summer_Vacation,Humid,19,17,2
+28-05-2026,THU,DINNER,Chicken Tikka,False,Summer_Vacation,Humid,9,7,2
+28-05-2026,THU,DINNER,Curd Rice,True,Summer_Vacation,Humid,15,13,2
+29-05-2026,FRI,BREAKFAST,Aloo Paratha,True,Summer_Vacation,Hot,20,15,5
+29-05-2026,FRI,LUNCH,Fish Fry,False,Summer_Vacation,Hot,14,13,1
+29-05-2026,FRI,DINNER,Aloo Palak,True,Summer_Vacation,Hot,13,12,1
+29-05-2026,FRI,DINNER,Chapati Kurma,True,Summer_Vacation,Hot,13,11,2
+30-05-2026,SAT,BREAKFAST,Idli Sambar,True,Summer_Vacation,Hot,6,5,1
+30-05-2026,SAT,BREAKFAST,Pongal,True,Summer_Vacation,Hot,7,6,1
+30-05-2026,SAT,LUNCH,Sambar Rice,True,Summer_Vacation,Hot,9,8,1
+30-05-2026,SAT,LUNCH,Dal Makhani,True,Summer_Vacation,Hot,10,8,2
+30-05-2026,SAT,DINNER,Chicken Tikka,False,Summer_Vacation,Hot,5,5,0
+31-05-2026,SUN,BREAKFAST,Poha,True,Summer_Vacation,Hot,8,7,1
+31-05-2026,SUN,BREAKFAST,Masala Dosa,True,Summer_Vacation,Hot,6,5,1
+31-05-2026,SUN,LUNCH,Chicken Biryani,False,Summer_Vacation,Hot,5,5,0
+31-05-2026,SUN,DINNER,Prawn Masala,False,Summer_Vacation,Hot,5,5,0
+31-05-2026,SUN,DINNER,Curd Rice,True,Summer_Vacation,Hot,5,4,1
+
+10-03-2026,TUE,BREAKFAST,AutoExport_BREAKFAST,True,Normal,Sunny,,79,
+10-03-2026,TUE,DINNER,AutoExport_DINNER,True,Normal,Sunny,,65,
+10-03-2026,TUE,LUNCH,AutoExport_LUNCH,True,Normal,Sunny,,95,
+10-03-2026,TUE,SNACKS,AutoExport_SNACKS,True,Normal,Sunny,,84,

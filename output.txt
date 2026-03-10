@@ -1,0 +1,9 @@
+Connected to DB
+Found student: 
+Found item: Appam with Chicken Stew Quantity: 100
+Created temp slot: 12:01 PM - 12:31 PM on Tue Mar 10 2026 00:00:00 GMT+0530 (India Standard Time) Booked: 0 / 50
+Attempting booking creation...
+Booking successful! Token: T-2560
+Updated item quantity: 99 (expected: 99)
+Updated slot booked count: 1 (expected: 1)
+Test cleanup complete

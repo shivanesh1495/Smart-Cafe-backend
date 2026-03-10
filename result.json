@@ -1,0 +1,28 @@
+{
+  "_id": "69af07547c4369080a02198a",
+  "itemName": "Appam with Chicken Stew",
+  "description": "Non-vegetarian dinner item. Appam with Chicken Stew served fresh daily.",
+  "price": 80,
+  "isVeg": false,
+  "category": "DINNER",
+  "dietaryType": "Non-Veg",
+  "allergens": [],
+  "ecoScore": "C",
+  "portionSize": "Regular",
+  "nutritionalInfo": {
+    "calories": 600,
+    "protein": 21,
+    "carbs": 75,
+    "fat": 17
+  },
+  "isAvailable": true,
+  "imageUrl": null,
+  "canteens": [
+    "69af073e7c4369080a021744"
+  ],
+  "createdAt": "2026-03-09T17:45:56.887Z",
+  "updatedAt": "2026-03-09T17:46:06.638Z",
+  "__v": 0,
+  "menu": "69af075e7c4369080a021a73",
+  "availableQuantity": 100
+}
