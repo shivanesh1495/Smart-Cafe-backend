@@ -30,6 +30,7 @@ const allowedOrigins = [
   "http://localhost:5173",
   "http://localhost:3000",
   "http://localhost:4173",
+  "https://kailee-preextensive-verda.ngrok-free.dev",
 ].filter(Boolean);
 
 app.use(
@@ -44,7 +45,12 @@ app.use(
     },
     credentials: true,
     methods: ["GET", "POST", "PUT", "PATCH", "DELETE", "OPTIONS"],
-    allowedHeaders: ["Content-Type", "Authorization", "X-Requested-With"],
+    allowedHeaders: [
+      "Content-Type",
+      "Authorization",
+      "X-Requested-With",
+      "ngrok-skip-browser-warning",
+    ],
   }),
 );
 
