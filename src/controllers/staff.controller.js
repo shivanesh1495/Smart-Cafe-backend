@@ -9,23 +9,15 @@ const ApiResponse = require("../utils/ApiResponse");
  * POST /api/staff/announcement
  */
 const sendAnnouncement = catchAsync(async (req, res) => {
-  const { message } = req.body;
+  const { message } = req.body || {};
 
-  // Find users with future confirmed bookings
-  const bookings = await Booking.find({
-    status: "confirmed",
-    slot: { $exists: true },
-  }).populate("slot");
+  if (!message || !message.toString().trim()) {
+    return ApiResponse.badRequest(res, "Message is required");
+  }
 
-  const now = new Date();
-  const activeBookings = bookings.filter((b) => {
-    if (!b.slot) return false;
-    return new Date(b.slot.date) >= new Date(now.toDateString());
-  });
-
-  const userIds = [
-    ...new Set(activeBookings.map((b) => b.user?.toString()).filter(Boolean)),
-  ];
+  // Broadcast to all active users (not just users with active bookings)
+  const users = await User.find({ status: "active" }).select("_id");
+  const userIds = users.map((u) => u._id.toString());
 
   if (userIds.length === 0) {
     return ApiResponse.ok(res, "No active users to notify", {
@@ -38,8 +30,9 @@ const sendAnnouncement = catchAsync(async (req, res) => {
     user: userId,
     type: "announcement",
     title: "Staff Announcement",
-    message,
-    broadcast: false,
+    message: message.toString().trim(),
+    broadcast: true,
+    sentBy: req.userId || null,
   }));
 
   await Notification.insertMany(notifications);

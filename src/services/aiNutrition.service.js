@@ -211,24 +211,6 @@ const buildFallbackNutrition = (itemNames, reason) => {
   };
 };
 
-const buildGeminiError = (error) => {
-  const message = error?.message || "Gemini request failed";
-
-  if (message.includes("API key not valid")) {
-    return ApiError.unauthorized("Gemini API Key is invalid.");
-  }
-
-  if (message.includes("quota") || error?.status === 429) {
-    return ApiError.tooManyRequests(
-      "Gemini quota exceeded. Please try again later.",
-    );
-  }
-
-  return ApiError.internal(
-    `Gemini service is currently unavailable: ${message}`,
-  );
-};
-
 const getNutritionForItems = async (itemNames = []) => {
   const cleanedNames = itemNames.map(sanitizeName).filter(Boolean).slice(0, 20);
 
@@ -280,20 +262,15 @@ const getNutritionForItems = async (itemNames = []) => {
       fallback: false,
     };
   } catch (error) {
-    console.error("Gemini API Error:", error);
-
-    // Fallback if quota exhausted or rate limit
-    if (
-      error?.message?.toLowerCase().includes("quota") ||
-      error?.status === 429
-    ) {
-      return buildFallbackNutrition(
-        cleanedNames,
-        "Gemini API quota exhausted. Showing approximate local nutrient estimates.",
-      );
-    }
-
-    throw buildGeminiError(error);
+    console.error(
+      "Gemini API Error (using local fallback):",
+      error?.message || error,
+    );
+    // Always fall back gracefully — never surface a 500 for AI failures
+    return buildFallbackNutrition(
+      cleanedNames,
+      "AI suggestions temporarily unavailable. Showing approximate local nutrient estimates.",
+    );
   }
 };
 

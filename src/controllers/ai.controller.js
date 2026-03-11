@@ -9,17 +9,19 @@ const { checkRateLimit } = require("../utils/rateLimiter");
 const logger = require("../utils/logger");
 
 const getNutrition = catchAsync(async (req, res) => {
-  const userId = req.user._id;
+  const userId = req.user?._id;
   const { itemNames } = req.body || {};
 
-  // Check rate limit
-  const rateLimitCheck = checkRateLimit(userId.toString(), "nutrition");
-  if (!rateLimitCheck.allowed) {
-    return ApiResponse.tooManyRequests(
-      res,
-      `You're analyzing nutrition too frequently! Please wait ${rateLimitCheck.retryAfterSeconds} seconds.`,
-      { retryAfterSeconds: rateLimitCheck.retryAfterSeconds },
-    );
+  // Check rate limit only when user is authenticated
+  if (userId) {
+    const rateLimitCheck = checkRateLimit(userId.toString(), "nutrition");
+    if (!rateLimitCheck.allowed) {
+      return ApiResponse.tooManyRequests(
+        res,
+        `You're analyzing nutrition too frequently! Please wait ${rateLimitCheck.retryAfterSeconds} seconds.`,
+        { retryAfterSeconds: rateLimitCheck.retryAfterSeconds },
+      );
+    }
   }
 
   const result = await aiNutritionService.getNutritionForItems(itemNames || []);

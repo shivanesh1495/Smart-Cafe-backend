@@ -120,10 +120,12 @@ const getCanteenConfig = () => {
  * Compute real-time occupancy for a canteen from active bookings in today's slots.
  * Updates the canteen's occupancy & crowd fields in-place (saved to DB).
  */
-const refreshOccupancy = async (canteen) => {
+const refreshOccupancy = async (canteen, options = {}) => {
   try {
+    const { force = false } = options;
+
     // Skip auto-refresh if occupancy was manually set by admin/management
-    if (canteen.manualOccupancyOverride) {
+    if (canteen.manualOccupancyOverride && !force) {
       return canteen;
     }
 
@@ -169,7 +171,7 @@ const refreshOccupancy = async (canteen) => {
  * Get all canteens with optional filtering
  */
 const getCanteens = async (query = {}) => {
-  const { status, isActive, search } = query;
+  const { status, isActive, search, live } = query;
 
   const filter = {};
 
@@ -187,8 +189,12 @@ const getCanteens = async (query = {}) => {
 
   const canteens = await Canteen.find(filter).sort({ name: 1 });
 
+  const forceRefresh = live === true || String(live).toLowerCase() === "true";
+
   // Refresh real-time occupancy/crowd for each canteen
-  await Promise.all(canteens.map((c) => refreshOccupancy(c)));
+  await Promise.all(
+    canteens.map((c) => refreshOccupancy(c, { force: forceRefresh })),
+  );
 
   return { canteens };
 };
